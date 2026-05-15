@@ -1,0 +1,2001 @@
+meal_id,name,meal_type,calories,protein_g,carbs_g,fats_g,fiber_g,sodium_mg,sugar_g,prep_time_min,is_diabetic_friendly,is_heart_healthy,is_low_sodium,is_low_carb,is_high_protein,is_low_fat,is_soft_food,is_vegetarian,is_gluten_free
+0,Oatmeal with Berries,breakfast,269,7.7,46.2,5.8,3.8,370,15.2,30,0,1,1,0,0,1,1,0,0
+1,Greek Yogurt Parfait,breakfast,219,13.2,26.4,7.0,1.8,558,17.6,25,1,0,0,1,0,1,1,1,0
+2,Scrambled Eggs with Toast,breakfast,277,15.6,24.3,12.1,1.7,443,17.0,40,0,1,0,1,0,0,1,1,0
+3,Banana Smoothie,breakfast,227,6.2,43.5,4.1,3.1,413,11.4,25,0,1,0,0,0,1,1,1,0
+4,Whole Wheat Pancakes,breakfast,329,9.7,50.4,9.7,2.9,575,19.5,45,0,0,0,0,0,1,1,0,0
+5,Fruit Bowl with Granola,breakfast,272,6.4,50.0,5.5,4.5,666,19.7,10,0,0,0,0,0,1,1,1,0
+6,Egg White Omelette,breakfast,162,18.0,7.2,5.4,1.8,266,2.2,10,1,1,1,1,0,1,1,0,0
+7,Cottage Cheese with Fruit,breakfast,188,13.2,20.7,4.7,1.9,664,6.2,25,1,0,0,1,0,1,1,0,1
+8,Avocado Toast,breakfast,309,8.0,30.0,18.0,6.0,134,18.4,25,1,0,1,0,0,0,1,1,0
+9,Rice Porridge,breakfast,244,4.9,44.0,3.9,1.0,665,11.8,40,0,0,0,0,0,1,1,1,0
+10,Poached Eggs Benedict,breakfast,374,15.8,31.5,17.7,1.0,301,18.1,40,0,0,1,0,0,0,1,0,0
+11,Muesli with Almond Milk,breakfast,296,9.2,49.0,8.2,5.1,351,2.8,60,0,1,1,0,0,1,1,0,0
+12,Spinach Egg Wrap,breakfast,273,16.2,24.3,10.1,3.0,316,7.1,25,1,1,1,1,0,0,1,1,0
+13,Chia Seed Pudding,breakfast,215,7.2,27.0,9.0,7.2,620,15.9,25,1,0,0,1,0,1,1,1,1
+14,Soft Boiled Eggs with Soldiers,breakfast,236,12.7,20.0,10.9,1.8,491,15.1,10,1,1,0,1,0,0,1,0,0
+15,Oatmeal with Berries (V1),breakfast,292,8.4,50.2,6.3,4.2,127,17.5,60,0,1,1,0,0,1,1,0,1
+16,Greek Yogurt Parfait (V1),breakfast,240,14.4,28.8,7.7,1.9,673,7.9,20,1,0,0,1,0,1,1,0,0
+17,Scrambled Eggs with Toast (V1),breakfast,325,18.3,28.5,14.3,2.0,712,19.5,20,0,0,0,1,0,0,1,0,0
+18,Banana Smoothie (V1),breakfast,237,6.5,45.4,4.3,3.2,492,14.8,15,0,1,0,0,0,1,1,1,1
+19,Whole Wheat Pancakes (V1),breakfast,292,8.6,44.7,8.6,2.6,340,7.7,60,0,1,1,0,0,1,1,0,1
+20,Fruit Bowl with Granola (V1),breakfast,309,7.2,56.7,6.2,5.2,754,15.6,25,0,0,0,0,0,1,1,0,0
+21,Egg White Omelette (V1),breakfast,190,21.2,8.5,6.4,2.1,677,13.2,40,1,0,0,1,1,1,1,0,0
+22,Cottage Cheese with Fruit (V1),breakfast,218,15.3,24.0,5.5,2.2,655,9.5,40,1,0,0,1,0,1,1,0,0
+23,Avocado Toast (V1),breakfast,346,9.0,33.6,20.1,6.7,330,18.3,10,1,0,1,0,0,0,1,1,0
+24,Rice Porridge (V1),breakfast,273,5.5,49.3,4.4,1.1,358,2.1,60,0,1,1,0,0,1,1,0,0
+25,Poached Eggs Benedict (V1),breakfast,401,16.9,33.8,19.0,1.1,333,8.1,45,0,0,1,0,0,0,1,1,1
+26,Muesli with Almond Milk (V1),breakfast,295,9.2,48.8,8.1,5.1,791,8.5,10,0,0,0,0,0,1,1,1,1
+27,Spinach Egg Wrap (V1),breakfast,285,16.9,25.4,10.6,3.2,486,7.4,10,1,1,0,1,0,0,1,0,0
+28,Chia Seed Pudding (V1),breakfast,274,9.1,34.3,11.4,9.1,319,2.9,30,1,1,1,0,0,0,1,0,0
+29,Soft Boiled Eggs with Soldiers (V1),breakfast,274,14.8,23.2,12.7,2.1,152,10.8,60,1,1,1,1,0,0,1,0,0
+30,Oatmeal with Berries (V2),breakfast,244,7.0,42.0,5.2,3.5,283,6.3,45,0,1,1,0,0,1,1,0,0
+31,Greek Yogurt Parfait (V2),breakfast,286,17.2,34.4,9.2,2.3,610,3.6,10,1,0,0,0,0,1,1,1,0
+32,Scrambled Eggs with Toast (V2),breakfast,338,19.1,29.6,14.8,2.1,759,7.9,25,0,0,0,1,0,0,1,1,0
+33,Banana Smoothie (V2),breakfast,201,5.5,38.6,3.7,2.8,588,14.4,60,1,0,0,0,0,1,1,0,0
+34,Whole Wheat Pancakes (V2),breakfast,357,10.5,54.7,10.5,3.2,572,5.8,45,0,0,0,0,0,0,1,0,0
+35,Fruit Bowl with Granola (V2),breakfast,314,7.3,57.6,6.3,5.2,445,19.7,25,0,1,0,0,0,1,1,0,1
+36,Egg White Omelette (V2),breakfast,158,17.6,7.0,5.3,1.8,751,12.0,60,1,0,0,1,0,1,1,0,0
+37,Cottage Cheese with Fruit (V2),breakfast,190,13.4,21.0,4.8,1.9,307,18.1,60,1,0,1,1,0,1,1,0,0
+38,Avocado Toast (V2),breakfast,342,8.8,33.2,19.9,6.6,724,4.9,40,1,0,0,0,0,0,1,0,0
+39,Rice Porridge (V2),breakfast,240,4.8,43.3,3.8,1.0,572,13.9,30,0,0,0,0,0,1,1,1,0
+40,Poached Eggs Benedict (V2),breakfast,378,15.9,31.9,17.9,1.0,262,13.7,10,0,0,1,0,0,0,1,1,1
+41,Muesli with Almond Milk (V2),breakfast,289,9.0,47.9,8.0,5.0,603,13.7,45,0,0,0,0,0,1,1,0,0
+42,Spinach Egg Wrap (V2),breakfast,273,16.2,24.3,10.1,3.0,569,6.8,40,1,0,0,1,0,0,1,0,0
+43,Chia Seed Pudding (V2),breakfast,239,8.0,29.9,10.0,8.0,382,9.8,30,1,1,1,1,0,0,1,0,0
+44,Soft Boiled Eggs with Soldiers (V2),breakfast,259,14.0,22.0,12.0,2.0,552,6.1,60,1,0,0,1,0,0,1,1,1
+45,Oatmeal with Berries (V3),breakfast,292,8.3,50.1,6.3,4.2,116,19.9,40,0,1,1,0,0,1,1,0,0
+46,Greek Yogurt Parfait (V3),breakfast,240,14.4,28.8,7.7,1.9,136,18.7,10,1,0,1,1,0,1,1,0,0
+47,Scrambled Eggs with Toast (V3),breakfast,366,20.6,32.0,16.0,2.3,215,7.3,30,0,0,1,0,1,0,1,1,0
+48,Banana Smoothie (V3),breakfast,219,6.0,41.8,4.0,3.0,117,12.0,45,0,1,1,0,0,1,1,0,0
+49,Whole Wheat Pancakes (V3),breakfast,296,8.7,45.3,8.7,2.6,725,13.1,40,0,0,0,0,0,1,1,0,0
+50,Fruit Bowl with Granola (V3),breakfast,281,6.6,51.6,5.6,4.7,203,14.5,20,0,1,1,0,0,1,1,0,0
+51,Egg White Omelette (V3),breakfast,169,18.8,7.5,5.6,1.9,637,16.6,10,1,0,0,1,0,1,1,0,1
+52,Cottage Cheese with Fruit (V3),breakfast,170,11.9,18.7,4.3,1.7,135,16.4,10,1,0,1,1,0,1,1,1,0
+53,Avocado Toast (V3),breakfast,268,6.9,26.0,15.6,5.2,570,2.5,15,1,0,0,1,0,0,1,1,0
+54,Rice Porridge (V3),breakfast,215,4.3,38.7,3.4,0.9,764,4.8,40,1,0,0,0,0,1,1,1,0
+55,Poached Eggs Benedict (V3),breakfast,326,13.7,27.5,15.5,0.9,791,2.7,45,0,0,0,1,0,0,1,0,1
+56,Muesli with Almond Milk (V3),breakfast,291,9.1,48.3,8.1,5.0,152,6.9,25,0,1,1,0,0,1,1,0,1
+57,Spinach Egg Wrap (V3),breakfast,233,13.8,20.8,8.7,2.6,449,11.7,45,1,1,0,1,0,1,1,1,1
+58,Chia Seed Pudding (V3),breakfast,273,9.1,34.2,11.4,9.1,205,7.8,10,1,1,1,0,0,0,1,0,0
+59,Soft Boiled Eggs with Soldiers (V3),breakfast,279,15.0,23.6,12.9,2.1,445,2.5,30,1,1,0,1,0,0,1,1,0
+60,Oatmeal with Berries (V4),breakfast,295,8.5,50.7,6.3,4.2,740,5.1,10,0,0,0,0,0,1,1,0,1
+61,Greek Yogurt Parfait (V4),breakfast,219,13.2,26.3,7.0,1.8,700,13.9,30,1,0,0,1,0,1,1,0,0
+62,Scrambled Eggs with Toast (V4),breakfast,335,18.8,29.3,14.7,2.1,680,13.0,45,0,0,0,1,0,0,1,1,0
+63,Banana Smoothie (V4),breakfast,197,5.4,37.7,3.6,2.7,185,2.3,40,1,1,1,0,0,1,1,1,1
+64,Whole Wheat Pancakes (V4),breakfast,320,9.4,49.1,9.4,2.8,552,10.5,15,0,0,0,0,0,1,1,0,0
+65,Fruit Bowl with Granola (V4),breakfast,286,6.7,52.5,5.7,4.8,353,9.8,45,0,1,1,0,0,1,1,1,0
+66,Egg White Omelette (V4),breakfast,200,22.3,8.9,6.7,2.2,279,8.7,15,1,1,1,1,1,1,1,0,0
+67,Cottage Cheese with Fruit (V4),breakfast,202,14.2,22.3,5.1,2.0,615,13.1,60,1,0,0,1,0,1,1,0,1
+68,Avocado Toast (V4),breakfast,317,8.2,30.8,18.5,6.2,574,16.4,25,1,0,0,0,0,0,1,0,0
+69,Rice Porridge (V4),breakfast,246,4.9,44.4,3.9,1.0,790,16.8,25,0,0,0,0,0,1,1,0,0
+70,Poached Eggs Benedict (V4),breakfast,426,17.9,35.9,20.2,1.1,655,6.9,25,0,0,0,0,0,0,1,1,1
+71,Muesli with Almond Milk (V4),breakfast,254,7.9,42.2,7.0,4.4,134,8.1,15,0,1,1,0,0,1,1,0,0
+72,Spinach Egg Wrap (V4),breakfast,231,13.7,20.6,8.6,2.6,517,6.7,45,1,0,0,1,0,1,1,1,0
+73,Chia Seed Pudding (V4),breakfast,249,8.3,31.2,10.4,8.3,512,2.7,10,1,0,0,0,0,0,1,0,0
+74,Soft Boiled Eggs with Soldiers (V4),breakfast,234,12.6,19.9,10.8,1.8,556,12.2,20,1,0,0,1,0,0,1,0,0
+75,Oatmeal with Berries (V5),breakfast,269,7.7,46.2,5.8,3.8,195,8.1,40,0,1,1,0,0,1,1,0,1
+76,Greek Yogurt Parfait (V5),breakfast,263,15.8,31.6,8.4,2.1,378,15.6,10,1,0,1,0,0,1,1,0,0
+77,Scrambled Eggs with Toast (V5),breakfast,319,18.0,28.0,14.0,2.0,441,7.4,20,0,1,0,1,0,0,1,0,1
+78,Banana Smoothie (V5),breakfast,246,6.7,47.1,4.5,3.4,175,8.4,25,0,1,1,0,0,1,1,0,0
+79,Whole Wheat Pancakes (V5),breakfast,347,10.2,53.1,10.2,3.1,466,3.5,30,0,1,0,0,0,0,1,1,0
+80,Fruit Bowl with Granola (V5),breakfast,315,7.4,57.8,6.3,5.3,583,19.0,60,0,0,0,0,0,1,1,0,1
+81,Egg White Omelette (V5),breakfast,179,20.0,8.0,6.0,2.0,497,11.9,30,1,1,0,1,0,1,1,0,0
+82,Cottage Cheese with Fruit (V5),breakfast,212,14.9,23.4,5.3,2.1,687,14.4,15,1,0,0,1,0,1,1,0,1
+83,Avocado Toast (V5),breakfast,271,7.0,26.3,15.8,5.3,752,6.0,10,1,0,0,1,0,0,1,0,0
+84,Rice Porridge (V5),breakfast,218,4.4,39.3,3.5,0.9,264,6.2,60,1,1,1,0,0,1,1,0,0
+85,Poached Eggs Benedict (V5),breakfast,415,17.5,35.0,19.7,1.1,610,18.3,30,0,0,0,0,0,0,1,0,0
+86,Muesli with Almond Milk (V5),breakfast,253,7.9,42.0,7.0,4.4,544,8.8,45,0,0,0,0,0,1,1,0,0
+87,Spinach Egg Wrap (V5),breakfast,238,14.1,21.2,8.8,2.7,550,6.6,15,1,0,0,1,0,1,1,0,1
+88,Chia Seed Pudding (V5),breakfast,212,7.1,26.6,8.9,7.1,460,15.4,20,1,1,0,1,0,1,1,0,0
+89,Soft Boiled Eggs with Soldiers (V5),breakfast,250,13.5,21.2,11.5,1.9,468,3.5,10,1,1,0,1,0,0,1,1,0
+90,Oatmeal with Berries (V6),breakfast,239,6.8,41.0,5.1,3.4,771,12.0,45,0,0,0,0,0,1,1,0,0
+91,Greek Yogurt Parfait (V6),breakfast,286,17.2,34.4,9.2,2.3,328,6.6,20,1,0,1,0,0,1,1,0,0
+92,Scrambled Eggs with Toast (V6),breakfast,332,18.7,29.1,14.5,2.1,625,7.3,10,0,0,0,1,0,0,1,0,0
+93,Banana Smoothie (V6),breakfast,246,6.7,47.1,4.5,3.4,111,19.3,60,0,1,1,0,0,1,1,0,0
+94,Whole Wheat Pancakes (V6),breakfast,352,10.4,53.9,10.4,3.1,107,5.1,25,0,1,1,0,0,0,1,0,0
+95,Fruit Bowl with Granola (V6),breakfast,307,7.2,56.4,6.2,5.1,140,6.7,20,0,1,1,0,0,1,1,0,0
+96,Egg White Omelette (V6),breakfast,169,18.9,7.5,5.7,1.9,560,14.3,30,1,0,0,1,0,1,1,1,1
+97,Cottage Cheese with Fruit (V6),breakfast,226,15.9,24.9,5.7,2.3,355,12.5,10,1,0,1,1,0,1,1,0,0
+98,Avocado Toast (V6),breakfast,344,8.9,33.3,20.0,6.7,104,2.5,10,1,0,1,0,0,0,1,0,0
+99,Rice Porridge (V6),breakfast,286,5.7,51.6,4.6,1.1,381,8.9,40,0,1,1,0,0,1,1,0,0
+100,Poached Eggs Benedict (V6),breakfast,330,13.9,27.8,15.6,0.9,204,9.5,10,0,0,1,1,0,0,1,1,1
+101,Muesli with Almond Milk (V6),breakfast,306,9.5,50.8,8.5,5.3,744,19.9,30,0,0,0,0,0,1,1,0,0
+102,Spinach Egg Wrap (V6),breakfast,290,17.2,25.9,10.8,3.2,182,6.5,40,1,1,1,1,0,0,1,1,0
+103,Chia Seed Pudding (V6),breakfast,223,7.5,28.0,9.3,7.5,545,17.8,60,1,0,0,1,0,1,1,0,0
+104,Soft Boiled Eggs with Soldiers (V6),breakfast,229,12.4,19.4,10.6,1.8,253,11.0,40,1,1,1,1,0,0,1,0,0
+105,Oatmeal with Berries (V7),breakfast,309,8.8,53.1,6.6,4.4,153,19.4,40,0,1,1,0,0,1,1,0,0
+106,Greek Yogurt Parfait (V7),breakfast,222,13.4,26.7,7.1,1.8,402,9.6,30,1,0,0,1,0,1,1,0,0
+107,Scrambled Eggs with Toast (V7),breakfast,292,16.5,25.6,12.8,1.8,521,13.1,15,0,0,0,1,0,0,1,0,0
+108,Banana Smoothie (V7),breakfast,212,5.8,40.6,3.9,2.9,534,18.3,25,0,0,0,0,0,1,1,0,0
+109,Whole Wheat Pancakes (V7),breakfast,381,11.2,58.4,11.2,3.4,641,13.2,20,0,0,0,0,0,0,1,0,0
+110,Fruit Bowl with Granola (V7),breakfast,296,6.9,54.3,5.9,4.9,500,10.9,25,0,0,0,0,0,1,1,1,1
+111,Egg White Omelette (V7),breakfast,186,20.7,8.3,6.2,2.1,549,7.9,20,1,0,0,1,1,1,1,0,0
+112,Cottage Cheese with Fruit (V7),breakfast,202,14.2,22.2,5.1,2.0,762,4.3,45,1,0,0,1,0,1,1,0,0
+113,Avocado Toast (V7),breakfast,280,7.2,27.1,16.3,5.4,795,9.4,60,1,0,0,1,0,0,1,0,0
+114,Rice Porridge (V7),breakfast,225,4.5,40.6,3.6,0.9,733,6.0,30,0,0,0,0,0,1,1,1,0
+115,Poached Eggs Benedict (V7),breakfast,343,14.4,28.9,16.3,0.9,504,11.9,30,0,0,0,1,0,0,1,0,1
+116,Muesli with Almond Milk (V7),breakfast,278,8.6,46.0,7.7,4.8,177,7.9,20,0,1,1,0,0,1,1,1,0
+117,Spinach Egg Wrap (V7),breakfast,280,16.6,24.9,10.4,3.1,338,11.2,20,1,1,1,1,0,0,1,0,1
+118,Chia Seed Pudding (V7),breakfast,223,7.5,28.0,9.3,7.5,356,3.5,20,1,1,1,1,0,1,1,1,1
+119,Soft Boiled Eggs with Soldiers (V7),breakfast,249,13.5,21.1,11.5,1.9,625,13.1,45,1,0,0,1,0,0,1,0,0
+120,Oatmeal with Berries (V8),breakfast,243,6.9,41.7,5.2,3.5,798,6.5,45,0,0,0,0,0,1,1,0,0
+121,Greek Yogurt Parfait (V8),breakfast,268,16.1,32.2,8.6,2.1,607,3.9,15,1,0,0,0,0,1,1,0,0
+122,Scrambled Eggs with Toast (V8),breakfast,282,15.9,24.7,12.3,1.8,730,8.8,15,0,0,0,1,0,0,1,0,0
+123,Banana Smoothie (V8),breakfast,192,5.3,36.8,3.5,2.6,225,4.2,10,1,1,1,0,0,1,1,0,0
+124,Whole Wheat Pancakes (V8),breakfast,325,9.6,49.7,9.6,2.9,332,11.0,45,0,1,1,0,0,1,1,0,0
+125,Fruit Bowl with Granola (V8),breakfast,305,7.1,56.0,6.1,5.1,468,12.2,15,0,1,0,0,0,1,1,1,0
+126,Egg White Omelette (V8),breakfast,187,20.9,8.4,6.3,2.1,542,8.4,30,1,0,0,1,1,1,1,0,0
+127,Cottage Cheese with Fruit (V8),breakfast,170,11.9,18.7,4.3,1.7,376,4.8,45,1,0,1,1,0,1,1,0,0
+128,Avocado Toast (V8),breakfast,271,7.0,26.3,15.8,5.3,449,5.1,45,1,0,0,1,0,0,1,0,1
+129,Rice Porridge (V8),breakfast,213,4.3,38.5,3.4,0.9,328,19.7,45,1,1,1,0,0,1,1,0,0
+130,Poached Eggs Benedict (V8),breakfast,427,18.0,36.0,20.3,1.1,745,19.6,40,0,0,0,0,0,0,1,1,0
+131,Muesli with Almond Milk (V8),breakfast,327,10.2,54.2,9.0,5.6,491,10.6,30,0,1,0,0,0,1,1,0,1
+132,Spinach Egg Wrap (V8),breakfast,255,15.2,22.7,9.5,2.8,324,15.3,25,1,1,1,1,0,1,1,1,0
+133,Chia Seed Pudding (V8),breakfast,224,7.5,28.1,9.4,7.5,238,18.8,30,1,1,1,1,0,1,1,0,1
+134,Soft Boiled Eggs with Soldiers (V8),breakfast,247,13.3,20.9,11.4,1.9,109,11.9,15,1,1,1,1,0,0,1,0,0
+135,Oatmeal with Berries (V9),breakfast,306,8.7,52.5,6.6,4.4,420,4.5,10,0,1,0,0,0,1,1,0,0
+136,Greek Yogurt Parfait (V9),breakfast,247,14.9,29.7,7.9,2.0,518,8.3,10,1,0,0,1,0,1,1,0,0
+137,Scrambled Eggs with Toast (V9),breakfast,311,17.5,27.2,13.6,1.9,475,19.8,15,0,1,0,1,0,0,1,1,1
+138,Banana Smoothie (V9),breakfast,235,6.4,45.0,4.3,3.2,671,17.2,60,0,0,0,0,0,1,1,0,0
+139,Whole Wheat Pancakes (V9),breakfast,370,10.9,56.7,10.9,3.3,390,5.0,30,0,1,1,0,0,0,1,1,0
+140,Fruit Bowl with Granola (V9),breakfast,336,7.9,61.7,6.7,5.6,700,17.8,10,0,0,0,0,0,1,1,0,0
+141,Egg White Omelette (V9),breakfast,191,21.3,8.5,6.4,2.1,790,13.2,10,1,0,0,1,1,1,1,0,0
+142,Cottage Cheese with Fruit (V9),breakfast,183,12.9,20.2,4.6,1.8,324,9.0,15,1,0,1,1,0,1,1,0,0
+143,Avocado Toast (V9),breakfast,321,8.3,31.1,18.7,6.2,297,18.9,45,1,0,1,0,0,0,1,0,0
+144,Rice Porridge (V9),breakfast,225,4.5,40.5,3.6,0.9,722,13.2,25,0,0,0,0,0,1,1,0,0
+145,Poached Eggs Benedict (V9),breakfast,436,18.4,36.8,20.7,1.1,540,7.6,30,0,0,0,0,0,0,1,0,1
+146,Muesli with Almond Milk (V9),breakfast,264,8.2,43.7,7.3,4.6,621,10.9,15,0,0,0,0,0,1,1,0,0
+147,Spinach Egg Wrap (V9),breakfast,238,14.1,21.2,8.8,2.6,327,10.2,25,1,1,1,1,0,1,1,0,0
+148,Chia Seed Pudding (V9),breakfast,214,7.2,26.8,8.9,7.2,146,9.4,30,1,1,1,1,0,1,1,0,0
+149,Soft Boiled Eggs with Soldiers (V9),breakfast,275,14.8,23.3,12.7,2.1,391,14.9,20,1,1,1,1,0,0,1,0,1
+150,Oatmeal with Berries (V10),breakfast,314,9.0,53.9,6.7,4.5,649,6.1,45,0,0,0,0,0,1,1,0,0
+151,Greek Yogurt Parfait (V10),breakfast,224,13.4,26.9,7.2,1.8,240,4.5,15,1,0,1,1,0,1,1,0,1
+152,Scrambled Eggs with Toast (V10),breakfast,355,20.0,31.1,15.6,2.2,559,3.8,60,0,0,0,0,0,0,1,0,0
+153,Banana Smoothie (V10),breakfast,233,6.4,44.6,4.2,3.2,205,15.9,45,0,1,1,0,0,1,1,0,0
+154,Whole Wheat Pancakes (V10),breakfast,364,10.7,55.7,10.7,3.2,395,17.1,20,0,1,1,0,0,0,1,0,1
+155,Fruit Bowl with Granola (V10),breakfast,343,8.0,63.0,6.9,5.7,721,5.4,45,0,0,0,0,0,1,1,0,0
+156,Egg White Omelette (V10),breakfast,181,20.1,8.0,6.0,2.0,760,8.8,30,1,0,0,1,1,1,1,0,0
+157,Cottage Cheese with Fruit (V10),breakfast,170,11.9,18.7,4.3,1.7,674,9.5,15,1,0,0,1,0,1,1,0,0
+158,Avocado Toast (V10),breakfast,295,7.6,28.6,17.2,5.7,517,18.5,60,1,0,0,1,0,0,1,1,0
+159,Rice Porridge (V10),breakfast,223,4.5,40.2,3.6,0.9,763,12.4,25,0,0,0,0,0,1,1,0,0
+160,Poached Eggs Benedict (V10),breakfast,364,15.3,30.7,17.3,1.0,162,7.0,15,0,0,1,0,0,0,1,1,0
+161,Muesli with Almond Milk (V10),breakfast,261,8.1,43.4,7.2,4.5,183,10.3,25,0,1,1,0,0,1,1,0,1
+162,Spinach Egg Wrap (V10),breakfast,310,18.4,27.6,11.5,3.4,660,7.4,60,1,0,0,1,0,0,1,1,0
+163,Chia Seed Pudding (V10),breakfast,219,7.3,27.4,9.1,7.3,417,5.7,30,1,1,0,1,0,1,1,0,0
+164,Soft Boiled Eggs with Soldiers (V10),breakfast,286,15.4,24.2,13.2,2.2,118,3.2,40,1,1,1,1,0,0,1,0,0
+165,Oatmeal with Berries (V11),breakfast,282,8.1,48.5,6.1,4.0,212,9.2,40,0,1,1,0,0,1,1,0,1
+166,Greek Yogurt Parfait (V11),breakfast,237,14.3,28.5,7.6,1.9,154,19.0,60,1,0,1,1,0,1,1,1,0
+167,Scrambled Eggs with Toast (V11),breakfast,322,18.1,28.2,14.1,2.0,186,19.6,60,0,1,1,1,0,0,1,0,0
+168,Banana Smoothie (V11),breakfast,188,5.1,36.0,3.4,2.6,542,11.1,60,1,0,0,0,0,1,1,1,0
+169,Whole Wheat Pancakes (V11),breakfast,307,9.0,47.0,9.0,2.7,708,12.0,60,0,0,0,0,0,1,1,1,1
+170,Fruit Bowl with Granola (V11),breakfast,320,7.5,58.7,6.4,5.3,219,16.5,60,0,1,1,0,0,1,1,0,0
+171,Egg White Omelette (V11),breakfast,164,18.2,7.3,5.5,1.8,106,13.4,10,1,1,1,1,0,1,1,1,1
+172,Cottage Cheese with Fruit (V11),breakfast,180,12.7,19.9,4.5,1.8,647,13.6,15,1,0,0,1,0,1,1,0,0
+173,Avocado Toast (V11),breakfast,295,7.6,28.6,17.1,5.7,485,8.5,45,1,0,0,1,0,0,1,1,0
+174,Rice Porridge (V11),breakfast,243,4.9,43.8,3.9,1.0,325,17.5,20,0,1,1,0,0,1,1,0,0
+175,Poached Eggs Benedict (V11),breakfast,338,14.3,28.5,16.1,0.9,257,10.8,40,0,0,1,1,0,0,1,0,1
+176,Muesli with Almond Milk (V11),breakfast,288,9.0,47.8,8.0,5.0,308,6.8,60,0,1,1,0,0,1,1,0,0
+177,Spinach Egg Wrap (V11),breakfast,247,14.6,22.0,9.2,2.7,377,17.0,25,1,1,1,1,0,1,1,1,0
+178,Chia Seed Pudding (V11),breakfast,253,8.5,31.7,10.6,8.5,174,16.8,60,1,1,1,0,0,0,1,1,0
+179,Soft Boiled Eggs with Soldiers (V11),breakfast,242,13.1,20.5,11.2,1.9,116,9.3,40,1,1,1,1,0,0,1,0,1
+180,Oatmeal with Berries (V12),breakfast,238,6.8,41.0,5.1,3.4,126,18.2,40,0,1,1,0,0,1,1,0,0
+181,Greek Yogurt Parfait (V12),breakfast,259,15.6,31.2,8.3,2.1,554,12.3,10,1,0,0,0,0,1,1,0,0
+182,Scrambled Eggs with Toast (V12),breakfast,321,18.1,28.2,14.1,2.0,675,8.4,40,0,0,0,1,0,0,1,0,1
+183,Banana Smoothie (V12),breakfast,226,6.2,43.3,4.1,3.1,128,9.0,60,0,1,1,0,0,1,1,0,0
+184,Whole Wheat Pancakes (V12),breakfast,362,10.7,55.5,10.7,3.2,326,19.1,45,0,1,1,0,0,0,1,0,0
+185,Fruit Bowl with Granola (V12),breakfast,320,7.5,58.8,6.4,5.3,388,6.9,45,0,1,1,0,0,1,1,1,0
+186,Egg White Omelette (V12),breakfast,155,17.3,6.9,5.2,1.7,606,12.7,15,1,0,0,1,0,1,1,0,0
+187,Cottage Cheese with Fruit (V12),breakfast,190,13.3,21.0,4.8,1.9,395,15.1,10,1,0,1,1,0,1,1,0,0
+188,Avocado Toast (V12),breakfast,306,7.9,29.6,17.8,5.9,230,3.4,25,1,0,1,1,0,0,1,0,0
+189,Rice Porridge (V12),breakfast,256,5.1,46.2,4.1,1.0,374,7.7,20,0,1,1,0,0,1,1,0,1
+190,Poached Eggs Benedict (V12),breakfast,431,18.2,36.3,20.4,1.1,596,5.3,40,0,0,0,0,0,0,1,0,0
+191,Muesli with Almond Milk (V12),breakfast,302,9.4,50.0,8.3,5.2,180,13.9,40,0,1,1,0,0,1,1,0,0
+192,Spinach Egg Wrap (V12),breakfast,302,17.9,26.9,11.2,3.4,367,6.0,15,1,1,1,1,0,0,1,1,0
+193,Chia Seed Pudding (V12),breakfast,207,6.9,25.9,8.6,6.9,115,18.7,45,1,1,1,1,0,1,1,0,0
+194,Soft Boiled Eggs with Soldiers (V12),breakfast,245,13.2,20.8,11.3,1.9,434,14.6,10,1,1,0,1,0,0,1,1,1
+195,Oatmeal with Berries (V13),breakfast,273,7.8,46.9,5.9,3.9,576,10.5,40,0,0,0,0,0,1,1,1,0
+196,Greek Yogurt Parfait (V13),breakfast,251,15.1,30.2,8.1,2.0,714,2.7,45,1,0,0,0,0,1,1,0,0
+197,Scrambled Eggs with Toast (V13),breakfast,318,17.9,27.8,13.9,2.0,230,14.5,60,0,1,1,1,0,0,1,0,0
+198,Banana Smoothie (V13),breakfast,224,6.1,42.9,4.1,3.1,596,11.7,40,0,0,0,0,0,1,1,0,0
+199,Whole Wheat Pancakes (V13),breakfast,379,11.2,58.0,11.2,3.3,525,17.8,15,0,0,0,0,0,0,1,1,0
+200,Fruit Bowl with Granola (V13),breakfast,256,6.0,47.1,5.1,4.3,240,8.9,60,0,1,1,0,0,1,1,0,0
+201,Egg White Omelette (V13),breakfast,171,19.1,7.6,5.7,1.9,576,2.7,25,1,0,0,1,0,1,1,0,0
+202,Cottage Cheese with Fruit (V13),breakfast,229,16.0,25.2,5.7,2.3,365,3.7,45,1,0,1,1,0,1,1,0,0
+203,Avocado Toast (V13),breakfast,285,7.4,27.6,16.6,5.5,102,10.4,60,1,0,1,1,0,0,1,1,0
+204,Rice Porridge (V13),breakfast,230,4.6,41.4,3.7,0.9,764,7.0,30,0,0,0,0,0,1,1,0,0
+205,Poached Eggs Benedict (V13),breakfast,366,15.4,30.9,17.4,1.0,443,4.2,20,0,0,0,0,0,0,1,0,0
+206,Muesli with Almond Milk (V13),breakfast,254,7.9,42.1,7.0,4.4,539,17.9,60,0,0,0,0,0,1,1,0,0
+207,Spinach Egg Wrap (V13),breakfast,243,14.4,21.6,9.0,2.7,663,3.2,60,1,0,0,1,0,1,1,0,0
+208,Chia Seed Pudding (V13),breakfast,247,8.3,31.0,10.3,8.3,592,4.2,20,1,0,0,0,0,0,1,1,1
+209,Soft Boiled Eggs with Soldiers (V13),breakfast,235,12.7,19.9,10.9,1.8,358,16.9,30,1,1,1,1,0,0,1,1,0
+210,Oatmeal with Berries (V14),breakfast,312,8.9,53.5,6.7,4.5,198,12.8,10,0,1,1,0,0,1,1,1,0
+211,Greek Yogurt Parfait (V14),breakfast,269,16.2,32.3,8.6,2.2,161,19.9,20,1,0,1,0,0,1,1,0,1
+212,Scrambled Eggs with Toast (V14),breakfast,293,16.5,25.7,12.8,1.8,188,12.7,40,0,1,1,1,0,0,1,0,0
+213,Banana Smoothie (V14),breakfast,212,5.8,40.6,3.9,2.9,734,4.3,10,0,0,0,0,0,1,1,1,0
+214,Whole Wheat Pancakes (V14),breakfast,292,8.6,44.8,8.6,2.6,562,13.8,30,0,0,0,0,0,1,1,0,0
+215,Fruit Bowl with Granola (V14),breakfast,277,6.5,50.9,5.6,4.6,137,6.7,30,0,1,1,0,0,1,1,1,0
+216,Egg White Omelette (V14),breakfast,204,22.8,9.1,6.8,2.3,787,14.3,30,1,0,0,1,1,1,1,0,1
+217,Cottage Cheese with Fruit (V14),breakfast,222,15.6,24.5,5.6,2.2,417,12.7,15,1,0,0,1,0,1,1,0,0
+218,Avocado Toast (V14),breakfast,314,8.1,30.4,18.2,6.1,388,17.8,20,1,0,1,0,0,0,1,0,1
+219,Rice Porridge (V14),breakfast,224,4.5,40.4,3.6,0.9,780,8.0,30,0,0,0,0,0,1,1,0,0
+220,Poached Eggs Benedict (V14),breakfast,393,16.6,33.1,18.6,1.0,521,5.4,30,0,0,0,0,0,0,1,0,0
+221,Muesli with Almond Milk (V14),breakfast,249,7.7,41.2,6.9,4.3,634,2.1,60,0,0,0,0,0,1,1,0,0
+222,Spinach Egg Wrap (V14),breakfast,242,14.4,21.6,9.0,2.7,455,12.0,30,1,1,0,1,0,1,1,0,1
+223,Chia Seed Pudding (V14),breakfast,224,7.5,28.1,9.4,7.5,145,7.9,10,1,1,1,1,0,1,1,0,0
+224,Soft Boiled Eggs with Soldiers (V14),breakfast,270,14.6,22.9,12.5,2.1,464,16.0,40,1,1,0,1,0,0,1,1,1
+225,Oatmeal with Berries (V15),breakfast,274,7.8,47.0,5.9,3.9,511,13.4,40,0,0,0,0,0,1,1,0,0
+226,Greek Yogurt Parfait (V15),breakfast,225,13.5,27.1,7.2,1.8,583,3.2,20,1,0,0,1,0,1,1,1,0
+227,Scrambled Eggs with Toast (V15),breakfast,340,19.1,29.8,14.9,2.1,121,13.2,20,0,1,1,1,0,0,1,0,0
+228,Banana Smoothie (V15),breakfast,231,6.3,44.2,4.2,3.2,775,13.7,25,0,0,0,0,0,1,1,0,1
+229,Whole Wheat Pancakes (V15),breakfast,291,8.6,44.5,8.6,2.6,745,8.7,60,0,0,0,0,0,1,1,0,0
+230,Fruit Bowl with Granola (V15),breakfast,295,6.9,54.1,5.9,4.9,529,10.4,25,0,0,0,0,0,1,1,0,0
+231,Egg White Omelette (V15),breakfast,161,18.0,7.2,5.4,1.8,256,7.4,60,1,1,1,1,0,1,1,1,0
+232,Cottage Cheese with Fruit (V15),breakfast,209,14.6,23.0,5.2,2.1,638,17.6,40,1,0,0,1,0,1,1,1,0
+233,Avocado Toast (V15),breakfast,351,9.1,34.0,20.4,6.8,183,9.2,10,1,0,1,0,0,0,1,0,0
+234,Rice Porridge (V15),breakfast,236,4.7,42.6,3.8,0.9,626,15.4,20,0,0,0,0,0,1,1,1,0
+235,Poached Eggs Benedict (V15),breakfast,365,15.4,30.7,17.3,1.0,370,10.5,20,0,0,1,0,0,0,1,0,1
+236,Muesli with Almond Milk (V15),breakfast,322,10.0,53.3,8.9,5.6,408,4.8,20,0,1,0,0,0,1,1,0,0
+237,Spinach Egg Wrap (V15),breakfast,280,16.6,24.9,10.4,3.1,792,18.4,15,1,0,0,1,0,0,1,0,0
+238,Chia Seed Pudding (V15),breakfast,238,8.0,29.8,9.9,8.0,305,12.8,40,1,1,1,1,0,1,1,0,0
+239,Soft Boiled Eggs with Soldiers (V15),breakfast,236,12.7,20.0,10.9,1.8,600,6.8,60,1,0,0,1,0,0,1,0,0
+240,Oatmeal with Berries (V16),breakfast,250,7.2,43.0,5.4,3.6,373,14.2,15,0,1,1,0,0,1,1,0,0
+241,Greek Yogurt Parfait (V16),breakfast,234,14.1,28.1,7.5,1.9,400,15.6,25,1,0,0,1,0,1,1,0,1
+242,Scrambled Eggs with Toast (V16),breakfast,318,17.9,27.8,13.9,2.0,187,4.6,25,0,1,1,1,0,0,1,0,1
+243,Banana Smoothie (V16),breakfast,219,6.0,42.0,4.0,3.0,185,5.8,10,0,1,1,0,0,1,1,0,1
+244,Whole Wheat Pancakes (V16),breakfast,322,9.5,49.3,9.5,2.8,101,11.6,10,0,1,1,0,0,1,1,0,1
+245,Fruit Bowl with Granola (V16),breakfast,262,6.1,48.0,5.2,4.4,202,4.4,45,0,1,1,0,0,1,1,1,0
+246,Egg White Omelette (V16),breakfast,197,21.9,8.8,6.6,2.2,205,5.0,10,1,1,1,1,1,1,1,0,1
+247,Cottage Cheese with Fruit (V16),breakfast,223,15.7,24.6,5.6,2.2,108,18.9,45,1,0,1,1,0,1,1,0,0
+248,Avocado Toast (V16),breakfast,350,9.0,33.9,20.4,6.8,789,13.3,25,1,0,0,0,0,0,1,0,0
+249,Rice Porridge (V16),breakfast,218,4.4,39.3,3.5,0.9,183,12.0,40,1,1,1,0,0,1,1,0,0
+250,Poached Eggs Benedict (V16),breakfast,396,16.7,33.4,18.8,1.0,799,15.2,20,0,0,0,0,0,0,1,0,0
+251,Muesli with Almond Milk (V16),breakfast,303,9.4,50.2,8.4,5.2,636,17.7,15,0,0,0,0,0,1,1,0,0
+252,Spinach Egg Wrap (V16),breakfast,289,17.2,25.8,10.7,3.2,730,9.8,60,1,0,0,1,0,0,1,0,0
+253,Chia Seed Pudding (V16),breakfast,255,8.5,32.0,10.7,8.5,761,8.0,60,1,0,0,0,0,0,1,0,0
+254,Soft Boiled Eggs with Soldiers (V16),breakfast,236,12.7,20.0,10.9,1.8,134,6.0,40,1,1,1,1,0,0,1,1,0
+255,Oatmeal with Berries (V17),breakfast,276,7.9,47.5,5.9,4.0,258,9.5,60,0,1,1,0,0,1,1,0,0
+256,Greek Yogurt Parfait (V17),breakfast,240,14.4,28.8,7.7,1.9,631,11.1,15,1,0,0,1,0,1,1,0,0
+257,Scrambled Eggs with Toast (V17),breakfast,314,17.7,27.5,13.7,2.0,216,9.1,25,0,1,1,1,0,0,1,0,0
+258,Banana Smoothie (V17),breakfast,214,5.9,41.0,3.9,2.9,470,7.1,30,0,1,0,0,0,1,1,1,0
+259,Whole Wheat Pancakes (V17),breakfast,353,10.4,54.1,10.4,3.1,619,9.3,40,0,0,0,0,0,0,1,1,1
+260,Fruit Bowl with Granola (V17),breakfast,342,8.0,62.8,6.8,5.7,474,9.4,40,0,1,0,0,0,1,1,0,1
+261,Egg White Omelette (V17),breakfast,200,22.2,8.9,6.7,2.2,722,12.7,45,1,0,0,1,1,1,1,0,0
+262,Cottage Cheese with Fruit (V17),breakfast,179,12.6,19.8,4.5,1.8,127,6.6,30,1,0,1,1,0,1,1,1,0
+263,Avocado Toast (V17),breakfast,319,8.2,30.9,18.5,6.2,775,19.5,45,1,0,0,0,0,0,1,1,0
+264,Rice Porridge (V17),breakfast,245,4.9,44.2,3.9,1.0,691,11.4,15,0,0,0,0,0,1,1,0,1
+265,Poached Eggs Benedict (V17),breakfast,374,15.8,31.5,17.7,1.0,782,19.1,10,0,0,0,0,0,0,1,1,1
+266,Muesli with Almond Milk (V17),breakfast,249,7.7,41.3,6.9,4.3,786,13.9,30,0,0,0,0,0,1,1,0,0
+267,Spinach Egg Wrap (V17),breakfast,265,15.7,23.6,9.8,3.0,466,17.6,25,1,1,0,1,0,1,1,0,1
+268,Chia Seed Pudding (V17),breakfast,275,9.2,34.4,11.5,9.2,610,6.2,15,1,0,0,0,0,0,1,1,1
+269,Soft Boiled Eggs with Soldiers (V17),breakfast,256,13.8,21.7,11.8,2.0,158,7.7,10,1,1,1,1,0,0,1,0,0
+270,Oatmeal with Berries (V18),breakfast,271,7.8,46.5,5.8,3.9,341,19.4,20,0,1,1,0,0,1,1,1,0
+271,Greek Yogurt Parfait (V18),breakfast,285,17.1,34.3,9.1,2.3,138,10.2,45,1,0,1,0,0,1,1,0,0
+272,Scrambled Eggs with Toast (V18),breakfast,323,18.2,28.3,14.1,2.0,250,2.5,30,0,1,1,1,0,0,1,1,0
+273,Banana Smoothie (V18),breakfast,235,6.4,44.9,4.3,3.2,107,19.5,10,0,1,1,0,0,1,1,0,1
+274,Whole Wheat Pancakes (V18),breakfast,312,9.2,47.9,9.2,2.8,594,5.2,15,0,0,0,0,0,1,1,0,0
+275,Fruit Bowl with Granola (V18),breakfast,288,6.7,52.9,5.8,4.8,513,10.9,10,0,0,0,0,0,1,1,0,0
+276,Egg White Omelette (V18),breakfast,194,21.6,8.6,6.5,2.2,444,14.4,10,1,1,0,1,1,1,1,0,0
+277,Cottage Cheese with Fruit (V18),breakfast,219,15.4,24.2,5.5,2.2,403,13.7,15,1,0,0,1,0,1,1,0,1
+278,Avocado Toast (V18),breakfast,319,8.3,30.9,18.6,6.2,674,19.6,10,1,0,0,0,0,0,1,0,0
+279,Rice Porridge (V18),breakfast,219,4.4,39.5,3.5,0.9,258,15.3,25,1,1,1,0,0,1,1,0,0
+280,Poached Eggs Benedict (V18),breakfast,428,18.0,36.1,20.3,1.1,118,16.5,15,0,0,1,0,0,0,1,0,0
+281,Muesli with Almond Milk (V18),breakfast,322,10.0,53.3,8.9,5.6,740,4.2,40,0,0,0,0,0,1,1,0,0
+282,Spinach Egg Wrap (V18),breakfast,280,16.6,24.9,10.4,3.1,242,14.5,25,1,1,1,1,0,0,1,0,0
+283,Chia Seed Pudding (V18),breakfast,243,8.1,30.4,10.1,8.1,390,6.1,15,1,1,1,0,0,0,1,0,1
+284,Soft Boiled Eggs with Soldiers (V18),breakfast,271,14.6,22.9,12.5,2.1,102,11.8,60,1,1,1,1,0,0,1,0,0
+285,Oatmeal with Berries (V19),breakfast,240,6.9,41.2,5.1,3.4,253,4.0,30,0,1,1,0,0,1,1,0,0
+286,Greek Yogurt Parfait (V19),breakfast,252,15.2,30.3,8.1,2.0,142,15.8,40,1,0,1,0,0,1,1,0,0
+287,Scrambled Eggs with Toast (V19),breakfast,322,18.1,28.2,14.1,2.0,120,5.5,45,0,1,1,1,0,0,1,0,1
+288,Banana Smoothie (V19),breakfast,250,6.8,47.7,4.5,3.4,150,3.1,30,0,1,1,0,0,1,1,0,1
+289,Whole Wheat Pancakes (V19),breakfast,305,9.0,46.8,9.0,2.7,472,7.1,20,0,1,0,0,0,1,1,0,0
+290,Fruit Bowl with Granola (V19),breakfast,307,7.2,56.3,6.1,5.1,205,13.0,15,0,1,1,0,0,1,1,0,0
+291,Egg White Omelette (V19),breakfast,197,21.9,8.8,6.6,2.2,449,5.3,45,1,1,0,1,1,1,1,0,0
+292,Cottage Cheese with Fruit (V19),breakfast,181,12.7,19.9,4.5,1.8,411,16.3,30,1,0,0,1,0,1,1,1,0
+293,Avocado Toast (V19),breakfast,308,8.0,29.9,17.9,6.0,484,8.7,30,1,0,0,1,0,0,1,0,0
+294,Rice Porridge (V19),breakfast,257,5.2,46.4,4.1,1.0,217,11.3,25,0,1,1,0,0,1,1,1,1
+295,Poached Eggs Benedict (V19),breakfast,392,16.5,33.1,18.6,1.0,477,8.5,15,0,0,0,0,0,0,1,0,0
+296,Muesli with Almond Milk (V19),breakfast,267,8.3,44.2,7.4,4.6,392,7.4,60,0,1,1,0,0,1,1,0,0
+297,Spinach Egg Wrap (V19),breakfast,283,16.8,25.2,10.5,3.2,245,15.8,15,1,1,1,1,0,0,1,0,0
+298,Chia Seed Pudding (V19),breakfast,216,7.2,27.0,9.0,7.2,582,17.6,10,1,0,0,1,0,1,1,1,1
+299,Soft Boiled Eggs with Soldiers (V19),breakfast,222,12.0,18.9,10.3,1.7,754,6.1,45,1,0,0,1,0,0,1,0,1
+300,Oatmeal with Berries (V20),breakfast,270,7.7,46.4,5.8,3.9,608,3.1,10,0,0,0,0,0,1,1,0,1
+301,Greek Yogurt Parfait (V20),breakfast,264,15.9,31.8,8.5,2.1,653,9.7,45,1,0,0,0,0,1,1,0,1
+302,Scrambled Eggs with Toast (V20),breakfast,304,17.1,26.7,13.3,1.9,401,3.9,15,0,1,0,1,0,0,1,0,0
+303,Banana Smoothie (V20),breakfast,237,6.5,45.4,4.3,3.2,135,3.5,10,0,1,1,0,0,1,1,0,0
+304,Whole Wheat Pancakes (V20),breakfast,326,9.6,49.9,9.6,2.9,169,8.4,25,0,1,1,0,0,1,1,0,0
+305,Fruit Bowl with Granola (V20),breakfast,315,7.4,57.8,6.3,5.3,527,6.2,30,0,0,0,0,0,1,1,1,0
+306,Egg White Omelette (V20),breakfast,189,21.1,8.4,6.3,2.1,480,10.2,40,1,1,0,1,1,1,1,0,0
+307,Cottage Cheese with Fruit (V20),breakfast,209,14.7,23.1,5.2,2.1,308,19.9,45,1,0,1,1,0,1,1,0,1
+308,Avocado Toast (V20),breakfast,315,8.1,30.6,18.3,6.1,647,19.3,30,1,0,0,0,0,0,1,0,1
+309,Rice Porridge (V20),breakfast,252,5.1,45.5,4.0,1.0,545,9.6,45,0,0,0,0,0,1,1,0,0
+310,Poached Eggs Benedict (V20),breakfast,398,16.8,33.6,18.9,1.0,614,18.7,30,0,0,0,0,0,0,1,1,0
+311,Muesli with Almond Milk (V20),breakfast,248,7.7,41.1,6.8,4.3,347,11.7,10,0,1,1,0,0,1,1,0,1
+312,Spinach Egg Wrap (V20),breakfast,250,14.8,22.3,9.3,2.8,555,15.6,10,1,0,0,1,0,1,1,0,0
+313,Chia Seed Pudding (V20),breakfast,215,7.2,26.9,9.0,7.2,608,2.7,10,1,0,0,1,0,1,1,1,0
+314,Soft Boiled Eggs with Soldiers (V20),breakfast,250,13.5,21.2,11.6,1.9,548,7.5,25,1,0,0,1,0,0,1,1,0
+315,Oatmeal with Berries (V21),breakfast,311,8.9,53.4,6.7,4.4,361,18.5,20,0,1,1,0,0,1,1,0,0
+316,Greek Yogurt Parfait (V21),breakfast,241,14.5,29.0,7.7,1.9,111,18.8,15,1,0,1,1,0,1,1,0,0
+317,Scrambled Eggs with Toast (V21),breakfast,336,18.9,29.5,14.7,2.1,769,15.0,20,0,0,0,1,0,0,1,0,0
+318,Banana Smoothie (V21),breakfast,192,5.2,36.7,3.5,2.6,504,2.4,20,1,0,0,0,0,1,1,0,0
+319,Whole Wheat Pancakes (V21),breakfast,388,11.4,59.4,11.4,3.4,365,16.8,10,0,1,1,0,0,0,1,0,0
+320,Fruit Bowl with Granola (V21),breakfast,309,7.2,56.8,6.2,5.2,209,18.2,40,0,1,1,0,0,1,1,1,0
+321,Egg White Omelette (V21),breakfast,174,19.4,7.8,5.8,1.9,124,14.0,15,1,1,1,1,0,1,1,1,1
+322,Cottage Cheese with Fruit (V21),breakfast,178,12.5,19.6,4.5,1.8,679,3.4,25,1,0,0,1,0,1,1,0,0
+323,Avocado Toast (V21),breakfast,292,7.5,28.3,17.0,5.7,631,9.9,25,1,0,0,1,0,0,1,0,1
+324,Rice Porridge (V21),breakfast,213,4.3,38.5,3.4,0.9,229,13.7,20,1,1,1,0,0,1,1,0,0
+325,Poached Eggs Benedict (V21),breakfast,344,14.5,29.0,16.3,0.9,444,3.0,20,0,0,0,1,0,0,1,0,0
+326,Muesli with Almond Milk (V21),breakfast,272,8.5,45.1,7.5,4.7,182,5.1,30,0,1,1,0,0,1,1,1,0
+327,Spinach Egg Wrap (V21),breakfast,237,14.1,21.1,8.8,2.6,179,14.4,10,1,1,1,1,0,1,1,0,0
+328,Chia Seed Pudding (V21),breakfast,262,8.8,32.8,10.9,8.8,458,6.0,30,1,1,0,0,0,0,1,0,0
+329,Soft Boiled Eggs with Soldiers (V21),breakfast,254,13.7,21.5,11.7,2.0,162,16.3,45,1,1,1,1,0,0,1,0,1
+330,Oatmeal with Berries (V22),breakfast,268,7.7,46.1,5.8,3.8,191,10.7,45,0,1,1,0,0,1,1,0,0
+331,Greek Yogurt Parfait (V22),breakfast,213,12.8,25.6,6.8,1.7,485,4.4,30,1,0,0,1,0,1,1,1,0
+332,Scrambled Eggs with Toast (V22),breakfast,344,19.4,30.2,15.1,2.2,522,13.1,30,0,0,0,0,0,0,1,1,1
+333,Banana Smoothie (V22),breakfast,251,6.9,48.0,4.6,3.4,437,3.2,60,0,1,0,0,0,1,1,0,1
+334,Whole Wheat Pancakes (V22),breakfast,344,10.1,52.7,10.1,3.0,407,6.8,30,0,1,0,0,0,0,1,0,1
+335,Fruit Bowl with Granola (V22),breakfast,284,6.6,52.1,5.7,4.7,693,10.6,10,0,0,0,0,0,1,1,0,0
+336,Egg White Omelette (V22),breakfast,174,19.4,7.7,5.8,1.9,653,18.1,10,1,0,0,1,0,1,1,1,0
+337,Cottage Cheese with Fruit (V22),breakfast,226,15.9,24.9,5.7,2.3,229,9.9,30,1,0,1,1,0,1,1,1,0
+338,Avocado Toast (V22),breakfast,287,7.4,27.8,16.7,5.6,331,10.3,20,1,0,1,1,0,0,1,0,0
+339,Rice Porridge (V22),breakfast,246,4.9,44.3,3.9,1.0,178,18.0,45,0,1,1,0,0,1,1,0,1
+340,Poached Eggs Benedict (V22),breakfast,407,17.1,34.3,19.3,1.1,548,10.0,60,0,0,0,0,0,0,1,1,1
+341,Muesli with Almond Milk (V22),breakfast,308,9.6,51.1,8.5,5.3,720,16.4,20,0,0,0,0,0,1,1,1,0
+342,Spinach Egg Wrap (V22),breakfast,289,17.1,25.7,10.7,3.2,465,19.8,25,1,1,0,1,0,0,1,0,0
+343,Chia Seed Pudding (V22),breakfast,217,7.2,27.2,9.1,7.2,590,9.4,30,1,0,0,1,0,1,1,0,0
+344,Soft Boiled Eggs with Soldiers (V22),breakfast,241,13.0,20.4,11.2,1.9,649,3.5,60,1,0,0,1,0,0,1,0,0
+345,Oatmeal with Berries (V23),breakfast,302,8.6,51.9,6.5,4.3,428,8.9,15,0,1,0,0,0,1,1,1,0
+346,Greek Yogurt Parfait (V23),breakfast,232,13.9,27.8,7.4,1.9,716,13.6,15,1,0,0,1,0,1,1,0,0
+347,Scrambled Eggs with Toast (V23),breakfast,302,17.0,26.5,13.3,1.9,775,7.3,60,0,0,0,1,0,0,1,1,0
+348,Banana Smoothie (V23),breakfast,247,6.8,47.3,4.5,3.4,387,13.1,15,0,1,1,0,0,1,1,1,0
+349,Whole Wheat Pancakes (V23),breakfast,383,11.3,58.7,11.3,3.4,282,3.7,60,0,1,1,0,0,0,1,0,0
+350,Fruit Bowl with Granola (V23),breakfast,310,7.2,56.9,6.2,5.2,513,18.7,25,0,0,0,0,0,1,1,1,0
+351,Egg White Omelette (V23),breakfast,187,20.9,8.3,6.3,2.1,221,16.7,45,1,1,1,1,1,1,1,0,0
+352,Cottage Cheese with Fruit (V23),breakfast,202,14.2,22.3,5.1,2.0,248,15.6,30,1,0,1,1,0,1,1,0,0
+353,Avocado Toast (V23),breakfast,315,8.1,30.5,18.3,6.1,762,13.8,20,1,0,0,0,0,0,1,0,0
+354,Rice Porridge (V23),breakfast,232,4.7,41.9,3.7,0.9,565,3.9,30,0,0,0,0,0,1,1,0,0
+355,Poached Eggs Benedict (V23),breakfast,347,14.6,29.2,16.5,0.9,506,17.1,30,0,0,0,1,0,0,1,0,0
+356,Muesli with Almond Milk (V23),breakfast,311,9.7,51.5,8.6,5.4,614,7.4,20,0,0,0,0,0,1,1,1,1
+357,Spinach Egg Wrap (V23),breakfast,276,16.4,24.6,10.2,3.1,380,15.7,45,1,1,1,1,0,0,1,1,0
+358,Chia Seed Pudding (V23),breakfast,262,8.7,32.8,10.9,8.7,360,17.9,25,1,1,1,0,0,0,1,1,0
+359,Soft Boiled Eggs with Soldiers (V23),breakfast,283,15.3,24.0,13.1,2.2,590,7.6,30,1,0,0,1,0,0,1,0,0
+360,Oatmeal with Berries (V24),breakfast,253,7.3,43.5,5.4,3.6,211,16.1,25,0,1,1,0,0,1,1,0,0
+361,Greek Yogurt Parfait (V24),breakfast,275,16.5,33.1,8.8,2.2,111,15.4,40,1,0,1,0,0,1,1,0,0
+362,Scrambled Eggs with Toast (V24),breakfast,337,19.0,29.5,14.7,2.1,169,17.8,30,0,1,1,1,0,0,1,1,0
+363,Banana Smoothie (V24),breakfast,229,6.3,43.8,4.2,3.1,635,5.9,15,0,0,0,0,0,1,1,0,0
+364,Whole Wheat Pancakes (V24),breakfast,359,10.6,55.1,10.6,3.2,504,2.5,40,0,0,0,0,0,0,1,0,0
+365,Fruit Bowl with Granola (V24),breakfast,263,6.1,48.3,5.3,4.4,218,17.7,30,0,1,1,0,0,1,1,0,1
+366,Egg White Omelette (V24),breakfast,184,20.5,8.2,6.1,2.0,154,14.7,60,1,1,1,1,1,1,1,0,0
+367,Cottage Cheese with Fruit (V24),breakfast,218,15.3,24.0,5.5,2.2,258,2.4,20,1,0,1,1,0,1,1,0,1
+368,Avocado Toast (V24),breakfast,268,6.9,26.0,15.6,5.2,208,15.4,15,1,0,1,1,0,0,1,0,0
+369,Rice Porridge (V24),breakfast,251,5.0,45.2,4.0,1.0,531,8.7,40,0,0,0,0,0,1,1,0,0
+370,Poached Eggs Benedict (V24),breakfast,333,14.0,28.1,15.8,0.9,727,3.1,25,0,0,0,1,0,0,1,0,0
+371,Muesli with Almond Milk (V24),breakfast,327,10.2,54.2,9.0,5.6,260,9.6,25,0,1,1,0,0,1,1,0,1
+372,Spinach Egg Wrap (V24),breakfast,285,16.9,25.3,10.6,3.2,658,17.1,20,1,0,0,1,0,0,1,0,0
+373,Chia Seed Pudding (V24),breakfast,218,7.3,27.3,9.1,7.3,599,8.5,15,1,0,0,1,0,1,1,1,0
+374,Soft Boiled Eggs with Soldiers (V24),breakfast,266,14.4,22.6,12.3,2.1,729,6.9,10,1,0,0,1,0,0,1,0,0
+375,Oatmeal with Berries (V25),breakfast,242,6.9,41.6,5.2,3.5,646,9.7,20,0,0,0,0,0,1,1,0,0
+376,Greek Yogurt Parfait (V25),breakfast,248,14.9,29.8,8.0,2.0,173,18.9,25,1,0,1,1,0,1,1,1,1
+377,Scrambled Eggs with Toast (V25),breakfast,341,19.2,29.9,15.0,2.1,740,16.0,25,0,0,0,1,0,0,1,0,1
+378,Banana Smoothie (V25),breakfast,227,6.2,43.4,4.1,3.1,287,9.2,25,0,1,1,0,0,1,1,0,0
+379,Whole Wheat Pancakes (V25),breakfast,296,8.7,45.3,8.7,2.6,717,7.1,25,0,0,0,0,0,1,1,1,0
+380,Fruit Bowl with Granola (V25),breakfast,325,7.6,59.7,6.5,5.4,499,15.7,15,0,1,0,0,0,1,1,0,0
+381,Egg White Omelette (V25),breakfast,161,17.9,7.2,5.4,1.8,327,2.6,25,1,1,1,1,0,1,1,0,0
+382,Cottage Cheese with Fruit (V25),breakfast,190,13.4,21.0,4.8,1.9,789,9.4,45,1,0,0,1,0,1,1,1,1
+383,Avocado Toast (V25),breakfast,331,8.6,32.1,19.3,6.4,302,19.3,45,1,0,1,0,0,0,1,0,0
+384,Rice Porridge (V25),breakfast,274,5.5,49.4,4.4,1.1,241,15.2,15,0,1,1,0,0,1,1,0,1
+385,Poached Eggs Benedict (V25),breakfast,405,17.1,34.2,19.2,1.1,404,10.4,10,0,0,0,0,0,0,1,0,0
+386,Muesli with Almond Milk (V25),breakfast,262,8.1,43.4,7.2,4.5,260,4.7,25,0,1,1,0,0,1,1,0,1
+387,Spinach Egg Wrap (V25),breakfast,284,16.9,25.3,10.6,3.2,388,11.4,30,1,1,1,1,0,0,1,1,0
+388,Chia Seed Pudding (V25),breakfast,243,8.1,30.4,10.1,8.1,522,14.7,10,1,0,0,0,0,0,1,0,1
+389,Soft Boiled Eggs with Soldiers (V25),breakfast,287,15.5,24.3,13.2,2.2,616,19.0,60,1,0,0,1,0,0,1,1,1
+390,Oatmeal with Berries (V26),breakfast,310,8.9,53.2,6.7,4.4,534,13.7,40,0,0,0,0,0,1,1,1,0
+391,Greek Yogurt Parfait (V26),breakfast,220,13.3,26.5,7.1,1.8,670,10.3,60,1,0,0,1,0,1,1,0,0
+392,Scrambled Eggs with Toast (V26),breakfast,304,17.1,26.7,13.3,1.9,376,5.0,45,0,1,1,1,0,0,1,0,0
+393,Banana Smoothie (V26),breakfast,188,5.1,35.9,3.4,2.6,312,13.9,25,1,1,1,0,0,1,1,0,1
+394,Whole Wheat Pancakes (V26),breakfast,335,9.9,51.2,9.9,3.0,157,15.5,10,0,1,1,0,0,1,1,1,1
+395,Fruit Bowl with Granola (V26),breakfast,296,6.9,54.4,5.9,4.9,143,11.7,25,0,1,1,0,0,1,1,0,0
+396,Egg White Omelette (V26),breakfast,177,19.7,7.9,5.9,2.0,478,8.8,20,1,1,0,1,0,1,1,0,1
+397,Cottage Cheese with Fruit (V26),breakfast,181,12.7,19.9,4.5,1.8,107,7.2,25,1,0,1,1,0,1,1,0,0
+398,Avocado Toast (V26),breakfast,292,7.5,28.3,17.0,5.7,658,5.5,40,1,0,0,1,0,0,1,0,1
+399,Rice Porridge (V26),breakfast,264,5.3,47.6,4.2,1.1,367,5.0,60,0,1,1,0,0,1,1,0,0
+400,Poached Eggs Benedict (V26),breakfast,354,14.9,29.9,16.8,0.9,139,11.1,25,0,0,1,1,0,0,1,1,1
+401,Muesli with Almond Milk (V26),breakfast,324,10.1,53.7,8.9,5.6,787,4.7,25,0,0,0,0,0,1,1,0,0
+402,Spinach Egg Wrap (V26),breakfast,298,17.7,26.6,11.1,3.3,748,16.5,40,1,0,0,1,0,0,1,0,0
+403,Chia Seed Pudding (V26),breakfast,238,8.0,29.9,10.0,8.0,632,15.1,15,1,0,0,1,0,0,1,1,0
+404,Soft Boiled Eggs with Soldiers (V26),breakfast,254,13.7,21.5,11.7,2.0,346,4.3,30,1,1,1,1,0,0,1,0,0
+405,Oatmeal with Berries (V27),breakfast,298,8.5,51.2,6.4,4.3,765,3.4,30,0,0,0,0,0,1,1,0,0
+406,Greek Yogurt Parfait (V27),breakfast,234,14.1,28.2,7.5,1.9,585,11.7,20,1,0,0,1,0,1,1,0,0
+407,Scrambled Eggs with Toast (V27),breakfast,358,20.2,31.4,15.7,2.2,463,10.3,30,0,0,0,0,1,0,1,1,0
+408,Banana Smoothie (V27),breakfast,245,6.7,46.8,4.5,3.3,376,4.0,15,0,1,1,0,0,1,1,1,1
+409,Whole Wheat Pancakes (V27),breakfast,303,8.9,46.4,8.9,2.7,140,15.3,15,0,1,1,0,0,1,1,0,0
+410,Fruit Bowl with Granola (V27),breakfast,310,7.3,57.0,6.2,5.2,761,15.3,25,0,0,0,0,0,1,1,0,0
+411,Egg White Omelette (V27),breakfast,187,20.8,8.3,6.2,2.1,371,3.9,20,1,1,1,1,1,1,1,0,1
+412,Cottage Cheese with Fruit (V27),breakfast,180,12.6,19.9,4.5,1.8,300,13.8,10,1,0,1,1,0,1,1,0,0
+413,Avocado Toast (V27),breakfast,323,8.3,31.3,18.8,6.3,615,17.6,45,1,0,0,0,0,0,1,0,1
+414,Rice Porridge (V27),breakfast,214,4.3,38.7,3.4,0.9,728,9.3,25,1,0,0,0,0,1,1,0,0
+415,Poached Eggs Benedict (V27),breakfast,410,17.3,34.6,19.4,1.1,306,6.7,10,0,0,1,0,0,0,1,0,1
+416,Muesli with Almond Milk (V27),breakfast,261,8.1,43.2,7.2,4.5,453,10.0,40,0,1,0,0,0,1,1,1,0
+417,Spinach Egg Wrap (V27),breakfast,239,14.2,21.3,8.9,2.7,758,19.6,40,1,0,0,1,0,1,1,0,1
+418,Chia Seed Pudding (V27),breakfast,234,7.8,29.3,9.8,7.8,369,18.5,45,1,1,1,1,0,1,1,1,0
+419,Soft Boiled Eggs with Soldiers (V27),breakfast,296,16.0,25.1,13.7,2.3,525,14.6,25,1,0,0,1,0,0,1,1,0
+420,Oatmeal with Berries (V28),breakfast,299,8.5,51.3,6.4,4.3,735,16.9,25,0,0,0,0,0,1,1,0,0
+421,Greek Yogurt Parfait (V28),breakfast,228,13.7,27.5,7.3,1.8,536,11.7,60,1,0,0,1,0,1,1,1,1
+422,Scrambled Eggs with Toast (V28),breakfast,326,18.4,28.6,14.3,2.0,188,16.8,30,0,1,1,1,0,0,1,1,0
+423,Banana Smoothie (V28),breakfast,236,6.4,45.1,4.3,3.2,167,17.8,15,0,1,1,0,0,1,1,0,0
+424,Whole Wheat Pancakes (V28),breakfast,380,11.2,58.1,11.2,3.4,226,13.3,60,0,1,1,0,0,0,1,1,0
+425,Fruit Bowl with Granola (V28),breakfast,258,6.0,47.3,5.2,4.3,134,6.8,40,0,1,1,0,0,1,1,0,0
+426,Egg White Omelette (V28),breakfast,156,17.4,7.0,5.2,1.7,375,6.0,25,1,1,1,1,0,1,1,1,1
+427,Cottage Cheese with Fruit (V28),breakfast,224,15.7,24.7,5.6,2.2,423,17.6,15,1,0,0,1,0,1,1,0,0
+428,Avocado Toast (V28),breakfast,311,8.0,30.2,18.1,6.0,530,3.5,40,1,0,0,0,0,0,1,0,0
+429,Rice Porridge (V28),breakfast,257,5.2,46.4,4.1,1.0,125,5.0,40,0,1,1,0,0,1,1,0,0
+430,Poached Eggs Benedict (V28),breakfast,390,16.4,32.9,18.5,1.0,768,13.5,45,0,0,0,0,0,0,1,0,1
+431,Muesli with Almond Milk (V28),breakfast,279,8.7,46.3,7.7,4.8,678,13.7,15,0,0,0,0,0,1,1,1,0
+432,Spinach Egg Wrap (V28),breakfast,309,18.3,27.5,11.5,3.4,683,13.4,40,1,0,0,1,0,0,1,0,1
+433,Chia Seed Pudding (V28),breakfast,206,6.9,25.9,8.6,6.9,361,2.8,60,1,1,1,1,0,1,1,1,0
+434,Soft Boiled Eggs with Soldiers (V28),breakfast,256,13.8,21.7,11.8,2.0,720,10.7,60,1,0,0,1,0,0,1,0,0
+435,Oatmeal with Berries (V29),breakfast,277,7.9,47.6,6.0,4.0,788,11.3,40,0,0,0,0,0,1,1,0,1
+436,Greek Yogurt Parfait (V29),breakfast,274,16.5,33.0,8.8,2.2,503,3.9,15,1,0,0,0,0,1,1,0,0
+437,Scrambled Eggs with Toast (V29),breakfast,292,16.5,25.6,12.8,1.8,717,7.3,40,0,0,0,1,0,0,1,1,0
+438,Banana Smoothie (V29),breakfast,205,5.6,39.3,3.7,2.8,628,4.0,20,1,0,0,0,0,1,1,0,0
+439,Whole Wheat Pancakes (V29),breakfast,292,8.6,44.7,8.6,2.6,593,19.9,30,0,0,0,0,0,1,1,0,1
+440,Fruit Bowl with Granola (V29),breakfast,290,6.8,53.2,5.8,4.8,118,9.4,60,0,1,1,0,0,1,1,0,0
+441,Egg White Omelette (V29),breakfast,189,21.0,8.4,6.3,2.1,400,14.9,25,1,1,0,1,1,1,1,0,1
+442,Cottage Cheese with Fruit (V29),breakfast,208,14.6,22.9,5.2,2.1,442,14.9,45,1,0,0,1,0,1,1,1,0
+443,Avocado Toast (V29),breakfast,327,8.4,31.7,19.0,6.3,423,8.9,45,1,0,0,0,0,0,1,0,1
+444,Rice Porridge (V29),breakfast,257,5.1,46.3,4.1,1.0,183,18.2,25,0,1,1,0,0,1,1,1,0
+445,Poached Eggs Benedict (V29),breakfast,430,18.1,36.2,20.4,1.1,204,13.6,20,0,0,1,0,0,0,1,0,1
+446,Muesli with Almond Milk (V29),breakfast,301,9.4,50.0,8.3,5.2,217,4.1,45,0,1,1,0,0,1,1,0,0
+447,Spinach Egg Wrap (V29),breakfast,239,14.2,21.3,8.9,2.7,613,11.5,20,1,0,0,1,0,1,1,0,1
+448,Chia Seed Pudding (V29),breakfast,204,6.8,25.6,8.5,6.8,367,7.3,10,1,1,1,1,0,1,1,1,0
+449,Soft Boiled Eggs with Soldiers (V29),breakfast,291,15.7,24.7,13.5,2.2,673,12.1,45,1,0,0,1,0,0,1,0,0
+450,Oatmeal with Berries (V30),breakfast,243,7.0,41.8,5.2,3.5,376,14.5,15,0,1,1,0,0,1,1,0,1
+451,Greek Yogurt Parfait (V30),breakfast,253,15.2,30.4,8.1,2.0,733,12.6,25,1,0,0,0,0,1,1,0,0
+452,Scrambled Eggs with Toast (V30),breakfast,354,19.9,31.0,15.5,2.2,140,9.8,60,0,0,1,0,0,0,1,0,1
+453,Banana Smoothie (V30),breakfast,211,5.8,40.4,3.8,2.9,217,14.7,10,0,1,1,0,0,1,1,0,0
+454,Whole Wheat Pancakes (V30),breakfast,305,9.0,46.8,9.0,2.7,106,4.6,60,0,1,1,0,0,1,1,0,0
+455,Fruit Bowl with Granola (V30),breakfast,285,6.7,52.4,5.7,4.8,301,13.6,25,0,1,1,0,0,1,1,1,0
+456,Egg White Omelette (V30),breakfast,195,21.8,8.7,6.5,2.2,494,7.6,40,1,1,0,1,1,1,1,0,0
+457,Cottage Cheese with Fruit (V30),breakfast,220,15.4,24.3,5.5,2.2,539,19.8,10,1,0,0,1,0,1,1,1,1
+458,Avocado Toast (V30),breakfast,353,9.1,34.2,20.5,6.8,475,19.6,20,1,0,0,0,0,0,1,0,0
+459,Rice Porridge (V30),breakfast,215,4.3,38.8,3.4,0.9,462,9.0,15,1,1,0,0,0,1,1,0,0
+460,Poached Eggs Benedict (V30),breakfast,339,14.3,28.6,16.1,0.9,344,7.2,30,0,0,1,1,0,0,1,0,0
+461,Muesli with Almond Milk (V30),breakfast,279,8.7,46.2,7.7,4.8,134,18.0,25,0,1,1,0,0,1,1,0,0
+462,Spinach Egg Wrap (V30),breakfast,236,14.0,21.0,8.8,2.6,158,19.3,25,1,1,1,1,0,1,1,1,0
+463,Chia Seed Pudding (V30),breakfast,259,8.7,32.5,10.8,8.7,168,4.8,10,1,1,1,0,0,0,1,0,1
+464,Soft Boiled Eggs with Soldiers (V30),breakfast,240,12.9,20.3,11.1,1.8,442,9.9,15,1,1,0,1,0,0,1,0,0
+465,Oatmeal with Berries (V31),breakfast,252,7.2,43.4,5.4,3.6,440,8.2,25,0,1,0,0,0,1,1,1,0
+466,Greek Yogurt Parfait (V31),breakfast,253,15.2,30.4,8.1,2.0,484,12.4,60,1,0,0,0,0,1,1,0,1
+467,Scrambled Eggs with Toast (V31),breakfast,350,19.7,30.7,15.3,2.2,534,16.1,20,0,0,0,0,0,0,1,0,0
+468,Banana Smoothie (V31),breakfast,224,6.1,42.9,4.1,3.1,264,15.2,60,0,1,1,0,0,1,1,1,0
+469,Whole Wheat Pancakes (V31),breakfast,344,10.1,52.7,10.1,3.0,758,4.4,20,0,0,0,0,0,0,1,0,0
+470,Fruit Bowl with Granola (V31),breakfast,303,7.1,55.6,6.1,5.1,239,2.7,40,0,1,1,0,0,1,1,0,1
+471,Egg White Omelette (V31),breakfast,195,21.8,8.7,6.5,2.2,119,10.4,15,1,1,1,1,1,1,1,0,1
+472,Cottage Cheese with Fruit (V31),breakfast,197,13.8,21.8,4.9,2.0,403,3.7,25,1,0,0,1,0,1,1,0,0
+473,Avocado Toast (V31),breakfast,298,7.7,28.9,17.3,5.8,201,11.4,40,1,0,1,1,0,0,1,0,0
+474,Rice Porridge (V31),breakfast,250,5.0,45.2,4.0,1.0,598,12.4,20,0,0,0,0,0,1,1,0,0
+475,Poached Eggs Benedict (V31),breakfast,373,15.7,31.5,17.7,1.0,786,15.8,25,0,0,0,0,0,0,1,0,0
+476,Muesli with Almond Milk (V31),breakfast,333,10.3,55.1,9.2,5.7,215,2.1,10,0,1,1,0,0,1,1,0,0
+477,Spinach Egg Wrap (V31),breakfast,234,13.9,20.8,8.7,2.6,422,10.1,30,1,1,0,1,0,1,1,0,1
+478,Chia Seed Pudding (V31),breakfast,256,8.6,32.1,10.7,8.6,213,10.6,30,1,1,1,0,0,0,1,1,0
+479,Soft Boiled Eggs with Soldiers (V31),breakfast,262,14.1,22.2,12.1,2.0,419,7.4,60,1,1,0,1,0,0,1,0,0
+480,Oatmeal with Berries (V32),breakfast,299,8.6,51.4,6.4,4.3,385,19.2,45,0,1,1,0,0,1,1,0,1
+481,Greek Yogurt Parfait (V32),breakfast,287,17.2,34.5,9.2,2.3,587,7.3,45,1,0,0,0,0,1,1,1,0
+482,Scrambled Eggs with Toast (V32),breakfast,332,18.7,29.1,14.6,2.1,648,2.1,60,0,0,0,1,0,0,1,0,0
+483,Banana Smoothie (V32),breakfast,237,6.5,45.4,4.3,3.2,775,14.6,45,0,0,0,0,0,1,1,1,0
+484,Whole Wheat Pancakes (V32),breakfast,296,8.7,45.4,8.7,2.6,483,14.4,45,0,1,0,0,0,1,1,1,0
+485,Fruit Bowl with Granola (V32),breakfast,264,6.2,48.6,5.3,4.4,287,12.4,60,0,1,1,0,0,1,1,1,0
+486,Egg White Omelette (V32),breakfast,181,20.1,8.1,6.0,2.0,627,14.3,10,1,0,0,1,1,1,1,0,0
+487,Cottage Cheese with Fruit (V32),breakfast,212,14.9,23.4,5.3,2.1,287,4.6,15,1,0,1,1,0,1,1,0,0
+488,Avocado Toast (V32),breakfast,285,7.4,27.6,16.6,5.5,394,9.2,45,1,0,1,1,0,0,1,0,0
+489,Rice Porridge (V32),breakfast,280,5.6,50.5,4.5,1.1,330,10.6,10,0,1,1,0,0,1,1,0,1
+490,Poached Eggs Benedict (V32),breakfast,326,13.8,27.5,15.5,0.9,502,8.4,10,0,0,0,1,0,0,1,0,1
+491,Muesli with Almond Milk (V32),breakfast,309,9.6,51.2,8.5,5.3,643,10.1,15,0,0,0,0,0,1,1,0,0
+492,Spinach Egg Wrap (V32),breakfast,281,16.7,25.0,10.4,3.1,113,10.3,40,1,1,1,1,0,0,1,0,0
+493,Chia Seed Pudding (V32),breakfast,243,8.1,30.5,10.2,8.1,359,4.6,45,1,1,1,0,0,0,1,0,0
+494,Soft Boiled Eggs with Soldiers (V32),breakfast,233,12.6,19.7,10.8,1.8,389,4.4,15,1,1,1,1,0,0,1,0,0
+495,Oatmeal with Berries (V33),breakfast,271,7.8,46.6,5.8,3.9,540,2.0,15,0,0,0,0,0,1,1,0,0
+496,Greek Yogurt Parfait (V33),breakfast,257,15.4,30.8,8.2,2.1,308,3.1,15,1,0,1,0,0,1,1,0,0
+497,Scrambled Eggs with Toast (V33),breakfast,362,20.4,31.7,15.8,2.3,256,18.8,10,0,0,1,0,1,0,1,0,0
+498,Banana Smoothie (V33),breakfast,242,6.6,46.3,4.4,3.3,527,12.3,15,0,0,0,0,0,1,1,0,0
+499,Whole Wheat Pancakes (V33),breakfast,381,11.2,58.4,11.2,3.4,723,18.9,20,0,0,0,0,0,0,1,1,0
+500,Grilled Chicken Salad,lunch,349,29.9,18.0,16.0,4.0,731,14.2,45,1,0,0,1,1,0,1,1,0
+501,Lentil Soup,lunch,293,15.7,42.0,4.2,8.4,635,15.7,10,0,0,0,0,0,1,1,0,0
+502,Tuna Sandwich,lunch,353,23.3,33.5,13.0,2.8,751,20.0,10,0,0,0,0,1,0,1,0,0
+503,Vegetable Stir Fry with Rice,lunch,400,12.0,58.0,10.0,5.0,652,10.6,60,0,0,0,0,0,0,1,1,0
+504,Chicken Noodle Soup,lunch,307,19.2,33.6,7.7,2.9,554,15.8,15,0,0,0,0,0,1,1,0,0
+505,Quinoa Bowl with Vegetables,lunch,405,14.9,53.3,12.8,6.4,748,13.8,20,0,0,0,0,0,0,1,0,0
+506,Grilled Fish with Vegetables,lunch,326,30.5,16.3,13.1,3.3,272,2.6,10,1,1,1,1,1,0,1,1,0
+507,Turkey Wrap,lunch,364,23.6,34.3,12.9,3.2,127,19.5,25,0,1,1,0,1,0,1,0,0
+508,Bean and Vegetable Stew,lunch,282,14.6,38.2,5.5,8.2,455,3.5,20,1,1,0,0,0,1,1,0,1
+509,Salmon with Sweet Potato,lunch,371,26.5,30.9,12.4,3.5,749,11.8,45,1,0,0,0,1,0,1,0,1
+510,Mushroom Risotto,lunch,366,9.6,53.0,11.6,2.9,497,9.4,10,0,0,0,0,0,0,1,0,0
+511,Chicken Caesar Salad,lunch,448,31.4,22.4,22.4,3.4,635,15.0,10,0,0,0,1,1,0,1,0,0
+512,Vegetable Curry with Rice,lunch,442,10.5,65.3,12.6,5.3,218,15.9,45,0,1,1,0,0,0,1,1,1
+513,Minestrone Soup,lunch,276,11.1,42.1,6.6,6.6,601,2.3,20,0,0,0,0,0,1,1,0,0
+514,Baked Potato with Tuna,lunch,325,19.9,38.0,7.2,3.6,490,2.3,30,0,1,0,0,0,1,1,0,0
+515,Grilled Chicken Salad (V1),lunch,320,27.5,16.5,14.7,3.7,737,12.3,60,1,0,0,1,1,0,1,1,0
+516,Lentil Soup (V1),lunch,319,17.1,45.7,4.6,9.1,722,14.2,60,0,0,0,0,0,1,1,0,0
+517,Tuna Sandwich (V1),lunch,411,27.1,39.0,15.2,3.3,555,5.7,20,0,0,0,0,1,0,1,0,1
+518,Vegetable Stir Fry with Rice (V1),lunch,367,11.0,53.3,9.2,4.6,709,12.9,30,0,0,0,0,0,1,1,0,0
+519,Chicken Noodle Soup (V1),lunch,277,17.3,30.4,6.9,2.6,701,19.8,45,0,0,0,0,0,1,1,0,0
+520,Quinoa Bowl with Vegetables (V1),lunch,385,14.2,50.7,12.2,6.1,242,12.1,40,0,1,1,0,0,0,1,0,1
+521,Grilled Fish with Vegetables (V1),lunch,272,25.4,13.6,10.9,2.7,461,18.1,10,1,1,0,1,1,0,1,0,0
+522,Turkey Wrap (V1),lunch,303,19.7,28.6,10.7,2.7,792,11.5,25,0,0,0,1,0,0,1,0,0
+523,Bean and Vegetable Stew (V1),lunch,287,14.8,39.0,5.6,8.4,148,19.1,40,1,1,1,0,0,1,1,1,0
+524,Salmon with Sweet Potato (V1),lunch,469,33.5,39.1,15.6,4.5,588,14.4,15,1,0,0,0,1,0,1,1,1
+525,Mushroom Risotto (V1),lunch,394,10.4,57.2,12.5,3.1,558,2.8,10,0,0,0,0,0,0,1,0,0
+526,Chicken Caesar Salad (V1),lunch,369,25.8,18.5,18.5,2.8,672,19.1,40,0,0,0,1,1,0,1,1,0
+527,Vegetable Curry with Rice (V1),lunch,458,10.9,67.7,13.1,5.5,309,11.8,40,0,1,1,0,0,0,1,0,1
+528,Minestrone Soup (V1),lunch,224,9.0,34.2,5.4,5.4,192,10.7,30,1,1,1,0,0,1,1,1,0
+529,Baked Potato with Tuna (V1),lunch,411,25.2,48.1,9.2,4.6,432,11.5,45,0,1,0,0,1,1,1,1,0
+530,Grilled Chicken Salad (V2),lunch,318,27.3,16.4,14.5,3.6,351,19.9,60,1,1,1,1,1,0,1,0,0
+531,Lentil Soup (V2),lunch,256,13.7,36.6,3.7,7.3,456,9.9,20,1,1,0,0,0,1,1,1,1
+532,Tuna Sandwich (V2),lunch,324,21.3,30.7,12.0,2.6,489,5.4,20,0,1,0,0,1,0,1,0,0
+533,Vegetable Stir Fry with Rice (V2),lunch,423,12.7,61.5,10.6,5.3,344,19.2,15,0,1,1,0,0,0,1,0,1
+534,Chicken Noodle Soup (V2),lunch,317,19.9,34.8,7.9,3.0,451,7.6,40,0,1,0,0,0,1,1,0,0
+535,Quinoa Bowl with Vegetables (V2),lunch,341,12.6,44.9,10.8,5.4,699,15.7,30,0,0,0,0,0,0,1,0,1
+536,Grilled Fish with Vegetables (V2),lunch,255,23.9,12.8,10.2,2.6,712,8.8,25,1,0,0,1,1,0,1,1,0
+537,Turkey Wrap (V2),lunch,311,20.2,29.3,11.0,2.7,421,11.3,60,0,1,0,1,1,0,1,1,0
+538,Bean and Vegetable Stew (V2),lunch,266,13.7,36.1,5.2,7.7,550,18.1,30,1,0,0,0,0,1,1,1,0
+539,Salmon with Sweet Potato (V2),lunch,407,29.1,33.9,13.6,3.9,766,19.2,10,1,0,0,0,1,0,1,1,0
+540,Mushroom Risotto (V2),lunch,365,9.6,52.9,11.5,2.9,503,15.6,20,0,0,0,0,0,0,1,1,0
+541,Chicken Caesar Salad (V2),lunch,373,26.1,18.7,18.7,2.8,116,16.2,25,0,0,1,1,1,0,1,0,0
+542,Vegetable Curry with Rice (V2),lunch,409,9.7,60.4,11.7,4.9,213,18.2,15,0,1,1,0,0,0,1,0,1
+543,Minestrone Soup (V2),lunch,250,10.0,38.1,6.0,6.0,140,2.7,15,1,1,1,0,0,1,1,0,1
+544,Baked Potato with Tuna (V2),lunch,379,23.2,44.3,8.4,4.2,679,12.5,20,0,0,0,0,1,1,1,0,0
+545,Grilled Chicken Salad (V3),lunch,331,28.4,17.1,15.2,3.8,502,4.6,45,1,0,0,1,1,0,1,0,0
+546,Lentil Soup (V3),lunch,312,16.8,44.7,4.5,8.9,504,15.7,45,0,0,0,0,0,1,1,0,0
+547,Tuna Sandwich (V3),lunch,346,22.8,32.8,12.8,2.7,320,6.6,60,0,1,1,0,1,0,1,0,0
+548,Vegetable Stir Fry with Rice (V3),lunch,364,10.9,52.9,9.1,4.6,604,8.6,15,0,0,0,0,0,1,1,0,0
+549,Chicken Noodle Soup (V3),lunch,311,19.5,34.0,7.8,2.9,379,16.9,45,0,1,1,0,0,1,1,0,0
+550,Quinoa Bowl with Vegetables (V3),lunch,410,15.1,54.1,13.0,6.5,103,4.7,10,0,1,1,0,0,0,1,0,1
+551,Grilled Fish with Vegetables (V3),lunch,281,26.2,14.1,11.2,2.8,680,9.1,30,1,0,0,1,1,0,1,0,1
+552,Turkey Wrap (V3),lunch,331,21.4,31.2,11.7,2.9,665,8.5,10,0,0,0,0,1,0,1,0,1
+553,Bean and Vegetable Stew (V3),lunch,291,15.1,39.5,5.6,8.5,416,9.9,60,1,1,0,0,0,1,1,1,0
+554,Salmon with Sweet Potato (V3),lunch,478,34.2,39.9,16.0,4.6,137,15.2,25,1,0,1,0,1,0,1,0,0
+555,Mushroom Risotto (V3),lunch,371,9.8,53.7,11.7,2.9,405,18.1,30,0,0,0,0,0,0,1,0,0
+556,Chicken Caesar Salad (V3),lunch,361,25.3,18.1,18.1,2.7,481,8.1,45,0,0,0,1,1,0,1,0,0
+557,Vegetable Curry with Rice (V3),lunch,452,10.8,66.7,12.9,5.4,312,11.8,60,0,1,1,0,0,0,1,0,1
+558,Minestrone Soup (V3),lunch,253,10.1,38.5,6.1,6.1,301,2.4,15,1,1,1,0,0,1,1,0,0
+559,Baked Potato with Tuna (V3),lunch,408,25.0,47.7,9.1,4.5,109,10.7,10,0,1,1,0,1,1,1,0,0
+560,Grilled Chicken Salad (V4),lunch,372,31.9,19.2,17.0,4.3,201,16.1,45,1,0,1,1,1,0,1,0,0
+561,Lentil Soup (V4),lunch,316,16.9,45.2,4.5,9.0,187,4.9,45,0,1,1,0,0,1,1,0,0
+562,Tuna Sandwich (V4),lunch,427,28.2,40.5,15.8,3.4,506,4.3,30,0,0,0,0,1,0,1,0,0
+563,Vegetable Stir Fry with Rice (V4),lunch,436,13.1,63.3,10.9,5.5,576,4.6,40,0,0,0,0,0,0,1,0,0
+564,Chicken Noodle Soup (V4),lunch,354,22.1,38.7,8.9,3.3,674,15.8,60,0,0,0,0,1,1,1,0,0
+565,Quinoa Bowl with Vegetables (V4),lunch,379,14.0,49.9,12.0,6.0,573,4.9,60,0,0,0,0,0,0,1,0,0
+566,Grilled Fish with Vegetables (V4),lunch,256,23.9,12.8,10.3,2.6,142,17.1,60,1,1,1,1,1,0,1,0,0
+567,Turkey Wrap (V4),lunch,375,24.3,35.3,13.2,3.3,414,11.0,40,0,1,0,0,1,0,1,0,0
+568,Bean and Vegetable Stew (V4),lunch,268,13.8,36.4,5.2,7.8,292,7.6,60,1,1,1,0,0,1,1,0,1
+569,Salmon with Sweet Potato (V4),lunch,457,32.7,38.2,15.3,4.4,582,19.1,60,1,0,0,0,1,0,1,1,0
+570,Mushroom Risotto (V4),lunch,340,9.0,49.3,10.8,2.7,551,13.3,15,0,0,0,0,0,0,1,0,0
+571,Chicken Caesar Salad (V4),lunch,435,30.5,21.8,21.8,3.3,618,7.6,45,0,0,0,1,1,0,1,0,0
+572,Vegetable Curry with Rice (V4),lunch,471,11.2,69.6,13.5,5.6,309,6.5,60,0,1,1,0,0,0,1,1,0
+573,Minestrone Soup (V4),lunch,234,9.4,35.6,5.6,5.6,430,5.4,25,1,1,0,0,0,1,1,0,0
+574,Baked Potato with Tuna (V4),lunch,385,23.5,44.9,8.6,4.3,168,3.2,20,0,1,1,0,1,1,1,0,1
+575,Grilled Chicken Salad (V5),lunch,332,28.5,17.1,15.2,3.8,296,3.3,40,1,0,1,1,1,0,1,0,0
+576,Lentil Soup (V5),lunch,291,15.6,41.7,4.2,8.3,793,15.2,45,0,0,0,0,0,1,1,1,0
+577,Tuna Sandwich (V5),lunch,408,26.9,38.7,15.1,3.2,503,7.0,15,0,0,0,0,1,0,1,0,0
+578,Vegetable Stir Fry with Rice (V5),lunch,341,10.2,49.5,8.5,4.3,673,11.3,10,0,0,0,0,0,1,1,1,0
+579,Chicken Noodle Soup (V5),lunch,365,22.9,40.0,9.1,3.4,780,15.3,15,0,0,0,0,1,1,1,0,1
+580,Quinoa Bowl with Vegetables (V5),lunch,382,14.1,50.3,12.1,6.0,682,6.8,15,0,0,0,0,0,0,1,0,0
+581,Grilled Fish with Vegetables (V5),lunch,311,29.1,15.6,12.5,3.1,685,14.4,15,1,0,0,1,1,0,1,0,1
+582,Turkey Wrap (V5),lunch,296,19.2,27.9,10.5,2.6,329,3.2,10,0,1,1,1,0,0,1,1,0
+583,Bean and Vegetable Stew (V5),lunch,321,16.6,43.6,6.2,9.3,466,12.0,30,0,1,0,0,0,1,1,1,0
+584,Salmon with Sweet Potato (V5),lunch,388,27.8,32.4,13.0,3.7,172,14.7,60,1,1,1,0,1,0,1,0,0
+585,Mushroom Risotto (V5),lunch,351,9.2,50.9,11.1,2.8,357,17.6,10,0,0,1,0,0,0,1,1,0
+586,Chicken Caesar Salad (V5),lunch,413,28.9,20.7,20.7,3.1,414,15.3,60,0,0,0,1,1,0,1,1,0
+587,Vegetable Curry with Rice (V5),lunch,435,10.4,64.3,12.5,5.2,513,14.2,25,0,0,0,0,0,0,1,0,0
+588,Minestrone Soup (V5),lunch,282,11.3,43.0,6.8,6.8,236,10.1,10,0,1,1,0,0,1,1,1,0
+589,Baked Potato with Tuna (V5),lunch,372,22.8,43.5,8.3,4.1,361,19.6,10,0,1,1,0,1,1,1,0,0
+590,Grilled Chicken Salad (V6),lunch,331,28.4,17.1,15.2,3.8,606,3.5,10,1,0,0,1,1,0,1,0,0
+591,Lentil Soup (V6),lunch,274,14.7,39.2,3.9,7.8,172,9.9,20,1,1,1,0,0,1,1,0,0
+592,Tuna Sandwich (V6),lunch,395,26.0,37.5,14.6,3.1,269,14.6,30,0,1,1,0,1,0,1,1,1
+593,Vegetable Stir Fry with Rice (V6),lunch,445,13.4,64.6,11.1,5.6,579,18.4,60,0,0,0,0,0,0,1,1,1
+594,Chicken Noodle Soup (V6),lunch,297,18.6,32.6,7.4,2.8,395,8.4,15,0,1,1,0,0,1,1,0,0
+595,Quinoa Bowl with Vegetables (V6),lunch,399,14.7,52.6,12.6,6.3,437,8.7,45,0,1,0,0,0,0,1,0,0
+596,Grilled Fish with Vegetables (V6),lunch,329,30.7,16.5,13.2,3.3,542,7.1,60,1,0,0,1,1,0,1,1,0
+597,Turkey Wrap (V6),lunch,364,23.6,34.3,12.9,3.2,702,11.4,20,0,0,0,0,1,0,1,0,0
+598,Bean and Vegetable Stew (V6),lunch,282,14.6,38.3,5.5,8.2,718,11.7,10,1,0,0,0,0,1,1,0,0
+599,Salmon with Sweet Potato (V6),lunch,465,33.2,38.8,15.5,4.4,667,16.2,15,1,0,0,0,1,0,1,0,1
+600,Mushroom Risotto (V6),lunch,403,10.6,58.4,12.7,3.2,779,10.0,25,0,0,0,0,0,0,1,1,0
+601,Chicken Caesar Salad (V6),lunch,390,27.3,19.5,19.5,2.9,162,7.3,20,0,0,1,1,1,0,1,0,1
+602,Vegetable Curry with Rice (V6),lunch,431,10.3,63.7,12.3,5.1,234,3.0,40,0,1,1,0,0,0,1,1,1
+603,Minestrone Soup (V6),lunch,233,9.3,35.5,5.6,5.6,102,9.4,15,1,1,1,0,0,1,1,0,0
+604,Baked Potato with Tuna (V6),lunch,318,19.4,37.1,7.1,3.5,744,16.2,25,0,0,0,0,0,1,1,0,0
+605,Grilled Chicken Salad (V7),lunch,382,32.8,19.7,17.5,4.4,695,10.0,25,1,0,0,1,1,0,1,1,0
+606,Lentil Soup (V7),lunch,258,13.9,37.0,3.7,7.4,411,12.0,10,1,1,0,0,0,1,1,0,0
+607,Tuna Sandwich (V7),lunch,417,27.5,39.5,15.4,3.3,252,16.9,40,0,0,1,0,1,0,1,0,0
+608,Vegetable Stir Fry with Rice (V7),lunch,379,11.4,55.0,9.5,4.7,276,11.1,45,0,1,1,0,0,1,1,1,0
+609,Chicken Noodle Soup (V7),lunch,358,22.4,39.2,9.0,3.4,105,12.0,20,0,1,1,0,1,1,1,0,0
+610,Quinoa Bowl with Vegetables (V7),lunch,413,15.2,54.4,13.1,6.5,186,17.1,45,0,1,1,0,0,0,1,0,0
+611,Grilled Fish with Vegetables (V7),lunch,256,23.9,12.8,10.2,2.6,556,4.9,30,1,0,0,1,1,0,1,0,0
+612,Turkey Wrap (V7),lunch,328,21.2,30.9,11.6,2.9,723,4.1,10,0,0,0,0,1,0,1,0,0
+613,Bean and Vegetable Stew (V7),lunch,312,16.2,42.4,6.1,9.1,719,11.3,40,0,0,0,0,0,1,1,0,0
+614,Salmon with Sweet Potato (V7),lunch,409,29.2,34.1,13.6,3.9,515,18.0,40,1,0,0,0,1,0,1,1,0
+615,Mushroom Risotto (V7),lunch,389,10.2,56.4,12.3,3.1,773,11.3,25,0,0,0,0,0,0,1,0,1
+616,Chicken Caesar Salad (V7),lunch,369,25.8,18.5,18.5,2.8,226,6.2,45,0,0,1,1,1,0,1,0,0
+617,Vegetable Curry with Rice (V7),lunch,481,11.5,71.0,13.8,5.7,236,9.5,40,0,1,1,0,0,0,1,0,0
+618,Minestrone Soup (V7),lunch,243,9.7,37.0,5.8,5.8,548,5.7,15,1,0,0,0,0,1,1,0,0
+619,Baked Potato with Tuna (V7),lunch,374,22.9,43.7,8.3,4.2,338,4.1,10,0,1,1,0,1,1,1,0,0
+620,Grilled Chicken Salad (V8),lunch,343,29.5,17.7,15.7,3.9,381,11.2,30,1,0,1,1,1,0,1,0,0
+621,Lentil Soup (V8),lunch,255,13.7,36.5,3.6,7.3,202,9.5,10,1,1,1,0,0,1,1,0,0
+622,Tuna Sandwich (V8),lunch,399,26.3,37.9,14.7,3.2,486,12.1,30,0,1,0,0,1,0,1,1,0
+623,Vegetable Stir Fry with Rice (V8),lunch,445,13.4,64.6,11.1,5.6,767,14.6,60,0,0,0,0,0,0,1,0,0
+624,Chicken Noodle Soup (V8),lunch,352,22.1,38.6,8.8,3.3,598,4.3,40,0,0,0,0,1,1,1,0,0
+625,Quinoa Bowl with Vegetables (V8),lunch,343,12.7,45.3,10.9,5.4,528,10.7,20,0,0,0,0,0,0,1,1,0
+626,Grilled Fish with Vegetables (V8),lunch,327,30.5,16.4,13.1,3.3,534,7.1,15,1,0,0,1,1,0,1,1,0
+627,Turkey Wrap (V8),lunch,328,21.3,30.9,11.6,2.9,284,15.4,45,0,1,1,0,1,0,1,1,0
+628,Bean and Vegetable Stew (V8),lunch,270,14.0,36.6,5.2,7.9,432,16.5,45,1,1,0,0,0,1,1,1,0
+629,Salmon with Sweet Potato (V8),lunch,362,25.9,30.2,12.1,3.5,422,6.0,40,1,1,0,0,1,0,1,0,0
+630,Mushroom Risotto (V8),lunch,403,10.6,58.4,12.7,3.2,743,10.4,25,0,0,0,0,0,0,1,1,0
+631,Chicken Caesar Salad (V8),lunch,451,31.6,22.6,22.6,3.4,513,5.9,40,0,0,0,1,1,0,1,0,0
+632,Vegetable Curry with Rice (V8),lunch,436,10.4,64.5,12.5,5.2,581,15.9,45,0,0,0,0,0,0,1,1,0
+633,Minestrone Soup (V8),lunch,244,9.8,37.2,5.9,5.9,413,16.1,30,1,1,0,0,0,1,1,0,0
+634,Baked Potato with Tuna (V8),lunch,387,23.7,45.3,8.6,4.3,454,14.1,60,0,1,0,0,1,1,1,0,0
+635,Grilled Chicken Salad (V9),lunch,367,31.5,18.9,16.8,4.2,319,9.0,15,1,0,1,1,1,0,1,0,0
+636,Lentil Soup (V9),lunch,288,15.4,41.2,4.1,8.2,675,15.9,15,0,0,0,0,0,1,1,0,0
+637,Tuna Sandwich (V9),lunch,340,22.4,32.3,12.6,2.7,781,9.5,20,0,0,0,0,1,0,1,1,1
+638,Vegetable Stir Fry with Rice (V9),lunch,377,11.3,54.8,9.4,4.7,139,12.8,15,0,1,1,0,0,1,1,0,0
+639,Chicken Noodle Soup (V9),lunch,320,20.0,35.1,8.0,3.0,306,12.0,15,0,1,1,0,0,1,1,0,0
+640,Quinoa Bowl with Vegetables (V9),lunch,416,15.4,54.8,13.2,6.6,757,19.3,10,0,0,0,0,0,0,1,1,0
+641,Grilled Fish with Vegetables (V9),lunch,278,26.0,13.9,11.2,2.8,777,15.5,30,1,0,0,1,1,0,1,0,0
+642,Turkey Wrap (V9),lunch,308,20.0,29.0,10.9,2.7,477,7.0,20,0,1,0,1,0,0,1,0,0
+643,Bean and Vegetable Stew (V9),lunch,325,16.8,44.0,6.3,9.4,306,16.0,45,0,1,1,0,0,1,1,0,0
+644,Salmon with Sweet Potato (V9),lunch,454,32.5,37.9,15.1,4.3,439,8.6,25,1,0,0,0,1,0,1,1,0
+645,Mushroom Risotto (V9),lunch,353,9.3,51.1,11.2,2.8,504,18.0,45,0,0,0,0,0,0,1,0,1
+646,Chicken Caesar Salad (V9),lunch,420,29.4,21.0,21.0,3.2,316,18.2,20,0,0,1,1,1,0,1,0,0
+647,Vegetable Curry with Rice (V9),lunch,411,9.8,60.8,11.8,4.9,176,16.9,15,0,1,1,0,0,0,1,0,0
+648,Minestrone Soup (V9),lunch,265,10.6,40.4,6.4,6.4,649,3.7,25,0,0,0,0,0,1,1,0,0
+649,Baked Potato with Tuna (V9),lunch,392,24.0,45.8,8.7,4.4,672,17.4,30,0,0,0,0,1,1,1,0,0
+650,Grilled Chicken Salad (V10),lunch,329,28.2,16.9,15.1,3.8,558,8.5,20,1,0,0,1,1,0,1,0,1
+651,Lentil Soup (V10),lunch,244,13.1,35.0,3.5,7.0,600,6.2,40,1,0,0,0,0,1,1,1,0
+652,Tuna Sandwich (V10),lunch,403,26.5,38.2,14.9,3.2,455,2.7,45,0,1,0,0,1,0,1,0,1
+653,Vegetable Stir Fry with Rice (V10),lunch,452,13.6,65.6,11.3,5.7,224,12.6,10,0,1,1,0,0,0,1,1,0
+654,Chicken Noodle Soup (V10),lunch,342,21.4,37.4,8.6,3.2,549,14.7,20,0,0,0,0,1,1,1,0,0
+655,Quinoa Bowl with Vegetables (V10),lunch,421,15.5,55.5,13.3,6.7,750,18.7,45,0,0,0,0,0,0,1,0,0
+656,Grilled Fish with Vegetables (V10),lunch,297,27.7,14.9,11.9,3.0,760,19.7,25,1,0,0,1,1,0,1,0,0
+657,Turkey Wrap (V10),lunch,384,24.9,36.2,13.6,3.4,113,3.0,20,0,1,1,0,1,0,1,0,0
+658,Bean and Vegetable Stew (V10),lunch,343,17.7,46.6,6.7,10.0,570,18.7,25,0,0,0,0,0,1,1,0,0
+659,Salmon with Sweet Potato (V10),lunch,444,31.8,37.1,14.8,4.2,281,7.0,20,1,1,1,0,1,0,1,0,0
+660,Mushroom Risotto (V10),lunch,370,9.7,53.6,11.7,2.9,715,14.7,40,0,0,0,0,0,0,1,0,0
+661,Chicken Caesar Salad (V10),lunch,453,31.8,22.7,22.7,3.4,533,2.3,60,0,0,0,1,1,0,1,1,1
+662,Vegetable Curry with Rice (V10),lunch,414,9.9,61.1,11.8,4.9,395,16.5,40,0,1,1,0,0,0,1,0,0
+663,Minestrone Soup (V10),lunch,284,11.4,43.2,6.8,6.8,112,4.8,30,0,1,1,0,0,1,1,0,0
+664,Baked Potato with Tuna (V10),lunch,314,19.2,36.7,7.0,3.5,686,12.7,60,0,0,0,0,0,1,1,0,0
+665,Grilled Chicken Salad (V11),lunch,304,26.1,15.7,13.9,3.5,739,13.1,45,1,0,0,1,1,0,1,0,0
+666,Lentil Soup (V11),lunch,255,13.7,36.5,3.7,7.3,144,19.6,60,1,1,1,0,0,1,1,1,0
+667,Tuna Sandwich (V11),lunch,355,23.4,33.7,13.1,2.8,610,4.3,20,0,0,0,0,1,0,1,1,0
+668,Vegetable Stir Fry with Rice (V11),lunch,414,12.4,60.1,10.4,5.2,730,13.1,45,0,0,0,0,0,0,1,0,1
+669,Chicken Noodle Soup (V11),lunch,304,19.0,33.3,7.6,2.9,408,19.6,10,0,1,0,0,0,1,1,0,0
+670,Quinoa Bowl with Vegetables (V11),lunch,357,13.2,47.1,11.3,5.7,593,8.9,15,0,0,0,0,0,0,1,0,1
+671,Grilled Fish with Vegetables (V11),lunch,297,27.8,14.9,11.9,3.0,149,6.8,15,1,1,1,1,1,0,1,1,0
+672,Turkey Wrap (V11),lunch,343,22.2,32.3,12.1,3.0,737,5.0,60,0,0,0,0,1,0,1,0,0
+673,Bean and Vegetable Stew (V11),lunch,337,17.4,45.8,6.5,9.8,209,13.4,30,0,1,1,0,0,1,1,1,1
+674,Salmon with Sweet Potato (V11),lunch,389,27.8,32.4,13.0,3.7,148,8.4,30,1,1,1,0,1,0,1,1,1
+675,Mushroom Risotto (V11),lunch,415,10.9,60.1,13.1,3.3,322,16.0,40,0,0,1,0,0,0,1,0,1
+676,Chicken Caesar Salad (V11),lunch,349,24.5,17.5,17.5,2.6,741,16.9,20,0,0,0,1,1,0,1,0,0
+677,Vegetable Curry with Rice (V11),lunch,374,8.9,55.3,10.7,4.5,585,16.1,60,0,0,0,0,0,0,1,1,0
+678,Minestrone Soup (V11),lunch,233,9.3,35.4,5.6,5.6,545,17.8,10,1,0,0,0,0,1,1,0,0
+679,Baked Potato with Tuna (V11),lunch,394,24.1,46.1,8.8,4.4,205,7.1,15,0,1,1,0,1,1,1,0,0
+680,Grilled Chicken Salad (V12),lunch,357,30.7,18.4,16.4,4.1,470,19.9,10,1,0,0,1,1,0,1,0,0
+681,Lentil Soup (V12),lunch,283,15.2,40.5,4.0,8.1,778,12.1,60,0,0,0,0,0,1,1,0,0
+682,Tuna Sandwich (V12),lunch,345,22.7,32.7,12.7,2.7,181,10.5,10,0,1,1,0,1,0,1,0,0
+683,Vegetable Stir Fry with Rice (V12),lunch,440,13.2,63.9,11.0,5.5,426,4.1,60,0,1,0,0,0,0,1,0,0
+684,Chicken Noodle Soup (V12),lunch,315,19.7,34.5,7.9,3.0,444,11.2,60,0,1,0,0,0,1,1,1,0
+685,Quinoa Bowl with Vegetables (V12),lunch,343,12.6,45.1,10.8,5.4,688,12.4,15,0,0,0,0,0,0,1,0,0
+686,Grilled Fish with Vegetables (V12),lunch,342,31.9,17.1,13.7,3.4,171,8.7,60,1,1,1,1,1,0,1,1,1
+687,Turkey Wrap (V12),lunch,376,24.3,35.4,13.3,3.3,152,7.0,25,0,1,1,0,1,0,1,0,0
+688,Bean and Vegetable Stew (V12),lunch,347,17.9,47.1,6.7,10.1,707,18.7,60,0,0,0,0,0,1,1,0,0
+689,Salmon with Sweet Potato (V12),lunch,455,32.6,38.0,15.2,4.3,643,16.4,20,1,0,0,0,1,0,1,0,0
+690,Mushroom Risotto (V12),lunch,406,10.7,58.8,12.8,3.2,448,16.3,40,0,0,0,0,0,0,1,0,1
+691,Chicken Caesar Salad (V12),lunch,370,25.9,18.5,18.5,2.8,695,6.5,40,0,0,0,1,1,0,1,0,0
+692,Vegetable Curry with Rice (V12),lunch,432,10.3,63.9,12.4,5.2,375,8.8,10,0,1,1,0,0,0,1,1,0
+693,Minestrone Soup (V12),lunch,238,9.6,36.3,5.7,5.7,372,7.3,60,1,1,1,0,0,1,1,0,1
+694,Baked Potato with Tuna (V12),lunch,337,20.6,39.4,7.5,3.7,414,6.3,20,0,1,0,0,1,1,1,0,1
+695,Grilled Chicken Salad (V13),lunch,378,32.5,19.5,17.3,4.3,371,13.1,40,1,0,1,1,1,0,1,0,0
+696,Lentil Soup (V13),lunch,321,17.2,46.0,4.6,9.2,707,8.8,40,0,0,0,0,0,1,1,0,1
+697,Tuna Sandwich (V13),lunch,326,21.5,30.9,12.0,2.6,760,2.8,10,0,0,0,0,1,0,1,0,0
+698,Vegetable Stir Fry with Rice (V13),lunch,449,13.5,65.1,11.2,5.6,463,11.0,45,0,1,0,0,0,0,1,0,0
+699,Chicken Noodle Soup (V13),lunch,353,22.1,38.7,8.8,3.3,748,17.1,10,0,0,0,0,1,1,1,0,0
+700,Quinoa Bowl with Vegetables (V13),lunch,347,12.8,45.7,11.0,5.5,239,15.0,40,0,1,1,0,0,0,1,0,1
+701,Grilled Fish with Vegetables (V13),lunch,338,31.5,16.9,13.5,3.4,367,8.8,60,1,1,1,1,1,0,1,1,1
+702,Turkey Wrap (V13),lunch,346,22.5,32.7,12.2,3.1,372,5.8,15,0,1,1,0,1,0,1,0,0
+703,Bean and Vegetable Stew (V13),lunch,349,18.1,47.4,6.8,10.2,489,8.6,40,0,1,0,0,0,1,1,1,0
+704,Salmon with Sweet Potato (V13),lunch,423,30.2,35.3,14.1,4.0,332,7.1,20,1,1,1,0,1,0,1,0,1
+705,Mushroom Risotto (V13),lunch,432,11.4,62.6,13.7,3.4,162,2.7,45,0,0,1,0,0,0,1,1,0
+706,Chicken Caesar Salad (V13),lunch,421,29.5,21.1,21.1,3.2,127,17.3,45,0,0,1,1,1,0,1,0,0
+707,Vegetable Curry with Rice (V13),lunch,401,9.6,59.2,11.5,4.8,276,7.1,15,0,1,1,0,0,0,1,0,0
+708,Minestrone Soup (V13),lunch,253,10.1,38.5,6.1,6.1,327,13.2,40,1,1,1,0,0,1,1,0,0
+709,Baked Potato with Tuna (V13),lunch,321,19.6,37.5,7.1,3.6,795,10.0,10,0,0,0,0,0,1,1,1,0
+710,Grilled Chicken Salad (V14),lunch,354,30.4,18.2,16.2,4.0,559,5.3,60,1,0,0,1,1,0,1,0,1
+711,Lentil Soup (V14),lunch,251,13.5,36.0,3.6,7.2,466,4.9,25,1,1,0,0,0,1,1,1,0
+712,Tuna Sandwich (V14),lunch,374,24.6,35.4,13.8,3.0,610,11.0,15,0,0,0,0,1,0,1,1,1
+713,Vegetable Stir Fry with Rice (V14),lunch,448,13.5,65.0,11.2,5.6,459,12.4,20,0,1,0,0,0,0,1,1,1
+714,Chicken Noodle Soup (V14),lunch,362,22.6,39.6,9.1,3.4,212,2.1,25,0,1,1,0,1,1,1,0,1
+715,Quinoa Bowl with Vegetables (V14),lunch,404,14.9,53.3,12.8,6.4,450,8.4,25,0,1,0,0,0,0,1,0,0
+716,Grilled Fish with Vegetables (V14),lunch,317,29.6,15.9,12.7,3.2,228,9.9,15,1,1,1,1,1,0,1,1,0
+717,Turkey Wrap (V14),lunch,332,21.5,31.3,11.7,2.9,532,16.8,30,0,0,0,0,1,0,1,0,0
+718,Bean and Vegetable Stew (V14),lunch,290,15.0,39.3,5.6,8.4,242,19.1,40,1,1,1,0,0,1,1,0,0
+719,Salmon with Sweet Potato (V14),lunch,377,27.0,31.5,12.6,3.6,169,18.2,60,1,1,1,0,1,0,1,1,1
+720,Mushroom Risotto (V14),lunch,389,10.2,56.3,12.3,3.1,760,16.8,40,0,0,0,0,0,0,1,0,0
+721,Chicken Caesar Salad (V14),lunch,389,27.3,19.5,19.5,2.9,237,7.9,10,0,0,1,1,1,0,1,1,0
+722,Vegetable Curry with Rice (V14),lunch,455,10.8,67.2,13.0,5.4,336,3.4,30,0,1,1,0,0,0,1,1,0
+723,Minestrone Soup (V14),lunch,228,9.1,34.7,5.5,5.5,684,18.1,15,1,0,0,0,0,1,1,0,1
+724,Baked Potato with Tuna (V14),lunch,377,23.0,44.0,8.4,4.2,207,3.9,15,0,1,1,0,1,1,1,0,0
+725,Grilled Chicken Salad (V15),lunch,356,30.6,18.3,16.3,4.1,537,9.6,40,1,0,0,1,1,0,1,1,0
+726,Lentil Soup (V15),lunch,274,14.7,39.2,3.9,7.8,594,4.6,45,1,0,0,0,0,1,1,1,0
+727,Tuna Sandwich (V15),lunch,375,24.7,35.5,13.8,3.0,651,19.8,10,0,0,0,0,1,0,1,1,0
+728,Vegetable Stir Fry with Rice (V15),lunch,383,11.5,55.6,9.6,4.8,504,15.4,40,0,0,0,0,0,1,1,0,0
+729,Chicken Noodle Soup (V15),lunch,306,19.2,33.6,7.7,2.9,786,2.9,40,0,0,0,0,0,1,1,1,1
+730,Quinoa Bowl with Vegetables (V15),lunch,376,13.9,49.5,11.9,5.9,689,18.4,20,0,0,0,0,0,0,1,1,0
+731,Grilled Fish with Vegetables (V15),lunch,327,30.6,16.4,13.1,3.3,608,8.9,10,1,0,0,1,1,0,1,1,1
+732,Turkey Wrap (V15),lunch,290,18.8,27.4,10.3,2.6,669,14.3,10,0,0,0,1,0,0,1,0,0
+733,Bean and Vegetable Stew (V15),lunch,292,15.1,39.6,5.7,8.5,489,4.9,60,1,1,0,0,0,1,1,0,0
+734,Salmon with Sweet Potato (V15),lunch,473,33.9,39.5,15.8,4.5,561,3.2,60,1,0,0,0,1,0,1,1,0
+735,Mushroom Risotto (V15),lunch,411,10.8,59.5,13.0,3.2,518,3.4,20,0,0,0,0,0,0,1,1,0
+736,Chicken Caesar Salad (V15),lunch,452,31.7,22.6,22.6,3.4,143,16.7,30,0,0,1,1,1,0,1,0,0
+737,Vegetable Curry with Rice (V15),lunch,478,11.4,70.6,13.7,5.7,454,8.4,30,0,1,0,0,0,0,1,0,0
+738,Minestrone Soup (V15),lunch,233,9.3,35.5,5.6,5.6,562,9.1,25,1,0,0,0,0,1,1,0,1
+739,Baked Potato with Tuna (V15),lunch,403,24.7,47.1,9.0,4.5,487,9.5,25,0,1,0,0,1,1,1,0,0
+740,Grilled Chicken Salad (V16),lunch,307,26.4,15.8,14.1,3.5,235,11.0,20,1,1,1,1,1,0,1,1,0
+741,Lentil Soup (V16),lunch,308,16.5,44.0,4.4,8.8,682,18.8,20,0,0,0,0,0,1,1,0,0
+742,Tuna Sandwich (V16),lunch,355,23.4,33.7,13.1,2.8,557,7.7,15,0,0,0,0,1,0,1,0,0
+743,Vegetable Stir Fry with Rice (V16),lunch,427,12.8,62.0,10.7,5.3,270,18.1,45,0,1,1,0,0,0,1,0,0
+744,Chicken Noodle Soup (V16),lunch,353,22.1,38.6,8.8,3.3,593,3.9,30,0,0,0,0,1,1,1,0,0
+745,Quinoa Bowl with Vegetables (V16),lunch,419,15.4,55.2,13.2,6.6,523,11.9,10,0,0,0,0,0,0,1,0,0
+746,Grilled Fish with Vegetables (V16),lunch,284,26.5,14.2,11.4,2.8,546,6.9,20,1,0,0,1,1,0,1,0,0
+747,Turkey Wrap (V16),lunch,322,20.8,30.3,11.4,2.8,515,14.1,40,0,0,0,0,1,0,1,0,1
+748,Bean and Vegetable Stew (V16),lunch,299,15.4,40.5,5.8,8.7,614,20.0,25,0,0,0,0,0,1,1,0,0
+749,Salmon with Sweet Potato (V16),lunch,372,26.6,31.0,12.4,3.5,332,5.6,15,1,1,1,0,1,0,1,0,1
+750,Mushroom Risotto (V16),lunch,358,9.4,51.8,11.3,2.8,355,18.5,10,0,0,1,0,0,0,1,1,1
+751,Chicken Caesar Salad (V16),lunch,390,27.3,19.5,19.5,2.9,124,16.3,15,0,0,1,1,1,0,1,1,0
+752,Vegetable Curry with Rice (V16),lunch,369,8.8,54.6,10.6,4.4,124,13.9,25,0,1,1,0,0,0,1,0,1
+753,Minestrone Soup (V16),lunch,230,9.2,35.0,5.5,5.5,696,17.0,30,1,0,0,0,0,1,1,0,0
+754,Baked Potato with Tuna (V16),lunch,336,20.5,39.2,7.5,3.7,357,18.7,15,0,1,1,0,1,1,1,0,1
+755,Grilled Chicken Salad (V17),lunch,341,29.3,17.6,15.6,3.9,629,17.4,20,1,0,0,1,1,0,1,0,1
+756,Lentil Soup (V17),lunch,304,16.3,43.4,4.3,8.7,530,6.5,15,0,0,0,0,0,1,1,0,0
+757,Tuna Sandwich (V17),lunch,434,28.6,41.1,16.0,3.4,741,3.1,20,0,0,0,0,1,0,1,0,0
+758,Vegetable Stir Fry with Rice (V17),lunch,448,13.5,65.0,11.2,5.6,674,2.9,25,0,0,0,0,0,0,1,0,1
+759,Chicken Noodle Soup (V17),lunch,293,18.3,32.1,7.3,2.7,564,6.1,30,0,0,0,0,0,1,1,1,1
+760,Quinoa Bowl with Vegetables (V17),lunch,345,12.7,45.4,10.9,5.4,729,8.1,25,0,0,0,0,0,0,1,1,0
+761,Grilled Fish with Vegetables (V17),lunch,284,26.6,14.2,11.4,2.8,170,2.9,25,1,1,1,1,1,0,1,0,0
+762,Turkey Wrap (V17),lunch,338,21.9,31.9,11.9,3.0,530,11.5,20,0,0,0,0,1,0,1,1,1
+763,Bean and Vegetable Stew (V17),lunch,291,15.0,39.4,5.6,8.5,410,4.8,25,1,1,0,0,0,1,1,0,0
+764,Salmon with Sweet Potato (V17),lunch,408,29.2,34.0,13.6,3.9,323,14.2,30,1,1,1,0,1,0,1,0,0
+765,Mushroom Risotto (V17),lunch,361,9.5,52.3,11.4,2.9,133,5.5,40,0,0,1,0,0,0,1,0,0
+766,Chicken Caesar Salad (V17),lunch,380,26.6,19.0,19.0,2.9,466,7.4,45,0,0,0,1,1,0,1,1,0
+767,Vegetable Curry with Rice (V17),lunch,467,11.1,69.0,13.4,5.6,434,16.9,10,0,1,0,0,0,0,1,0,1
+768,Minestrone Soup (V17),lunch,215,8.6,32.8,5.2,5.2,737,11.6,40,1,0,0,0,0,1,1,0,0
+769,Baked Potato with Tuna (V17),lunch,314,19.2,36.7,7.0,3.5,748,4.8,45,0,0,0,0,0,1,1,1,1
+770,Grilled Chicken Salad (V18),lunch,334,28.7,17.2,15.3,3.8,262,12.4,30,1,0,1,1,1,0,1,0,0
+771,Lentil Soup (V18),lunch,302,16.2,43.2,4.3,8.6,286,9.4,15,0,1,1,0,0,1,1,0,0
+772,Tuna Sandwich (V18),lunch,380,25.0,36.0,14.0,3.0,115,5.6,30,0,1,1,0,1,0,1,0,0
+773,Vegetable Stir Fry with Rice (V18),lunch,355,10.7,51.5,8.9,4.4,440,16.0,15,0,1,0,0,0,1,1,0,0
+774,Chicken Noodle Soup (V18),lunch,317,19.8,34.7,7.9,3.0,447,5.5,45,0,1,0,0,0,1,1,1,0
+775,Quinoa Bowl with Vegetables (V18),lunch,351,13.0,46.3,11.1,5.6,207,3.1,20,0,1,1,0,0,0,1,0,0
+776,Grilled Fish with Vegetables (V18),lunch,331,30.9,16.6,13.2,3.3,111,4.7,20,1,1,1,1,1,0,1,0,0
+777,Turkey Wrap (V18),lunch,358,23.2,33.8,12.7,3.2,415,2.0,25,0,1,0,0,1,0,1,1,0
+778,Bean and Vegetable Stew (V18),lunch,284,14.7,38.6,5.5,8.3,543,19.0,10,1,0,0,0,0,1,1,0,0
+779,Salmon with Sweet Potato (V18),lunch,384,27.5,32.0,12.8,3.7,520,13.7,30,1,0,0,0,1,0,1,0,0
+780,Mushroom Risotto (V18),lunch,328,8.6,47.5,10.4,2.6,652,19.9,60,0,0,0,0,0,0,1,0,0
+781,Chicken Caesar Salad (V18),lunch,379,26.6,19.0,19.0,2.8,687,2.5,15,0,0,0,1,1,0,1,1,0
+782,Vegetable Curry with Rice (V18),lunch,360,8.6,53.2,10.3,4.3,159,16.0,20,0,1,1,0,0,0,1,0,1
+783,Minestrone Soup (V18),lunch,234,9.4,35.7,5.6,5.6,770,16.5,15,1,0,0,0,0,1,1,1,0
+784,Baked Potato with Tuna (V18),lunch,368,22.5,43.0,8.2,4.1,224,2.4,30,0,1,1,0,1,1,1,1,1
+785,Grilled Chicken Salad (V19),lunch,360,30.9,18.5,16.5,4.1,773,18.5,25,1,0,0,1,1,0,1,1,0
+786,Lentil Soup (V19),lunch,321,17.2,45.9,4.6,9.2,121,11.5,60,0,1,1,0,0,1,1,0,0
+787,Tuna Sandwich (V19),lunch,358,23.6,33.9,13.2,2.8,263,13.1,40,0,1,1,0,1,0,1,1,1
+788,Vegetable Stir Fry with Rice (V19),lunch,372,11.2,54.0,9.3,4.7,798,18.6,30,0,0,0,0,0,1,1,0,0
+789,Chicken Noodle Soup (V19),lunch,273,17.1,29.9,6.8,2.6,495,7.8,30,0,1,0,1,0,1,1,0,1
+790,Quinoa Bowl with Vegetables (V19),lunch,337,12.4,44.4,10.7,5.3,626,3.7,10,0,0,0,0,0,0,1,0,0
+791,Grilled Fish with Vegetables (V19),lunch,283,26.5,14.2,11.3,2.8,471,13.6,60,1,1,0,1,1,0,1,0,1
+792,Turkey Wrap (V19),lunch,289,18.7,27.2,10.2,2.6,386,7.8,25,0,1,1,1,0,0,1,1,1
+793,Bean and Vegetable Stew (V19),lunch,313,16.2,42.5,6.1,9.1,350,16.8,30,0,1,1,0,0,1,1,0,1
+794,Salmon with Sweet Potato (V19),lunch,426,30.4,35.5,14.2,4.1,607,6.1,60,1,0,0,0,1,0,1,1,0
+795,Mushroom Risotto (V19),lunch,334,8.8,48.3,10.5,2.6,686,16.9,40,0,0,0,0,0,0,1,0,0
+796,Chicken Caesar Salad (V19),lunch,444,31.1,22.2,22.2,3.3,710,18.0,20,0,0,0,1,1,0,1,0,0
+797,Vegetable Curry with Rice (V19),lunch,395,9.4,58.4,11.3,4.7,425,12.7,60,0,1,0,0,0,0,1,1,0
+798,Minestrone Soup (V19),lunch,222,8.9,33.8,5.3,5.3,574,4.2,25,1,0,0,0,0,1,1,0,0
+799,Baked Potato with Tuna (V19),lunch,400,24.5,46.7,8.9,4.4,201,3.7,20,0,1,1,0,1,1,1,1,1
+800,Grilled Chicken Salad (V20),lunch,327,28.1,16.8,15.0,3.7,151,10.9,30,1,0,1,1,1,0,1,0,1
+801,Lentil Soup (V20),lunch,248,13.3,35.5,3.6,7.1,726,10.6,20,1,0,0,0,0,1,1,1,0
+802,Tuna Sandwich (V20),lunch,397,26.1,37.6,14.6,3.1,650,19.6,45,0,0,0,0,1,0,1,0,1
+803,Vegetable Stir Fry with Rice (V20),lunch,416,12.5,60.4,10.4,5.2,510,18.8,15,0,0,0,0,0,0,1,0,0
+804,Chicken Noodle Soup (V20),lunch,296,18.5,32.4,7.4,2.8,468,13.0,10,0,1,0,0,0,1,1,0,0
+805,Quinoa Bowl with Vegetables (V20),lunch,338,12.5,44.5,10.7,5.3,475,3.3,45,0,1,0,0,0,0,1,0,1
+806,Grilled Fish with Vegetables (V20),lunch,318,29.7,15.9,12.7,3.2,751,8.5,30,1,0,0,1,1,0,1,0,0
+807,Turkey Wrap (V20),lunch,383,24.8,36.1,13.5,3.4,368,15.8,40,0,1,1,0,1,0,1,0,0
+808,Bean and Vegetable Stew (V20),lunch,321,16.6,43.6,6.2,9.3,579,15.6,40,0,0,0,0,0,1,1,0,0
+809,Salmon with Sweet Potato (V20),lunch,426,30.5,35.5,14.2,4.1,528,4.2,25,1,0,0,0,1,0,1,0,0
+810,Mushroom Risotto (V20),lunch,415,10.9,60.2,13.1,3.3,640,8.1,25,0,0,0,0,0,0,1,1,1
+811,Chicken Caesar Salad (V20),lunch,399,28.0,20.0,20.0,3.0,513,18.9,30,0,0,0,1,1,0,1,1,0
+812,Vegetable Curry with Rice (V20),lunch,409,9.7,60.4,11.7,4.9,717,13.1,30,0,0,0,0,0,0,1,0,0
+813,Minestrone Soup (V20),lunch,217,8.7,33.0,5.2,5.2,186,9.5,45,1,1,1,0,0,1,1,0,0
+814,Baked Potato with Tuna (V20),lunch,322,19.7,37.6,7.2,3.6,749,6.7,60,0,0,0,0,0,1,1,0,0
+815,Grilled Chicken Salad (V21),lunch,332,28.5,17.1,15.2,3.8,612,4.9,25,1,0,0,1,1,0,1,1,0
+816,Lentil Soup (V21),lunch,255,13.7,36.5,3.7,7.3,359,11.9,40,1,1,1,0,0,1,1,0,1
+817,Tuna Sandwich (V21),lunch,336,22.1,31.9,12.4,2.7,391,11.7,20,0,1,1,0,1,0,1,0,0
+818,Vegetable Stir Fry with Rice (V21),lunch,357,10.7,51.9,8.9,4.5,255,7.3,60,0,1,1,0,0,1,1,0,0
+819,Chicken Noodle Soup (V21),lunch,307,19.2,33.7,7.7,2.9,520,3.5,60,0,0,0,0,0,1,1,0,0
+820,Quinoa Bowl with Vegetables (V21),lunch,380,14.0,50.0,12.0,6.0,641,3.4,20,0,0,0,0,0,0,1,0,0
+821,Grilled Fish with Vegetables (V21),lunch,287,26.8,14.4,11.5,2.9,189,7.0,45,1,1,1,1,1,0,1,0,0
+822,Turkey Wrap (V21),lunch,389,25.2,36.7,13.8,3.4,189,5.2,40,0,1,1,0,1,0,1,0,0
+823,Bean and Vegetable Stew (V21),lunch,307,15.9,41.6,5.9,8.9,706,19.9,40,0,0,0,0,0,1,1,0,0
+824,Salmon with Sweet Potato (V21),lunch,459,32.8,38.3,15.3,4.4,729,13.1,45,1,0,0,0,1,0,1,0,1
+825,Mushroom Risotto (V21),lunch,415,10.9,60.2,13.1,3.3,260,12.2,30,0,0,1,0,0,0,1,0,0
+826,Chicken Caesar Salad (V21),lunch,385,27.0,19.3,19.3,2.9,373,12.8,20,0,0,1,1,1,0,1,0,0
+827,Vegetable Curry with Rice (V21),lunch,471,11.2,69.5,13.5,5.6,463,2.9,15,0,1,0,0,0,0,1,0,1
+828,Minestrone Soup (V21),lunch,232,9.3,35.3,5.6,5.6,197,16.4,40,1,1,1,0,0,1,1,1,0
+829,Baked Potato with Tuna (V21),lunch,356,21.8,41.6,7.9,4.0,602,12.8,45,0,0,0,0,1,1,1,1,0
+830,Grilled Chicken Salad (V22),lunch,314,27.0,16.2,14.4,3.6,323,6.0,45,1,1,1,1,1,0,1,0,1
+831,Lentil Soup (V22),lunch,306,16.4,43.8,4.4,8.8,552,12.9,15,0,0,0,0,0,1,1,1,0
+832,Tuna Sandwich (V22),lunch,384,25.3,36.5,14.2,3.0,222,4.9,20,0,1,1,0,1,0,1,0,1
+833,Vegetable Stir Fry with Rice (V22),lunch,411,12.4,59.7,10.3,5.1,495,9.2,30,0,1,0,0,0,0,1,0,0
+834,Chicken Noodle Soup (V22),lunch,297,18.6,32.6,7.4,2.8,221,4.6,25,0,1,1,0,0,1,1,1,1
+835,Quinoa Bowl with Vegetables (V22),lunch,386,14.2,50.8,12.2,6.1,115,12.2,60,0,1,1,0,0,0,1,1,0
+836,Grilled Fish with Vegetables (V22),lunch,265,24.8,13.3,10.6,2.7,426,3.8,40,1,1,0,1,1,0,1,0,0
+837,Turkey Wrap (V22),lunch,342,22.2,32.2,12.1,3.0,527,2.8,20,0,0,0,0,1,0,1,0,0
+838,Bean and Vegetable Stew (V22),lunch,305,15.8,41.4,5.9,8.9,405,5.1,10,0,1,0,0,0,1,1,0,0
+839,Salmon with Sweet Potato (V22),lunch,442,31.6,36.9,14.8,4.2,519,8.4,20,1,0,0,0,1,0,1,0,0
+840,Mushroom Risotto (V22),lunch,328,8.6,47.5,10.4,2.6,289,8.9,40,0,0,1,0,0,0,1,1,0
+841,Chicken Caesar Salad (V22),lunch,360,25.2,18.0,18.0,2.7,191,13.6,20,0,0,1,1,1,0,1,0,0
+842,Vegetable Curry with Rice (V22),lunch,439,10.5,64.8,12.6,5.2,580,2.4,10,0,0,0,0,0,0,1,1,0
+843,Minestrone Soup (V22),lunch,257,10.3,39.1,6.2,6.2,531,4.1,30,1,0,0,0,0,1,1,1,1
+844,Baked Potato with Tuna (V22),lunch,325,19.9,38.0,7.2,3.6,466,5.7,15,0,1,0,0,0,1,1,0,0
+845,Grilled Chicken Salad (V23),lunch,394,33.8,20.3,18.0,4.5,594,9.9,45,1,0,0,1,1,0,1,0,0
+846,Lentil Soup (V23),lunch,321,17.2,45.9,4.6,9.2,408,14.4,40,0,1,0,0,0,1,1,0,1
+847,Tuna Sandwich (V23),lunch,368,24.2,34.9,13.6,2.9,662,15.3,40,0,0,0,0,1,0,1,1,0
+848,Vegetable Stir Fry with Rice (V23),lunch,380,11.4,55.1,9.5,4.8,538,6.9,25,0,0,0,0,0,1,1,0,0
+849,Chicken Noodle Soup (V23),lunch,349,21.8,38.2,8.7,3.3,352,5.3,30,0,1,1,0,1,1,1,0,1
+850,Quinoa Bowl with Vegetables (V23),lunch,370,13.6,48.7,11.7,5.8,691,14.2,40,0,0,0,0,0,0,1,0,0
+851,Grilled Fish with Vegetables (V23),lunch,267,24.9,13.4,10.7,2.7,518,9.1,40,1,0,0,1,1,0,1,1,0
+852,Turkey Wrap (V23),lunch,347,22.5,32.7,12.3,3.1,184,19.8,10,0,1,1,0,1,0,1,0,0
+853,Bean and Vegetable Stew (V23),lunch,331,17.1,44.9,6.4,9.6,451,8.4,20,0,1,0,0,0,1,1,0,1
+854,Salmon with Sweet Potato (V23),lunch,439,31.4,36.6,14.7,4.2,714,12.0,30,1,0,0,0,1,0,1,1,1
+855,Mushroom Risotto (V23),lunch,417,11.0,60.4,13.2,3.3,534,8.4,15,0,0,0,0,0,0,1,1,0
+856,Chicken Caesar Salad (V23),lunch,379,26.6,19.0,19.0,2.8,344,12.2,45,0,0,1,1,1,0,1,1,0
+857,Vegetable Curry with Rice (V23),lunch,373,8.9,55.1,10.7,4.4,276,4.4,30,0,1,1,0,0,0,1,0,1
+858,Minestrone Soup (V23),lunch,264,10.6,40.2,6.3,6.3,636,7.7,10,0,0,0,0,0,1,1,0,0
+859,Baked Potato with Tuna (V23),lunch,385,23.5,45.0,8.6,4.3,174,12.5,60,0,1,1,0,1,1,1,1,0
+860,Grilled Chicken Salad (V24),lunch,303,26.0,15.6,13.9,3.5,630,13.3,10,1,0,0,1,1,0,1,0,1
+861,Lentil Soup (V24),lunch,259,13.9,37.0,3.7,7.4,100,5.5,30,1,1,1,0,0,1,1,0,1
+862,Tuna Sandwich (V24),lunch,390,25.7,37.0,14.4,3.1,320,16.6,20,0,1,1,0,1,0,1,0,0
+863,Vegetable Stir Fry with Rice (V24),lunch,370,11.1,53.7,9.3,4.6,141,5.3,15,0,1,1,0,0,1,1,1,0
+864,Chicken Noodle Soup (V24),lunch,308,19.3,33.8,7.7,2.9,444,12.0,40,0,1,0,0,0,1,1,0,1
+865,Quinoa Bowl with Vegetables (V24),lunch,417,15.4,55.0,13.2,6.6,590,3.6,15,0,0,0,0,0,0,1,0,0
+866,Grilled Fish with Vegetables (V24),lunch,307,28.7,15.4,12.3,3.1,699,9.2,10,1,0,0,1,1,0,1,0,0
+867,Turkey Wrap (V24),lunch,377,24.4,35.5,13.3,3.3,720,16.4,25,0,0,0,0,1,0,1,1,0
+868,Bean and Vegetable Stew (V24),lunch,315,16.3,42.7,6.1,9.2,168,10.3,25,0,1,1,0,0,1,1,0,0
+869,Salmon with Sweet Potato (V24),lunch,459,32.8,38.3,15.3,4.4,720,15.0,45,1,0,0,0,1,0,1,1,0
+870,Mushroom Risotto (V24),lunch,359,9.5,52.0,11.4,2.8,620,4.5,20,0,0,0,0,0,0,1,1,1
+871,Chicken Caesar Salad (V24),lunch,443,31.0,22.2,22.2,3.3,475,9.5,30,0,0,0,1,1,0,1,1,0
+872,Vegetable Curry with Rice (V24),lunch,452,10.8,66.8,12.9,5.4,229,14.2,25,0,1,1,0,0,0,1,1,0
+873,Minestrone Soup (V24),lunch,260,10.4,39.7,6.3,6.3,250,8.9,15,1,1,1,0,0,1,1,0,0
+874,Baked Potato with Tuna (V24),lunch,380,23.3,44.4,8.5,4.2,533,7.9,45,0,0,0,0,1,1,1,1,0
+875,Grilled Chicken Salad (V25),lunch,374,32.1,19.2,17.1,4.3,205,15.1,20,1,0,1,1,1,0,1,0,0
+876,Lentil Soup (V25),lunch,292,15.7,41.7,4.2,8.3,291,13.4,40,0,1,1,0,0,1,1,0,0
+877,Tuna Sandwich (V25),lunch,345,22.7,32.7,12.7,2.7,243,16.6,10,0,1,1,0,1,0,1,0,0
+878,Vegetable Stir Fry with Rice (V25),lunch,447,13.4,64.9,11.2,5.6,282,4.6,20,0,1,1,0,0,0,1,0,0
+879,Chicken Noodle Soup (V25),lunch,304,19.0,33.3,7.6,2.9,243,10.8,60,0,1,1,0,0,1,1,0,1
+880,Quinoa Bowl with Vegetables (V25),lunch,391,14.4,51.5,12.4,6.2,694,17.8,45,0,0,0,0,0,0,1,0,0
+881,Grilled Fish with Vegetables (V25),lunch,325,30.4,16.3,13.0,3.3,647,4.6,60,1,0,0,1,1,0,1,1,0
+882,Turkey Wrap (V25),lunch,322,20.9,30.4,11.4,2.8,538,11.0,60,0,0,0,0,1,0,1,1,1
+883,Bean and Vegetable Stew (V25),lunch,291,15.1,39.6,5.7,8.5,383,16.4,40,1,1,1,0,0,1,1,1,0
+884,Salmon with Sweet Potato (V25),lunch,367,26.3,30.6,12.3,3.5,665,13.9,40,1,0,0,0,1,0,1,0,0
+885,Mushroom Risotto (V25),lunch,355,9.4,51.5,11.2,2.8,158,16.5,30,0,0,1,0,0,0,1,0,0
+886,Chicken Caesar Salad (V25),lunch,421,29.5,21.1,21.1,3.2,134,17.7,40,0,0,1,1,1,0,1,0,0
+887,Vegetable Curry with Rice (V25),lunch,477,11.4,70.5,13.7,5.7,563,17.3,25,0,0,0,0,0,0,1,1,0
+888,Minestrone Soup (V25),lunch,263,10.5,40.0,6.3,6.3,789,9.2,30,0,0,0,0,0,1,1,0,0
+889,Baked Potato with Tuna (V25),lunch,355,21.7,41.5,7.9,4.0,488,19.7,20,0,1,0,0,1,1,1,0,1
+890,Grilled Chicken Salad (V26),lunch,385,33.0,19.8,17.6,4.4,546,14.7,30,1,0,0,1,1,0,1,0,0
+891,Lentil Soup (V26),lunch,298,16.0,42.7,4.3,8.5,762,13.0,40,0,0,0,0,0,1,1,0,1
+892,Tuna Sandwich (V26),lunch,432,28.5,41.0,15.9,3.4,370,17.5,45,0,0,1,0,1,0,1,1,1
+893,Vegetable Stir Fry with Rice (V26),lunch,453,13.6,65.7,11.3,5.7,460,4.4,60,0,1,0,0,0,0,1,0,1
+894,Chicken Noodle Soup (V26),lunch,273,17.1,29.9,6.8,2.6,100,3.0,45,0,1,1,1,0,1,1,0,0
+895,Quinoa Bowl with Vegetables (V26),lunch,382,14.1,50.3,12.1,6.0,601,10.3,45,0,0,0,0,0,0,1,0,0
+896,Grilled Fish with Vegetables (V26),lunch,267,25.0,13.4,10.7,2.7,491,9.1,15,1,1,0,1,1,0,1,1,0
+897,Turkey Wrap (V26),lunch,349,22.6,32.9,12.3,3.1,192,10.4,30,0,1,1,0,1,0,1,0,1
+898,Bean and Vegetable Stew (V26),lunch,339,17.5,46.0,6.6,9.9,733,14.1,20,0,0,0,0,0,1,1,0,0
+899,Salmon with Sweet Potato (V26),lunch,451,32.3,37.6,15.1,4.3,696,13.9,40,1,0,0,0,1,0,1,0,0
+900,Mushroom Risotto (V26),lunch,372,9.8,53.9,11.8,2.9,759,2.0,20,0,0,0,0,0,0,1,1,1
+901,Chicken Caesar Salad (V26),lunch,390,27.3,19.5,19.5,2.9,796,3.9,20,0,0,0,1,1,0,1,0,0
+902,Vegetable Curry with Rice (V26),lunch,450,10.7,66.5,12.9,5.4,538,15.6,20,0,0,0,0,0,0,1,1,0
+903,Minestrone Soup (V26),lunch,282,11.3,42.9,6.8,6.8,196,14.7,25,0,1,1,0,0,1,1,0,0
+904,Baked Potato with Tuna (V26),lunch,346,21.2,40.4,7.7,3.8,643,14.8,15,0,0,0,0,1,1,1,1,1
+905,Grilled Chicken Salad (V27),lunch,401,34.4,20.7,18.4,4.6,563,6.2,15,1,0,0,1,1,0,1,1,1
+906,Lentil Soup (V27),lunch,270,14.5,38.7,3.9,7.7,117,10.1,10,1,1,1,0,0,1,1,0,0
+907,Tuna Sandwich (V27),lunch,381,25.1,36.1,14.0,3.0,178,15.9,40,0,1,1,0,1,0,1,1,0
+908,Vegetable Stir Fry with Rice (V27),lunch,395,11.9,57.3,9.9,4.9,170,10.7,15,0,1,1,0,0,1,1,0,0
+909,Chicken Noodle Soup (V27),lunch,347,21.7,38.0,8.7,3.3,167,19.9,25,0,1,1,0,1,1,1,0,0
+910,Quinoa Bowl with Vegetables (V27),lunch,383,14.1,50.5,12.1,6.1,620,2.1,25,0,0,0,0,0,0,1,0,1
+911,Grilled Fish with Vegetables (V27),lunch,256,24.0,12.8,10.3,2.6,631,16.9,40,1,0,0,1,1,0,1,0,0
+912,Turkey Wrap (V27),lunch,302,19.6,28.5,10.7,2.7,483,3.2,20,0,1,0,1,0,0,1,0,1
+913,Bean and Vegetable Stew (V27),lunch,284,14.7,38.5,5.5,8.3,673,8.8,40,1,0,0,0,0,1,1,0,0
+914,Salmon with Sweet Potato (V27),lunch,449,32.1,37.5,15.0,4.3,653,3.9,45,1,0,0,0,1,0,1,0,0
+915,Mushroom Risotto (V27),lunch,436,11.5,63.1,13.8,3.4,393,7.8,10,0,0,1,0,0,0,1,0,0
+916,Chicken Caesar Salad (V27),lunch,426,29.8,21.3,21.3,3.2,668,3.3,20,0,0,0,1,1,0,1,0,1
+917,Vegetable Curry with Rice (V27),lunch,465,11.1,68.8,13.3,5.5,420,19.2,20,0,1,0,0,0,0,1,0,1
+918,Minestrone Soup (V27),lunch,245,9.8,37.3,5.9,5.9,153,2.2,60,1,1,1,0,0,1,1,1,0
+919,Baked Potato with Tuna (V27),lunch,360,22.0,42.0,8.0,4.0,372,16.8,45,0,1,1,0,1,1,1,0,0
+920,Grilled Chicken Salad (V28),lunch,350,30.0,18.0,16.0,4.0,261,8.8,25,1,0,1,1,1,0,1,0,0
+921,Lentil Soup (V28),lunch,287,15.4,41.1,4.1,8.2,101,5.0,30,0,1,1,0,0,1,1,0,0
+922,Tuna Sandwich (V28),lunch,397,26.2,37.7,14.6,3.1,439,13.9,45,0,1,0,0,1,0,1,0,1
+923,Vegetable Stir Fry with Rice (V28),lunch,385,11.6,55.9,9.6,4.8,144,5.3,45,0,1,1,0,0,1,1,1,0
+924,Chicken Noodle Soup (V28),lunch,363,22.7,39.8,9.1,3.4,196,2.8,30,0,1,1,0,1,1,1,0,1
+925,Quinoa Bowl with Vegetables (V28),lunch,403,14.9,53.1,12.7,6.4,229,15.7,10,0,1,1,0,0,0,1,0,0
+926,Grilled Fish with Vegetables (V28),lunch,297,27.8,14.9,11.9,3.0,253,15.8,20,1,1,1,1,1,0,1,1,1
+927,Turkey Wrap (V28),lunch,384,24.9,36.2,13.6,3.4,762,15.4,15,0,0,0,0,1,0,1,0,0
+928,Bean and Vegetable Stew (V28),lunch,269,13.9,36.6,5.2,7.8,100,12.1,25,1,1,1,0,0,1,1,0,0
+929,Salmon with Sweet Potato (V28),lunch,375,26.8,31.3,12.5,3.6,325,14.4,30,1,1,1,0,1,0,1,0,1
+930,Mushroom Risotto (V28),lunch,345,9.1,50.0,10.9,2.7,290,13.8,20,0,0,1,0,0,0,1,0,0
+931,Chicken Caesar Salad (V28),lunch,423,29.6,21.2,21.2,3.2,626,15.7,25,0,0,0,1,1,0,1,1,0
+932,Vegetable Curry with Rice (V28),lunch,457,10.9,67.6,13.1,5.5,229,8.8,15,0,1,1,0,0,0,1,0,0
+933,Minestrone Soup (V28),lunch,263,10.6,40.1,6.3,6.3,611,14.4,10,0,0,0,0,0,1,1,0,0
+934,Baked Potato with Tuna (V28),lunch,344,21.1,40.2,7.7,3.8,216,9.0,30,0,1,1,0,1,1,1,0,1
+935,Grilled Chicken Salad (V29),lunch,354,30.4,18.2,16.2,4.1,328,17.3,60,1,0,1,1,1,0,1,0,1
+936,Lentil Soup (V29),lunch,263,14.1,37.7,3.8,7.5,436,4.0,15,1,1,0,0,0,1,1,0,1
+937,Tuna Sandwich (V29),lunch,407,26.8,38.6,15.0,3.2,760,10.0,30,0,0,0,0,1,0,1,0,0
+938,Vegetable Stir Fry with Rice (V29),lunch,363,10.9,52.7,9.1,4.5,595,7.4,30,0,0,0,0,0,1,1,0,0
+939,Chicken Noodle Soup (V29),lunch,344,21.6,37.7,8.6,3.2,231,19.1,25,0,1,1,0,1,1,1,0,0
+940,Quinoa Bowl with Vegetables (V29),lunch,329,12.1,43.3,10.4,5.2,304,6.6,45,0,1,1,0,0,0,1,1,0
+941,Grilled Fish with Vegetables (V29),lunch,262,24.5,13.1,10.5,2.6,637,9.6,15,1,0,0,1,1,0,1,1,0
+942,Turkey Wrap (V29),lunch,373,24.2,35.2,13.2,3.3,230,8.3,15,0,1,1,0,1,0,1,0,0
+943,Bean and Vegetable Stew (V29),lunch,303,15.7,41.1,5.9,8.8,795,8.2,20,0,0,0,0,0,1,1,0,0
+944,Salmon with Sweet Potato (V29),lunch,481,34.4,40.1,16.0,4.6,729,13.2,40,0,0,0,0,1,0,1,0,1
+945,Mushroom Risotto (V29),lunch,407,10.7,59.0,12.9,3.2,228,2.9,15,0,0,1,0,0,0,1,1,0
+946,Chicken Caesar Salad (V29),lunch,410,28.7,20.5,20.5,3.1,586,8.4,60,0,0,0,1,1,0,1,0,0
+947,Vegetable Curry with Rice (V29),lunch,384,9.2,56.8,11.0,4.6,765,5.7,45,0,0,0,0,0,0,1,0,1
+948,Minestrone Soup (V29),lunch,241,9.6,36.6,5.8,5.8,535,11.6,15,1,0,0,0,0,1,1,0,0
+949,Baked Potato with Tuna (V29),lunch,357,21.8,41.7,7.9,4.0,239,19.3,10,0,1,1,0,1,1,1,0,0
+950,Grilled Chicken Salad (V30),lunch,344,29.5,17.7,15.7,3.9,381,11.2,60,1,0,1,1,1,0,1,1,1
+951,Lentil Soup (V30),lunch,320,17.1,45.7,4.6,9.1,178,8.0,10,0,1,1,0,0,1,1,0,0
+952,Tuna Sandwich (V30),lunch,340,22.4,32.3,12.5,2.7,798,18.9,45,0,0,0,0,1,0,1,0,0
+953,Vegetable Stir Fry with Rice (V30),lunch,457,13.7,66.3,11.4,5.7,438,8.1,30,0,1,0,0,0,0,1,0,0
+954,Chicken Noodle Soup (V30),lunch,289,18.1,31.6,7.2,2.7,117,7.9,20,0,1,1,0,0,1,1,0,0
+955,Quinoa Bowl with Vegetables (V30),lunch,344,12.7,45.4,10.9,5.4,579,17.4,40,0,0,0,0,0,0,1,1,0
+956,Grilled Fish with Vegetables (V30),lunch,262,24.5,13.1,10.5,2.6,746,17.3,20,1,0,0,1,1,0,1,1,0
+957,Turkey Wrap (V30),lunch,364,23.6,34.3,12.9,3.2,792,11.6,45,0,0,0,0,1,0,1,1,0
+958,Bean and Vegetable Stew (V30),lunch,311,16.1,42.2,6.0,9.0,248,17.1,40,0,1,1,0,0,1,1,0,0
+959,Salmon with Sweet Potato (V30),lunch,411,29.4,34.3,13.7,3.9,625,6.8,15,1,0,0,0,1,0,1,0,0
+960,Mushroom Risotto (V30),lunch,352,9.3,51.0,11.1,2.8,268,16.8,10,0,0,1,0,0,0,1,1,0
+961,Chicken Caesar Salad (V30),lunch,403,28.3,20.2,20.2,3.0,615,5.1,15,0,0,0,1,1,0,1,0,0
+962,Vegetable Curry with Rice (V30),lunch,479,11.4,70.7,13.7,5.7,296,4.2,25,0,1,1,0,0,0,1,0,0
+963,Minestrone Soup (V30),lunch,226,9.1,34.5,5.4,5.4,406,10.8,10,1,1,0,0,0,1,1,0,0
+964,Baked Potato with Tuna (V30),lunch,363,22.2,42.4,8.1,4.0,750,4.5,25,0,0,0,0,1,1,1,1,0
+965,Grilled Chicken Salad (V31),lunch,317,27.2,16.3,14.5,3.6,576,8.9,30,1,0,0,1,1,0,1,0,0
+966,Lentil Soup (V31),lunch,261,14.0,37.3,3.7,7.5,760,4.5,40,1,0,0,0,0,1,1,0,0
+967,Tuna Sandwich (V31),lunch,380,25.0,36.0,14.0,3.0,228,15.0,40,0,1,1,0,1,0,1,1,0
+968,Vegetable Stir Fry with Rice (V31),lunch,380,11.4,55.2,9.5,4.8,474,2.7,40,0,1,0,0,0,1,1,0,0
+969,Chicken Noodle Soup (V31),lunch,318,19.9,34.8,8.0,3.0,365,14.1,30,0,1,1,0,0,1,1,0,0
+970,Quinoa Bowl with Vegetables (V31),lunch,349,12.9,46.0,11.1,5.5,542,16.1,25,0,0,0,0,0,0,1,1,0
+971,Grilled Fish with Vegetables (V31),lunch,276,25.8,13.8,11.1,2.8,382,6.6,10,1,1,1,1,1,0,1,0,1
+972,Turkey Wrap (V31),lunch,347,22.5,32.7,12.3,3.1,156,2.9,40,0,1,1,0,1,0,1,0,0
+973,Bean and Vegetable Stew (V31),lunch,314,16.2,42.6,6.1,9.1,388,17.2,15,0,1,1,0,0,1,1,1,0
+974,Salmon with Sweet Potato (V31),lunch,434,31.1,36.2,14.5,4.1,534,12.4,40,1,0,0,0,1,0,1,0,0
+975,Mushroom Risotto (V31),lunch,393,10.4,56.9,12.4,3.1,641,8.6,15,0,0,0,0,0,0,1,0,0
+976,Chicken Caesar Salad (V31),lunch,444,31.1,22.2,22.2,3.3,317,17.6,45,0,0,1,1,1,0,1,1,0
+977,Vegetable Curry with Rice (V31),lunch,463,11.0,68.5,13.3,5.5,309,10.2,20,0,1,1,0,0,0,1,1,0
+978,Minestrone Soup (V31),lunch,225,9.0,34.2,5.4,5.4,239,18.6,30,1,1,1,0,0,1,1,1,1
+979,Baked Potato with Tuna (V31),lunch,365,22.3,42.6,8.1,4.1,509,11.8,30,0,0,0,0,1,1,1,0,1
+980,Grilled Chicken Salad (V32),lunch,351,30.1,18.1,16.1,4.0,797,11.3,25,1,0,0,1,1,0,1,0,0
+981,Lentil Soup (V32),lunch,282,15.1,40.4,4.0,8.1,584,12.9,15,0,0,0,0,0,1,1,1,0
+982,Tuna Sandwich (V32),lunch,420,27.6,39.8,15.5,3.3,303,4.3,60,0,0,1,0,1,0,1,0,0
+983,Vegetable Stir Fry with Rice (V32),lunch,359,10.8,52.1,9.0,4.5,496,13.7,15,0,1,0,0,0,1,1,0,0
+984,Chicken Noodle Soup (V32),lunch,302,18.9,33.1,7.6,2.8,754,5.6,45,0,0,0,0,0,1,1,0,0
+985,Quinoa Bowl with Vegetables (V32),lunch,356,13.2,47.0,11.3,5.6,242,5.3,30,0,1,1,0,0,0,1,0,1
+986,Grilled Fish with Vegetables (V32),lunch,317,29.6,15.9,12.7,3.2,520,19.9,30,1,0,0,1,1,0,1,0,1
+987,Turkey Wrap (V32),lunch,389,25.2,36.7,13.7,3.4,560,4.3,60,0,0,0,0,1,0,1,0,0
+988,Bean and Vegetable Stew (V32),lunch,341,17.6,46.3,6.6,9.9,770,2.4,10,0,0,0,0,0,1,1,1,0
+989,Salmon with Sweet Potato (V32),lunch,395,28.2,32.9,13.2,3.8,452,3.6,25,1,1,0,0,1,0,1,0,0
+990,Mushroom Risotto (V32),lunch,393,10.4,57.0,12.4,3.1,198,4.4,40,0,0,1,0,0,0,1,1,0
+991,Chicken Caesar Salad (V32),lunch,398,27.9,19.9,19.9,3.0,669,8.5,15,0,0,0,1,1,0,1,0,0
+992,Vegetable Curry with Rice (V32),lunch,384,9.1,56.7,11.0,4.6,204,15.8,60,0,1,1,0,0,0,1,0,1
+993,Minestrone Soup (V32),lunch,230,9.2,35.0,5.5,5.5,498,3.1,20,1,1,0,0,0,1,1,1,1
+994,Baked Potato with Tuna (V32),lunch,409,25.0,47.7,9.1,4.5,380,9.3,15,0,1,1,0,1,1,1,0,0
+995,Grilled Chicken Salad (V33),lunch,388,33.3,20.0,17.8,4.4,757,15.3,40,1,0,0,1,1,0,1,1,0
+996,Lentil Soup (V33),lunch,301,16.2,43.1,4.3,8.6,524,4.4,15,0,0,0,0,0,1,1,0,1
+997,Tuna Sandwich (V33),lunch,329,21.7,31.2,12.1,2.6,168,7.2,10,0,1,1,0,1,0,1,1,0
+998,Vegetable Stir Fry with Rice (V33),lunch,387,11.6,56.3,9.7,4.8,785,17.9,45,0,0,0,0,0,1,1,1,0
+999,Chicken Noodle Soup (V33),lunch,348,21.8,38.1,8.7,3.3,231,14.6,10,0,1,1,0,1,1,1,0,0
+1000,Baked Salmon with Broccoli,dinner,429,36.2,13.6,20.3,4.5,346,16.4,45,1,0,1,1,1,0,1,0,0
+1001,Chicken Breast with Vegetables,dinner,341,29.3,19.5,11.7,3.9,709,17.4,10,1,0,0,1,1,0,1,0,0
+1002,Pasta Primavera,dinner,435,13.1,63.2,13.1,5.4,638,10.2,60,0,0,0,0,0,0,1,1,0
+1003,Beef Stew,dinner,452,30.2,32.3,17.2,4.3,468,3.5,10,0,0,0,0,1,0,1,0,0
+1004,Grilled Tofu with Rice,dinner,300,14.1,39.8,8.8,2.7,568,9.5,45,1,0,0,0,0,1,1,0,1
+1005,Fish Tacos,dinner,323,19.7,28.7,12.6,2.7,183,3.0,25,0,1,1,1,0,0,1,0,0
+1006,Roasted Chicken Thigh,dinner,380,26.0,8.0,22.0,2.0,136,17.4,40,1,0,1,1,1,0,1,0,1
+1007,Vegetable Lasagna,dinner,401,16.1,45.2,16.1,4.0,567,16.0,30,0,0,0,0,0,0,1,1,1
+1008,Shrimp Stir Fry,dinner,279,20.9,24.4,8.7,2.6,606,18.9,30,1,0,0,1,1,1,1,1,0
+1009,Turkey Meatballs with Pasta,dinner,417,26.6,45.5,13.3,2.8,330,18.0,15,0,0,1,0,1,0,1,1,0
+1010,Baked Cod with Potatoes,dinner,360,29.7,31.9,8.5,3.2,504,3.7,25,1,0,0,0,1,1,1,0,0
+1011,Lamb Chops with Salad,dinner,485,32.4,10.8,30.2,3.2,148,2.4,30,1,0,1,1,1,0,1,1,1
+1012,Stuffed Bell Peppers,dinner,292,17.5,27.3,9.7,4.9,395,9.7,45,1,1,1,1,0,1,1,1,0
+1013,Grilled Pork Tenderloin,dinner,318,28.3,10.6,12.4,1.8,708,12.2,20,1,0,0,1,1,0,1,0,0
+1014,Eggplant Parmesan,dinner,367,13.5,33.8,17.4,4.8,361,18.4,45,0,0,1,0,0,0,1,0,0
+1015,Baked Salmon with Broccoli (V1),dinner,428,36.1,13.5,20.3,4.5,337,11.2,25,1,0,1,1,1,0,1,0,0
+1016,Chicken Breast with Vegetables (V1),dinner,325,27.9,18.6,11.1,3.7,629,7.8,10,1,0,0,1,1,0,1,1,0
+1017,Pasta Primavera (V1),dinner,459,13.8,66.7,13.8,5.7,486,16.8,20,0,0,0,0,0,0,1,1,1
+1018,Beef Stew (V1),dinner,412,27.5,29.5,15.7,3.9,154,3.3,25,0,0,1,1,1,0,1,1,0
+1019,Grilled Tofu with Rice (V1),dinner,387,18.2,51.3,11.4,3.4,297,8.0,30,0,1,1,0,0,0,1,0,0
+1020,Fish Tacos (V1),dinner,373,22.8,33.2,14.5,3.1,374,19.1,45,0,1,1,0,1,0,1,0,0
+1021,Roasted Chicken Thigh (V1),dinner,430,29.5,9.1,24.9,2.3,428,2.3,45,1,0,0,1,1,0,1,0,0
+1022,Vegetable Lasagna (V1),dinner,429,17.2,48.4,17.2,4.3,522,17.6,40,0,0,0,0,0,0,1,0,0
+1023,Shrimp Stir Fry (V1),dinner,310,23.3,27.2,9.7,2.9,528,3.0,10,1,0,0,1,1,1,1,0,0
+1024,Turkey Meatballs with Pasta (V1),dinner,453,28.9,49.5,14.4,3.1,295,11.8,40,0,0,1,0,1,0,1,1,1
+1025,Baked Cod with Potatoes (V1),dinner,357,29.4,31.5,8.4,3.2,309,8.7,60,1,1,1,0,1,1,1,0,1
+1026,Lamb Chops with Salad (V1),dinner,503,33.6,11.2,31.3,3.4,387,9.8,45,1,0,1,1,1,0,1,1,0
+1027,Stuffed Bell Peppers (V1),dinner,301,18.1,28.1,10.0,5.0,310,8.1,25,1,1,1,1,0,0,1,1,1
+1028,Grilled Pork Tenderloin (V1),dinner,360,32.0,12.0,14.0,2.0,146,4.6,60,1,1,1,1,1,0,1,0,0
+1029,Eggplant Parmesan (V1),dinner,373,13.8,34.4,17.7,4.9,126,14.7,20,0,0,1,0,0,0,1,1,0
+1030,Baked Salmon with Broccoli (V2),dinner,421,35.5,13.3,20.0,4.4,578,14.9,45,1,0,0,1,1,0,1,0,1
+1031,Chicken Breast with Vegetables (V2),dinner,325,27.9,18.6,11.1,3.7,492,17.6,40,1,1,0,1,1,0,1,1,0
+1032,Pasta Primavera (V2),dinner,406,12.2,58.9,12.2,5.1,497,8.3,25,0,0,0,0,0,0,1,0,0
+1033,Beef Stew (V2),dinner,469,31.3,33.5,17.9,4.5,293,11.5,40,0,0,1,0,1,0,1,1,1
+1034,Grilled Tofu with Rice (V2),dinner,312,14.7,41.4,9.2,2.8,410,2.9,60,0,1,0,0,0,1,1,1,0
+1035,Fish Tacos (V2),dinner,311,19.0,27.7,12.1,2.6,717,7.8,15,0,0,0,1,0,0,1,1,0
+1036,Roasted Chicken Thigh (V2),dinner,381,26.1,8.0,22.1,2.0,549,10.0,40,1,0,0,1,1,0,1,0,0
+1037,Vegetable Lasagna (V2),dinner,388,15.5,43.7,15.5,3.9,578,17.3,20,0,0,0,0,0,0,1,1,0
+1038,Shrimp Stir Fry (V2),dinner,278,20.9,24.3,8.7,2.6,585,19.8,20,1,0,0,1,1,1,1,1,0
+1039,Turkey Meatballs with Pasta (V2),dinner,378,24.1,41.2,12.0,2.6,789,9.5,60,0,0,0,0,1,0,1,1,1
+1040,Baked Cod with Potatoes (V2),dinner,386,31.8,34.1,9.1,3.4,678,3.2,30,1,0,0,0,1,1,1,0,0
+1041,Lamb Chops with Salad (V2),dinner,456,30.4,10.1,28.4,3.0,103,3.6,60,1,0,1,1,1,0,1,1,1
+1042,Stuffed Bell Peppers (V2),dinner,292,17.5,27.3,9.7,4.9,376,9.0,25,1,1,1,1,0,1,1,0,0
+1043,Grilled Pork Tenderloin (V2),dinner,353,31.5,11.8,13.8,2.0,267,14.9,20,1,1,1,1,1,0,1,1,0
+1044,Eggplant Parmesan (V2),dinner,411,15.2,37.9,19.5,5.4,423,15.4,30,0,0,0,0,0,0,1,0,0
+1045,Baked Salmon with Broccoli (V3),dinner,358,30.2,11.3,17.0,3.8,454,13.4,15,1,0,0,1,1,0,1,1,0
+1046,Chicken Breast with Vegetables (V3),dinner,332,28.5,19.0,11.4,3.8,270,17.6,40,1,1,1,1,1,0,1,0,0
+1047,Pasta Primavera (V3),dinner,375,11.3,54.4,11.3,4.7,541,19.7,30,0,0,0,0,0,0,1,0,0
+1048,Beef Stew (V3),dinner,385,25.7,27.5,14.7,3.7,792,12.2,30,0,0,0,1,1,0,1,0,1
+1049,Grilled Tofu with Rice (V3),dinner,365,17.2,48.4,10.8,3.2,435,12.2,20,0,1,0,0,0,0,1,0,0
+1050,Fish Tacos (V3),dinner,368,22.5,32.8,14.3,3.1,216,12.2,15,0,1,1,0,1,0,1,0,0
+1051,Roasted Chicken Thigh (V3),dinner,326,22.3,6.9,18.9,1.7,336,10.9,15,1,0,1,1,1,0,1,0,1
+1052,Vegetable Lasagna (V3),dinner,418,16.7,47.1,16.7,4.2,563,10.4,45,0,0,0,0,0,0,1,1,0
+1053,Shrimp Stir Fry (V3),dinner,287,21.6,25.2,9.0,2.7,190,13.2,40,1,1,1,1,1,1,1,0,0
+1054,Turkey Meatballs with Pasta (V3),dinner,389,24.8,42.4,12.4,2.7,468,17.0,30,0,0,0,0,1,0,1,0,0
+1055,Baked Cod with Potatoes (V3),dinner,371,30.6,32.8,8.7,3.3,232,2.6,40,1,1,1,0,1,1,1,1,0
+1056,Lamb Chops with Salad (V3),dinner,449,30.0,10.0,28.0,3.0,749,6.8,20,1,0,0,1,1,0,1,0,0
+1057,Stuffed Bell Peppers (V3),dinner,269,16.2,25.2,9.0,4.5,457,4.6,25,1,1,0,1,0,1,1,0,0
+1058,Grilled Pork Tenderloin (V3),dinner,334,29.8,11.2,13.0,1.9,474,9.8,45,1,1,0,1,1,0,1,0,0
+1059,Eggplant Parmesan (V3),dinner,331,12.2,30.5,15.7,4.4,413,13.2,15,0,0,0,0,0,0,1,1,1
+1060,Baked Salmon with Broccoli (V4),dinner,352,29.7,11.1,16.7,3.7,649,9.0,25,1,0,0,1,1,0,1,0,0
+1061,Chicken Breast with Vegetables (V4),dinner,372,31.9,21.3,12.8,4.3,450,12.3,60,1,1,0,1,1,0,1,1,0
+1062,Pasta Primavera (V4),dinner,380,11.4,55.2,11.4,4.8,102,16.2,30,0,0,1,0,0,0,1,0,1
+1063,Beef Stew (V4),dinner,444,29.7,31.8,16.9,4.2,510,6.0,45,0,0,0,0,1,0,1,0,0
+1064,Grilled Tofu with Rice (V4),dinner,295,13.9,39.1,8.7,2.6,210,13.6,10,1,1,1,0,0,1,1,0,0
+1065,Fish Tacos (V4),dinner,333,20.4,29.6,13.0,2.8,380,15.5,25,0,1,1,1,1,0,1,1,0
+1066,Roasted Chicken Thigh (V4),dinner,417,28.5,8.8,24.2,2.2,591,12.7,15,1,0,0,1,1,0,1,1,0
+1067,Vegetable Lasagna (V4),dinner,396,15.9,44.6,15.9,4.0,288,19.0,15,0,0,1,0,0,0,1,0,0
+1068,Shrimp Stir Fry (V4),dinner,278,20.9,24.4,8.7,2.6,788,19.7,30,1,0,0,1,1,1,1,0,0
+1069,Turkey Meatballs with Pasta (V4),dinner,461,29.4,50.3,14.7,3.1,329,7.5,15,0,0,1,0,1,0,1,0,1
+1070,Baked Cod with Potatoes (V4),dinner,355,29.3,31.4,8.4,3.1,356,2.2,20,1,1,1,0,1,1,1,0,0
+1071,Lamb Chops with Salad (V4),dinner,443,29.5,9.8,27.6,3.0,410,10.9,15,1,0,0,1,1,0,1,0,0
+1072,Stuffed Bell Peppers (V4),dinner,277,16.6,25.9,9.2,4.6,457,17.1,20,1,1,0,1,0,1,1,0,0
+1073,Grilled Pork Tenderloin (V4),dinner,378,33.6,12.6,14.7,2.1,585,3.8,20,1,0,0,1,1,0,1,0,1
+1074,Eggplant Parmesan (V4),dinner,405,14.9,37.3,19.2,5.3,363,17.2,45,0,0,1,0,0,0,1,0,0
+1075,Baked Salmon with Broccoli (V5),dinner,389,32.8,12.3,18.4,4.1,705,15.6,30,1,0,0,1,1,0,1,0,0
+1076,Chicken Breast with Vegetables (V5),dinner,317,27.2,18.1,10.9,3.6,648,3.0,45,1,0,0,1,1,0,1,0,1
+1077,Pasta Primavera (V5),dinner,403,12.1,58.4,12.1,5.0,531,12.3,40,0,0,0,0,0,0,1,0,0
+1078,Beef Stew (V5),dinner,392,26.2,28.1,15.0,3.7,702,6.9,15,0,0,0,1,1,0,1,0,0
+1079,Grilled Tofu with Rice (V5),dinner,374,17.6,49.6,11.0,3.3,320,14.2,45,0,1,1,0,0,0,1,0,0
+1080,Fish Tacos (V5),dinner,380,23.3,33.9,14.8,3.2,636,15.7,20,0,0,0,0,1,0,1,0,0
+1081,Roasted Chicken Thigh (V5),dinner,343,23.5,7.2,19.9,1.8,793,7.9,40,1,0,0,1,1,0,1,0,0
+1082,Vegetable Lasagna (V5),dinner,433,17.4,48.8,17.4,4.3,605,13.9,15,0,0,0,0,0,0,1,1,0
+1083,Shrimp Stir Fry (V5),dinner,353,26.5,30.9,11.1,3.3,467,7.4,10,1,1,0,0,1,0,1,0,0
+1084,Turkey Meatballs with Pasta (V5),dinner,378,24.1,41.3,12.0,2.6,577,5.8,20,0,0,0,0,1,0,1,0,1
+1085,Baked Cod with Potatoes (V5),dinner,313,25.8,27.6,7.4,2.8,591,2.9,30,1,0,0,1,1,1,1,1,1
+1086,Lamb Chops with Salad (V5),dinner,484,32.3,10.8,30.2,3.2,639,6.0,60,1,0,0,1,1,0,1,1,0
+1087,Stuffed Bell Peppers (V5),dinner,275,16.6,25.8,9.2,4.6,370,14.3,20,1,1,1,1,0,1,1,0,0
+1088,Grilled Pork Tenderloin (V5),dinner,404,36.0,13.5,15.7,2.2,582,5.0,20,1,0,0,1,1,0,1,1,0
+1089,Eggplant Parmesan (V5),dinner,363,13.4,33.5,17.2,4.8,314,17.0,45,0,0,1,0,0,0,1,0,0
+1090,Baked Salmon with Broccoli (V6),dinner,425,35.8,13.4,20.1,4.5,275,13.8,10,1,0,1,1,1,0,1,0,1
+1091,Chicken Breast with Vegetables (V6),dinner,354,30.4,20.3,12.2,4.1,728,19.0,25,1,0,0,1,1,0,1,0,0
+1092,Pasta Primavera (V6),dinner,348,10.5,50.5,10.5,4.4,409,8.0,45,0,0,0,0,0,0,1,1,0
+1093,Beef Stew (V6),dinner,457,30.5,32.7,17.4,4.4,739,9.6,60,0,0,0,0,1,0,1,0,1
+1094,Grilled Tofu with Rice (V6),dinner,298,14.1,39.6,8.8,2.6,775,3.6,25,1,0,0,0,0,1,1,0,0
+1095,Fish Tacos (V6),dinner,376,23.0,33.5,14.7,3.1,633,6.1,25,0,0,0,0,1,0,1,0,0
+1096,Roasted Chicken Thigh (V6),dinner,353,24.2,7.4,20.5,1.9,701,10.2,60,1,0,0,1,1,0,1,0,1
+1097,Vegetable Lasagna (V6),dinner,390,15.6,44.0,15.6,3.9,660,4.9,25,0,0,0,0,0,0,1,1,0
+1098,Shrimp Stir Fry (V6),dinner,337,25.3,29.6,10.6,3.2,594,18.0,15,1,0,0,1,1,0,1,1,0
+1099,Turkey Meatballs with Pasta (V6),dinner,494,31.4,53.9,15.7,3.4,755,10.1,30,0,0,0,0,1,0,1,0,0
+1100,Baked Cod with Potatoes (V6),dinner,320,26.4,28.3,7.5,2.8,436,3.8,60,1,1,0,1,1,1,1,0,1
+1101,Lamb Chops with Salad (V6),dinner,500,33.4,11.1,31.1,3.3,748,13.2,25,1,0,0,1,1,0,1,1,0
+1102,Stuffed Bell Peppers (V6),dinner,337,20.2,31.5,11.2,5.6,213,15.0,45,1,1,1,0,1,0,1,0,0
+1103,Grilled Pork Tenderloin (V6),dinner,379,33.7,12.7,14.8,2.1,359,13.3,10,1,1,1,1,1,0,1,1,0
+1104,Eggplant Parmesan (V6),dinner,429,15.8,39.6,20.4,5.7,725,12.7,60,0,0,0,0,0,0,1,1,0
+1105,Baked Salmon with Broccoli (V7),dinner,427,36.0,13.5,20.2,4.5,631,16.8,10,1,0,0,1,1,0,1,0,1
+1106,Chicken Breast with Vegetables (V7),dinner,340,29.2,19.5,11.7,3.9,191,6.3,60,1,1,1,1,1,0,1,0,0
+1107,Pasta Primavera (V7),dinner,356,10.7,51.7,10.7,4.5,656,19.4,60,0,0,0,0,0,0,1,0,0
+1108,Beef Stew (V7),dinner,383,25.6,27.4,14.6,3.7,128,16.7,10,0,0,1,1,1,0,1,1,1
+1109,Grilled Tofu with Rice (V7),dinner,329,15.5,43.6,9.7,2.9,614,13.3,10,0,0,0,0,0,1,1,0,0
+1110,Fish Tacos (V7),dinner,320,19.6,28.5,12.5,2.7,570,7.1,30,0,0,0,1,0,0,1,1,0
+1111,Roasted Chicken Thigh (V7),dinner,405,27.8,8.5,23.5,2.1,146,18.7,15,1,0,1,1,1,0,1,0,0
+1112,Vegetable Lasagna (V7),dinner,347,13.9,39.1,13.9,3.5,429,15.2,20,0,0,0,0,0,0,1,0,0
+1113,Shrimp Stir Fry (V7),dinner,320,24.0,28.0,10.0,3.0,553,12.5,20,1,0,0,1,1,0,1,0,0
+1114,Turkey Meatballs with Pasta (V7),dinner,481,30.7,52.6,15.3,3.3,664,8.2,25,0,0,0,0,1,0,1,0,0
+1115,Baked Cod with Potatoes (V7),dinner,330,27.3,29.2,7.8,2.9,549,6.5,15,1,0,0,1,1,1,1,0,1
+1116,Lamb Chops with Salad (V7),dinner,395,26.3,8.8,24.6,2.6,657,13.6,30,1,0,0,1,1,0,1,1,1
+1117,Stuffed Bell Peppers (V7),dinner,321,19.3,30.0,10.7,5.4,641,11.1,10,1,0,0,0,0,0,1,0,1
+1118,Grilled Pork Tenderloin (V7),dinner,383,34.1,12.8,14.9,2.1,374,9.3,45,1,1,1,1,1,0,1,1,0
+1119,Eggplant Parmesan (V7),dinner,430,15.9,39.7,20.4,5.7,125,9.8,20,0,0,1,0,0,0,1,0,1
+1120,Baked Salmon with Broccoli (V8),dinner,371,31.3,11.7,17.6,3.9,268,4.6,30,1,0,1,1,1,0,1,0,1
+1121,Chicken Breast with Vegetables (V8),dinner,382,32.8,21.9,13.1,4.4,637,5.2,60,1,0,0,1,1,0,1,1,0
+1122,Pasta Primavera (V8),dinner,439,13.2,63.7,13.2,5.5,381,12.8,45,0,0,1,0,0,0,1,0,0
+1123,Beef Stew (V8),dinner,413,27.6,29.5,15.8,3.9,117,5.7,40,0,0,1,1,1,0,1,0,0
+1124,Grilled Tofu with Rice (V8),dinner,340,16.0,45.1,10.0,3.0,787,10.7,40,0,0,0,0,0,0,1,1,0
+1125,Fish Tacos (V8),dinner,403,24.7,35.9,15.7,3.4,205,14.9,20,0,0,1,0,1,0,1,0,0
+1126,Roasted Chicken Thigh (V8),dinner,332,22.7,7.0,19.2,1.7,545,6.4,40,1,0,0,1,1,0,1,0,0
+1127,Vegetable Lasagna (V8),dinner,398,15.9,44.8,15.9,4.0,751,13.4,40,0,0,0,0,0,0,1,0,0
+1128,Shrimp Stir Fry (V8),dinner,286,21.5,25.1,8.9,2.7,700,13.2,10,1,0,0,1,1,1,1,1,0
+1129,Turkey Meatballs with Pasta (V8),dinner,380,24.2,41.5,12.1,2.6,151,9.3,30,0,0,1,0,1,0,1,0,0
+1130,Baked Cod with Potatoes (V8),dinner,301,24.9,26.6,7.1,2.7,230,3.5,60,1,1,1,1,1,1,1,0,0
+1131,Lamb Chops with Salad (V8),dinner,467,31.2,10.4,29.1,3.1,502,4.0,45,1,0,0,1,1,0,1,0,0
+1132,Stuffed Bell Peppers (V8),dinner,341,20.5,31.9,11.4,5.7,220,14.9,30,1,1,1,0,1,0,1,0,1
+1133,Grilled Pork Tenderloin (V8),dinner,350,31.2,11.7,13.6,1.9,623,3.4,15,1,0,0,1,1,0,1,1,0
+1134,Eggplant Parmesan (V8),dinner,348,12.8,32.1,16.5,4.6,505,15.2,45,0,0,0,0,0,0,1,0,0
+1135,Baked Salmon with Broccoli (V9),dinner,395,33.3,12.5,18.7,4.2,754,9.4,15,1,0,0,1,1,0,1,0,0
+1136,Chicken Breast with Vegetables (V9),dinner,308,26.4,17.6,10.6,3.5,771,8.1,15,1,0,0,1,1,0,1,1,0
+1137,Pasta Primavera (V9),dinner,442,13.3,64.2,13.3,5.5,331,4.6,20,0,0,1,0,0,0,1,0,0
+1138,Beef Stew (V9),dinner,360,24.1,25.8,13.8,3.4,536,13.2,15,0,0,0,1,1,0,1,0,0
+1139,Grilled Tofu with Rice (V9),dinner,302,14.2,40.1,8.9,2.7,504,17.2,20,0,0,0,0,0,1,1,0,0
+1140,Fish Tacos (V9),dinner,358,21.9,31.8,13.9,3.0,528,14.1,20,0,0,0,0,1,0,1,1,0
+1141,Roasted Chicken Thigh (V9),dinner,417,28.5,8.8,24.1,2.2,347,11.8,45,1,0,1,1,1,0,1,0,0
+1142,Vegetable Lasagna (V9),dinner,454,18.2,51.1,18.2,4.5,710,12.2,15,0,0,0,0,0,0,1,0,0
+1143,Shrimp Stir Fry (V9),dinner,333,25.0,29.2,10.4,3.1,776,19.7,25,1,0,0,1,1,0,1,1,1
+1144,Turkey Meatballs with Pasta (V9),dinner,375,23.9,41.0,12.0,2.6,716,2.3,15,0,0,0,0,1,0,1,0,0
+1145,Baked Cod with Potatoes (V9),dinner,290,23.9,25.6,6.8,2.6,440,10.3,45,1,1,0,1,1,1,1,0,0
+1146,Lamb Chops with Salad (V9),dinner,399,26.6,8.9,24.9,2.7,732,15.8,40,1,0,0,1,1,0,1,0,0
+1147,Stuffed Bell Peppers (V9),dinner,303,18.2,28.3,10.1,5.1,112,5.8,60,1,1,1,1,0,0,1,1,0
+1148,Grilled Pork Tenderloin (V9),dinner,361,32.2,12.1,14.1,2.0,360,12.5,45,1,1,1,1,1,0,1,1,0
+1149,Eggplant Parmesan (V9),dinner,416,15.3,38.3,19.7,5.5,567,11.0,60,0,0,0,0,0,0,1,0,0
+1150,Baked Salmon with Broccoli (V10),dinner,382,32.2,12.1,18.1,4.0,311,11.8,15,1,0,1,1,1,0,1,1,0
+1151,Chicken Breast with Vegetables (V10),dinner,297,25.5,17.0,10.2,3.4,700,3.8,60,1,0,0,1,1,0,1,0,1
+1152,Pasta Primavera (V10),dinner,393,11.8,57.1,11.8,4.9,597,2.3,15,0,0,0,0,0,0,1,0,0
+1153,Beef Stew (V10),dinner,456,30.4,32.6,17.4,4.3,424,6.2,10,0,0,0,0,1,0,1,0,0
+1154,Grilled Tofu with Rice (V10),dinner,328,15.4,43.4,9.7,2.9,615,12.7,25,0,0,0,0,0,1,1,1,0
+1155,Fish Tacos (V10),dinner,318,19.5,28.3,12.4,2.7,640,15.7,40,0,0,0,1,0,0,1,0,1
+1156,Roasted Chicken Thigh (V10),dinner,344,23.6,7.3,20.0,1.8,378,11.2,10,1,0,1,1,1,0,1,0,0
+1157,Vegetable Lasagna (V10),dinner,410,16.4,46.1,16.4,4.1,792,10.9,30,0,0,0,0,0,0,1,0,0
+1158,Shrimp Stir Fry (V10),dinner,277,20.8,24.3,8.7,2.6,587,9.3,10,1,0,0,1,1,1,1,0,0
+1159,Turkey Meatballs with Pasta (V10),dinner,495,31.5,54.0,15.8,3.4,425,16.3,30,0,0,0,0,1,0,1,0,0
+1160,Baked Cod with Potatoes (V10),dinner,388,32.0,34.3,9.1,3.4,443,19.1,20,1,1,0,0,1,1,1,0,1
+1161,Lamb Chops with Salad (V10),dinner,442,29.5,9.8,27.6,3.0,691,14.4,20,1,0,0,1,1,0,1,0,0
+1162,Stuffed Bell Peppers (V10),dinner,287,17.2,26.8,9.6,4.8,120,19.4,25,1,1,1,1,0,1,1,1,1
+1163,Grilled Pork Tenderloin (V10),dinner,359,32.0,12.0,14.0,2.0,382,15.7,15,1,1,1,1,1,0,1,1,0
+1164,Eggplant Parmesan (V10),dinner,350,12.9,32.2,16.6,4.6,202,8.1,10,0,0,1,0,0,0,1,0,0
+1165,Baked Salmon with Broccoli (V11),dinner,389,32.8,12.3,18.5,4.1,336,17.3,40,1,0,1,1,1,0,1,0,1
+1166,Chicken Breast with Vegetables (V11),dinner,383,32.9,21.9,13.2,4.4,642,7.7,45,1,0,0,1,1,0,1,1,0
+1167,Pasta Primavera (V11),dinner,402,12.1,58.3,12.1,5.0,519,3.5,60,0,0,0,0,0,0,1,1,0
+1168,Beef Stew (V11),dinner,449,30.0,32.1,17.1,4.3,286,18.6,15,0,0,1,0,1,0,1,1,0
+1169,Grilled Tofu with Rice (V11),dinner,339,16.0,44.9,10.0,3.0,326,19.8,25,0,1,1,0,0,0,1,0,0
+1170,Fish Tacos (V11),dinner,327,20.0,29.1,12.7,2.7,334,20.0,45,0,1,1,1,0,0,1,0,0
+1171,Roasted Chicken Thigh (V11),dinner,405,27.8,8.5,23.5,2.1,502,4.7,45,1,0,0,1,1,0,1,0,1
+1172,Vegetable Lasagna (V11),dinner,445,17.8,50.1,17.8,4.5,718,3.4,15,0,0,0,0,0,0,1,0,0
+1173,Shrimp Stir Fry (V11),dinner,339,25.4,29.7,10.6,3.2,265,13.5,15,1,1,1,1,1,0,1,0,0
+1174,Turkey Meatballs with Pasta (V11),dinner,503,32.0,54.9,16.0,3.4,747,17.8,30,0,0,0,0,1,0,1,0,1
+1175,Baked Cod with Potatoes (V11),dinner,291,24.0,25.7,6.9,2.6,582,5.1,25,1,0,0,1,1,1,1,0,1
+1176,Lamb Chops with Salad (V11),dinner,390,26.1,8.7,24.3,2.6,511,14.2,10,1,0,0,1,1,0,1,0,0
+1177,Stuffed Bell Peppers (V11),dinner,267,16.0,24.9,8.9,4.5,185,10.9,25,1,1,1,1,0,1,1,0,1
+1178,Grilled Pork Tenderloin (V11),dinner,346,30.8,11.5,13.5,1.9,359,3.1,60,1,1,1,1,1,0,1,0,0
+1179,Eggplant Parmesan (V11),dinner,329,12.1,30.3,15.6,4.3,757,3.0,20,0,0,0,0,0,0,1,1,0
+1180,Baked Salmon with Broccoli (V12),dinner,341,28.7,10.8,16.2,3.6,617,11.5,20,1,0,0,1,1,0,1,0,0
+1181,Chicken Breast with Vegetables (V12),dinner,332,28.5,19.0,11.4,3.8,498,12.7,10,1,1,0,1,1,0,1,0,1
+1182,Pasta Primavera (V12),dinner,386,11.6,56.1,11.6,4.8,257,16.4,40,0,0,1,0,0,0,1,0,1
+1183,Beef Stew (V12),dinner,389,26.0,27.8,14.8,3.7,328,3.8,40,0,0,1,1,1,0,1,0,0
+1184,Grilled Tofu with Rice (V12),dinner,359,16.9,47.6,10.6,3.2,123,6.4,25,0,1,1,0,0,0,1,1,0
+1185,Fish Tacos (V12),dinner,371,22.7,33.1,14.5,3.1,773,11.4,15,0,0,0,0,1,0,1,1,0
+1186,Roasted Chicken Thigh (V12),dinner,352,24.1,7.4,20.4,1.9,305,9.2,60,1,0,1,1,1,0,1,0,0
+1187,Vegetable Lasagna (V12),dinner,423,16.9,47.6,16.9,4.2,574,18.8,10,0,0,0,0,0,0,1,0,1
+1188,Shrimp Stir Fry (V12),dinner,307,23.0,26.9,9.6,2.9,786,2.3,30,1,0,0,1,1,1,1,0,0
+1189,Turkey Meatballs with Pasta (V12),dinner,399,25.4,43.5,12.7,2.7,289,8.8,45,0,0,1,0,1,0,1,0,1
+1190,Baked Cod with Potatoes (V12),dinner,389,32.1,34.4,9.2,3.4,463,9.0,45,1,1,0,0,1,1,1,0,1
+1191,Lamb Chops with Salad (V12),dinner,450,30.0,10.0,28.0,3.0,466,8.8,25,1,0,0,1,1,0,1,1,0
+1192,Stuffed Bell Peppers (V12),dinner,292,17.6,27.3,9.8,4.9,570,18.1,30,1,0,0,1,0,1,1,1,1
+1193,Grilled Pork Tenderloin (V12),dinner,384,34.2,12.8,15.0,2.1,620,15.6,15,1,0,0,1,1,0,1,1,1
+1194,Eggplant Parmesan (V12),dinner,324,11.9,29.9,15.4,4.3,689,3.6,20,0,0,0,1,0,0,1,0,0
+1195,Baked Salmon with Broccoli (V13),dinner,360,30.3,11.4,17.1,3.8,173,9.2,20,1,0,1,1,1,0,1,1,0
+1196,Chicken Breast with Vegetables (V13),dinner,368,31.6,21.0,12.6,4.2,493,10.5,40,1,1,0,1,1,0,1,1,0
+1197,Pasta Primavera (V13),dinner,441,13.2,64.0,13.2,5.5,718,8.1,25,0,0,0,0,0,0,1,0,0
+1198,Beef Stew (V13),dinner,473,31.6,33.9,18.1,4.5,448,11.9,15,0,0,0,0,1,0,1,0,0
+1199,Grilled Tofu with Rice (V13),dinner,352,16.6,46.6,10.4,3.1,722,17.3,45,0,0,0,0,0,0,1,0,0
+1200,Fish Tacos (V13),dinner,388,23.7,34.5,15.1,3.2,334,8.9,40,0,0,1,0,1,0,1,0,0
+1201,Roasted Chicken Thigh (V13),dinner,372,25.5,7.8,21.6,2.0,668,3.5,10,1,0,0,1,1,0,1,1,0
+1202,Vegetable Lasagna (V13),dinner,454,18.2,51.1,18.2,4.5,536,19.9,15,0,0,0,0,0,0,1,0,0
+1203,Shrimp Stir Fry (V13),dinner,279,21.0,24.5,8.7,2.6,251,8.7,40,1,1,1,1,1,1,1,0,0
+1204,Turkey Meatballs with Pasta (V13),dinner,438,27.9,47.8,13.9,3.0,660,4.9,60,0,0,0,0,1,0,1,0,0
+1205,Baked Cod with Potatoes (V13),dinner,326,26.9,28.8,7.7,2.9,178,16.6,10,1,1,1,1,1,1,1,0,0
+1206,Lamb Chops with Salad (V13),dinner,480,32.1,10.7,29.9,3.2,108,8.2,10,1,0,1,1,1,0,1,0,0
+1207,Stuffed Bell Peppers (V13),dinner,313,18.8,29.2,10.4,5.2,214,11.2,10,1,1,1,1,0,0,1,1,0
+1208,Grilled Pork Tenderloin (V13),dinner,353,31.4,11.8,13.8,2.0,468,7.7,20,1,1,0,1,1,0,1,0,1
+1209,Eggplant Parmesan (V13),dinner,327,12.1,30.1,15.5,4.3,110,9.0,25,0,0,1,0,0,0,1,0,1
+1210,Baked Salmon with Broccoli (V14),dinner,407,34.3,12.9,19.3,4.3,459,9.5,40,1,0,0,1,1,0,1,0,0
+1211,Chicken Breast with Vegetables (V14),dinner,323,27.7,18.5,11.1,3.7,279,13.7,20,1,1,1,1,1,0,1,0,0
+1212,Pasta Primavera (V14),dinner,444,13.3,64.4,13.3,5.6,576,19.6,10,0,0,0,0,0,0,1,1,0
+1213,Beef Stew (V14),dinner,379,25.3,27.1,14.4,3.6,106,2.7,45,0,0,1,1,1,0,1,0,0
+1214,Grilled Tofu with Rice (V14),dinner,334,15.7,44.3,9.8,3.0,556,10.2,30,0,0,0,0,0,1,1,0,1
+1215,Fish Tacos (V14),dinner,397,24.3,35.3,15.5,3.3,527,6.3,30,0,0,0,0,1,0,1,0,0
+1216,Roasted Chicken Thigh (V14),dinner,414,28.3,8.7,24.0,2.2,754,5.0,45,1,0,0,1,1,0,1,1,0
+1217,Vegetable Lasagna (V14),dinner,413,16.6,46.6,16.6,4.1,122,18.8,60,0,0,1,0,0,0,1,0,0
+1218,Shrimp Stir Fry (V14),dinner,340,25.6,29.8,10.7,3.2,720,16.9,60,1,0,0,1,1,0,1,1,1
+1219,Turkey Meatballs with Pasta (V14),dinner,396,25.3,43.3,12.6,2.7,398,2.5,20,0,0,1,0,1,0,1,0,0
+1220,Baked Cod with Potatoes (V14),dinner,340,28.1,30.1,8.0,3.0,161,15.4,30,1,1,1,0,1,1,1,0,0
+1221,Lamb Chops with Salad (V14),dinner,470,31.3,10.4,29.2,3.1,151,15.5,40,1,0,1,1,1,0,1,1,0
+1222,Stuffed Bell Peppers (V14),dinner,305,18.3,28.5,10.2,5.1,766,7.9,45,1,0,0,1,0,0,1,0,0
+1223,Grilled Pork Tenderloin (V14),dinner,365,32.5,12.2,14.2,2.0,353,5.7,25,1,1,1,1,1,0,1,0,0
+1224,Eggplant Parmesan (V14),dinner,382,14.1,35.2,18.1,5.0,265,9.4,30,0,0,1,0,0,0,1,0,1
+1225,Baked Salmon with Broccoli (V15),dinner,363,30.6,11.5,17.2,3.8,431,5.4,45,1,0,0,1,1,0,1,1,0
+1226,Chicken Breast with Vegetables (V15),dinner,337,29.0,19.3,11.6,3.9,202,15.7,60,1,1,1,1,1,0,1,1,0
+1227,Pasta Primavera (V15),dinner,356,10.7,51.7,10.7,4.5,325,6.7,40,0,0,1,0,0,0,1,1,0
+1228,Beef Stew (V15),dinner,405,27.1,29.0,15.5,3.9,195,10.9,25,0,0,1,1,1,0,1,0,0
+1229,Grilled Tofu with Rice (V15),dinner,378,17.8,50.2,11.1,3.3,600,15.9,20,0,0,0,0,0,0,1,0,0
+1230,Fish Tacos (V15),dinner,409,25.0,36.4,15.9,3.4,320,11.5,40,0,0,1,0,1,0,1,0,0
+1231,Roasted Chicken Thigh (V15),dinner,397,27.2,8.4,23.0,2.1,433,12.7,15,1,0,0,1,1,0,1,0,0
+1232,Vegetable Lasagna (V15),dinner,391,15.7,44.1,15.7,3.9,734,11.9,15,0,0,0,0,0,0,1,1,1
+1233,Shrimp Stir Fry (V15),dinner,275,20.6,24.1,8.6,2.6,122,18.3,45,1,1,1,1,1,1,1,1,0
+1234,Turkey Meatballs with Pasta (V15),dinner,404,25.7,44.1,12.9,2.8,311,8.3,25,0,0,1,0,1,0,1,0,0
+1235,Baked Cod with Potatoes (V15),dinner,385,31.8,34.0,9.1,3.4,611,3.0,25,1,0,0,0,1,1,1,0,0
+1236,Lamb Chops with Salad (V15),dinner,510,34.0,11.3,31.8,3.4,771,16.8,40,1,0,0,1,1,0,1,0,0
+1237,Stuffed Bell Peppers (V15),dinner,313,18.8,29.3,10.4,5.2,456,13.2,60,1,1,0,1,0,0,1,0,1
+1238,Grilled Pork Tenderloin (V15),dinner,369,32.9,12.3,14.4,2.1,693,8.5,60,1,0,0,1,1,0,1,1,1
+1239,Eggplant Parmesan (V15),dinner,379,14.0,34.9,18.0,5.0,791,8.9,45,0,0,0,0,0,0,1,1,0
+1240,Baked Salmon with Broccoli (V16),dinner,330,27.8,10.4,15.7,3.5,228,9.0,30,1,0,1,1,1,0,1,1,0
+1241,Chicken Breast with Vegetables (V16),dinner,300,25.7,17.2,10.3,3.4,738,11.4,30,1,0,0,1,1,0,1,1,1
+1242,Pasta Primavera (V16),dinner,396,11.9,57.6,11.9,5.0,110,2.6,20,0,0,1,0,0,0,1,0,0
+1243,Beef Stew (V16),dinner,472,31.5,33.7,18.0,4.5,634,8.3,30,0,0,0,0,1,0,1,1,0
+1244,Grilled Tofu with Rice (V16),dinner,375,17.7,49.7,11.0,3.3,554,3.6,30,0,0,0,0,0,0,1,1,0
+1245,Fish Tacos (V16),dinner,384,23.5,34.2,15.0,3.2,626,11.7,15,0,0,0,0,1,0,1,1,1
+1246,Roasted Chicken Thigh (V16),dinner,413,28.3,8.7,23.9,2.2,115,14.2,30,1,0,1,1,1,0,1,0,1
+1247,Vegetable Lasagna (V16),dinner,440,17.6,49.5,17.6,4.4,713,8.5,30,0,0,0,0,0,0,1,0,0
+1248,Shrimp Stir Fry (V16),dinner,360,27.1,31.6,11.3,3.4,672,6.0,10,1,0,0,0,1,0,1,1,0
+1249,Turkey Meatballs with Pasta (V16),dinner,491,31.3,53.6,15.6,3.3,458,14.9,25,0,0,0,0,1,0,1,1,0
+1250,Baked Cod with Potatoes (V16),dinner,387,31.9,34.2,9.1,3.4,703,11.3,10,1,0,0,0,1,1,1,1,0
+1251,Lamb Chops with Salad (V16),dinner,450,30.0,10.0,28.0,3.0,629,15.4,20,1,0,0,1,1,0,1,0,0
+1252,Stuffed Bell Peppers (V16),dinner,307,18.5,28.7,10.3,5.1,151,6.7,10,1,1,1,1,0,0,1,0,0
+1253,Grilled Pork Tenderloin (V16),dinner,311,27.7,10.4,12.1,1.7,704,7.1,15,1,0,0,1,1,0,1,1,0
+1254,Eggplant Parmesan (V16),dinner,343,12.7,31.7,16.3,4.5,602,14.2,25,0,0,0,0,0,0,1,0,0
+1255,Baked Salmon with Broccoli (V17),dinner,386,32.6,12.2,18.3,4.1,584,8.1,15,1,0,0,1,1,0,1,0,1
+1256,Chicken Breast with Vegetables (V17),dinner,305,26.2,17.5,10.5,3.5,327,13.5,40,1,1,1,1,1,0,1,0,0
+1257,Pasta Primavera (V17),dinner,372,11.2,54.0,11.2,4.7,619,12.2,10,0,0,0,0,0,0,1,0,0
+1258,Beef Stew (V17),dinner,467,31.1,33.4,17.8,4.4,301,14.0,40,0,0,1,0,1,0,1,0,0
+1259,Grilled Tofu with Rice (V17),dinner,318,15.0,42.1,9.4,2.8,688,16.2,60,0,0,0,0,0,1,1,1,0
+1260,Fish Tacos (V17),dinner,372,22.8,33.1,14.5,3.1,468,15.5,60,0,1,0,0,1,0,1,0,1
+1261,Roasted Chicken Thigh (V17),dinner,410,28.1,8.6,23.8,2.2,500,10.0,30,1,0,0,1,1,0,1,0,0
+1262,Vegetable Lasagna (V17),dinner,436,17.5,49.1,17.5,4.4,732,10.5,15,0,0,0,0,0,0,1,1,0
+1263,Shrimp Stir Fry (V17),dinner,361,27.1,31.7,11.3,3.4,654,5.5,20,1,0,0,0,1,0,1,0,1
+1264,Turkey Meatballs with Pasta (V17),dinner,378,24.1,41.3,12.1,2.6,489,11.5,10,0,0,0,0,1,0,1,1,0
+1265,Baked Cod with Potatoes (V17),dinner,340,28.0,30.0,8.0,3.0,150,7.5,40,1,1,1,0,1,1,1,0,0
+1266,Lamb Chops with Salad (V17),dinner,455,30.4,10.1,28.3,3.0,415,19.5,15,1,0,0,1,1,0,1,0,0
+1267,Stuffed Bell Peppers (V17),dinner,305,18.3,28.5,10.2,5.1,650,9.9,25,1,0,0,1,0,0,1,1,0
+1268,Grilled Pork Tenderloin (V17),dinner,362,32.2,12.1,14.1,2.0,413,3.2,10,1,1,0,1,1,0,1,0,0
+1269,Eggplant Parmesan (V17),dinner,332,12.3,30.6,15.8,4.4,799,14.2,45,0,0,0,0,0,0,1,0,0
+1270,Baked Salmon with Broccoli (V18),dinner,425,35.8,13.4,20.1,4.5,302,9.4,25,1,0,1,1,1,0,1,0,1
+1271,Chicken Breast with Vegetables (V18),dinner,391,33.5,22.4,13.4,4.5,170,5.6,15,1,1,1,1,1,0,1,0,1
+1272,Pasta Primavera (V18),dinner,368,11.1,53.5,11.1,4.6,142,6.5,40,0,0,1,0,0,0,1,1,0
+1273,Beef Stew (V18),dinner,427,28.5,30.5,16.3,4.1,475,10.0,15,0,0,0,0,1,0,1,0,0
+1274,Grilled Tofu with Rice (V18),dinner,320,15.1,42.4,9.4,2.8,423,8.0,40,0,1,0,0,0,1,1,0,0
+1275,Fish Tacos (V18),dinner,336,20.5,29.9,13.1,2.8,369,17.7,20,0,1,1,1,1,0,1,1,1
+1276,Roasted Chicken Thigh (V18),dinner,420,28.8,8.9,24.4,2.2,763,17.7,15,1,0,0,1,1,0,1,0,0
+1277,Vegetable Lasagna (V18),dinner,367,14.7,41.4,14.7,3.7,262,7.6,30,0,0,1,0,0,0,1,0,0
+1278,Shrimp Stir Fry (V18),dinner,300,22.5,26.3,9.4,2.8,384,11.8,25,1,1,1,1,1,1,1,0,0
+1279,Turkey Meatballs with Pasta (V18),dinner,428,27.3,46.8,13.6,2.9,653,16.5,60,0,0,0,0,1,0,1,0,0
+1280,Baked Cod with Potatoes (V18),dinner,325,26.8,28.7,7.7,2.9,352,16.6,15,1,1,1,1,1,1,1,0,1
+1281,Lamb Chops with Salad (V18),dinner,383,25.5,8.5,23.8,2.6,190,7.4,15,1,0,1,1,1,0,1,0,0
+1282,Stuffed Bell Peppers (V18),dinner,279,16.7,26.0,9.3,4.7,455,6.1,30,1,1,0,1,0,1,1,1,1
+1283,Grilled Pork Tenderloin (V18),dinner,382,34.0,12.8,14.9,2.1,398,2.2,40,1,1,1,1,1,0,1,1,0
+1284,Eggplant Parmesan (V18),dinner,349,12.9,32.2,16.5,4.6,552,12.6,20,0,0,0,0,0,0,1,1,0
+1285,Baked Salmon with Broccoli (V19),dinner,371,31.3,11.7,17.6,3.9,436,12.4,40,1,0,0,1,1,0,1,0,1
+1286,Chicken Breast with Vegetables (V19),dinner,398,34.2,22.8,13.7,4.6,338,10.3,15,1,1,1,1,1,0,1,1,0
+1287,Pasta Primavera (V19),dinner,358,10.8,52.0,10.8,4.5,136,12.1,10,0,0,1,0,0,0,1,1,0
+1288,Beef Stew (V19),dinner,412,27.5,29.5,15.7,3.9,275,5.1,20,0,0,1,1,1,0,1,0,0
+1289,Grilled Tofu with Rice (V19),dinner,376,17.7,49.8,11.1,3.3,493,19.9,30,0,1,0,0,0,0,1,0,0
+1290,Fish Tacos (V19),dinner,413,25.3,36.8,16.1,3.4,716,4.1,60,0,0,0,0,1,0,1,0,1
+1291,Roasted Chicken Thigh (V19),dinner,323,22.1,6.8,18.7,1.7,380,5.2,40,1,0,1,1,1,0,1,0,0
+1292,Vegetable Lasagna (V19),dinner,374,15.0,42.1,15.0,3.7,324,4.9,40,0,0,1,0,0,0,1,1,0
+1293,Shrimp Stir Fry (V19),dinner,324,24.3,28.4,10.1,3.0,541,19.6,25,1,0,0,1,1,0,1,0,0
+1294,Turkey Meatballs with Pasta (V19),dinner,411,26.2,44.9,13.1,2.8,696,17.7,40,0,0,0,0,1,0,1,1,0
+1295,Baked Cod with Potatoes (V19),dinner,371,30.6,32.8,8.7,3.3,525,2.3,45,1,0,0,0,1,1,1,0,1
+1296,Lamb Chops with Salad (V19),dinner,430,28.7,9.6,26.8,2.9,376,11.1,25,1,0,1,1,1,0,1,1,0
+1297,Stuffed Bell Peppers (V19),dinner,325,19.5,30.3,10.8,5.4,645,16.5,60,1,0,0,0,0,0,1,0,0
+1298,Grilled Pork Tenderloin (V19),dinner,341,30.4,11.4,13.3,1.9,164,3.9,30,1,1,1,1,1,0,1,0,0
+1299,Eggplant Parmesan (V19),dinner,432,15.9,39.8,20.5,5.7,595,5.4,10,0,0,0,0,0,0,1,0,1
+1300,Baked Salmon with Broccoli (V20),dinner,335,28.3,10.6,15.9,3.5,198,11.6,60,1,0,1,1,1,0,1,0,0
+1301,Chicken Breast with Vegetables (V20),dinner,342,29.3,19.6,11.7,3.9,414,5.2,40,1,1,0,1,1,0,1,1,1
+1302,Pasta Primavera (V20),dinner,435,13.1,63.1,13.1,5.4,229,4.4,25,0,0,1,0,0,0,1,0,0
+1303,Beef Stew (V20),dinner,432,28.8,30.9,16.5,4.1,314,16.4,15,0,0,1,0,1,0,1,0,0
+1304,Grilled Tofu with Rice (V20),dinner,310,14.6,41.2,9.1,2.7,229,3.1,60,0,1,1,0,0,1,1,1,0
+1305,Fish Tacos (V20),dinner,349,21.4,31.1,13.6,2.9,531,17.4,45,0,0,0,0,1,0,1,0,0
+1306,Roasted Chicken Thigh (V20),dinner,426,29.2,9.0,24.7,2.2,213,9.0,40,1,0,1,1,1,0,1,0,1
+1307,Vegetable Lasagna (V20),dinner,456,18.2,51.3,18.2,4.6,277,4.2,15,0,0,1,0,0,0,1,0,0
+1308,Shrimp Stir Fry (V20),dinner,352,26.4,30.8,11.0,3.3,167,11.1,40,1,1,1,0,1,0,1,1,1
+1309,Turkey Meatballs with Pasta (V20),dinner,496,31.6,54.2,15.8,3.4,244,14.4,20,0,0,1,0,1,0,1,1,0
+1310,Baked Cod with Potatoes (V20),dinner,353,29.1,31.2,8.3,3.1,513,19.9,20,1,0,0,0,1,1,1,0,1
+1311,Lamb Chops with Salad (V20),dinner,505,33.7,11.2,31.4,3.4,630,16.7,15,1,0,0,1,1,0,1,0,0
+1312,Stuffed Bell Peppers (V20),dinner,290,17.4,27.1,9.7,4.8,243,4.7,30,1,1,1,1,0,1,1,0,1
+1313,Grilled Pork Tenderloin (V20),dinner,372,33.2,12.4,14.5,2.1,793,7.9,20,1,0,0,1,1,0,1,0,1
+1314,Eggplant Parmesan (V20),dinner,344,12.7,31.8,16.3,4.5,779,14.7,30,0,0,0,0,0,0,1,0,1
+1315,Baked Salmon with Broccoli (V21),dinner,359,30.3,11.4,17.0,3.8,481,19.0,20,1,0,0,1,1,0,1,0,1
+1316,Chicken Breast with Vegetables (V21),dinner,385,33.1,22.1,13.2,4.4,774,11.2,30,1,0,0,1,1,0,1,0,0
+1317,Pasta Primavera (V21),dinner,440,13.2,63.8,13.2,5.5,369,10.9,40,0,0,1,0,0,0,1,1,1
+1318,Beef Stew (V21),dinner,457,30.5,32.7,17.4,4.4,309,9.6,45,0,0,1,0,1,0,1,0,0
+1319,Grilled Tofu with Rice (V21),dinner,353,16.6,46.7,10.4,3.1,102,6.7,45,0,1,1,0,0,0,1,0,0
+1320,Fish Tacos (V21),dinner,392,24.0,34.9,15.3,3.3,620,10.7,30,0,0,0,0,1,0,1,1,1
+1321,Roasted Chicken Thigh (V21),dinner,428,29.3,9.0,24.8,2.3,152,7.3,20,1,0,1,1,1,0,1,0,0
+1322,Vegetable Lasagna (V21),dinner,403,16.1,45.4,16.1,4.0,146,16.6,60,0,0,1,0,0,0,1,1,1
+1323,Shrimp Stir Fry (V21),dinner,326,24.5,28.6,10.2,3.1,750,2.7,10,1,0,0,1,1,0,1,0,0
+1324,Turkey Meatballs with Pasta (V21),dinner,469,29.9,51.2,14.9,3.2,509,7.8,30,0,0,0,0,1,0,1,0,1
+1325,Baked Cod with Potatoes (V21),dinner,294,24.2,26.0,6.9,2.6,176,2.9,25,1,1,1,1,1,1,1,0,0
+1326,Lamb Chops with Salad (V21),dinner,424,28.3,9.4,26.4,2.8,669,12.7,40,1,0,0,1,1,0,1,0,1
+1327,Stuffed Bell Peppers (V21),dinner,305,18.4,28.6,10.2,5.1,251,4.5,30,1,1,1,1,0,0,1,0,0
+1328,Grilled Pork Tenderloin (V21),dinner,391,34.8,13.0,15.2,2.2,323,18.4,25,1,0,1,1,1,0,1,1,0
+1329,Eggplant Parmesan (V21),dinner,364,13.4,33.5,17.2,4.8,563,9.4,10,0,0,0,0,0,0,1,0,0
+1330,Baked Salmon with Broccoli (V22),dinner,383,32.3,12.1,18.2,4.0,388,19.4,25,1,0,1,1,1,0,1,0,0
+1331,Chicken Breast with Vegetables (V22),dinner,310,26.6,17.8,10.7,3.6,705,8.5,40,1,0,0,1,1,0,1,0,1
+1332,Pasta Primavera (V22),dinner,349,10.5,50.6,10.5,4.4,163,3.1,60,0,0,1,0,0,0,1,0,0
+1333,Beef Stew (V22),dinner,378,25.2,27.0,14.4,3.6,663,15.9,10,0,0,0,1,1,0,1,0,0
+1334,Grilled Tofu with Rice (V22),dinner,362,17.1,48.0,10.7,3.2,657,7.9,10,0,0,0,0,0,0,1,0,0
+1335,Fish Tacos (V22),dinner,356,21.8,31.7,13.9,3.0,371,8.6,30,0,1,1,0,1,0,1,0,1
+1336,Roasted Chicken Thigh (V22),dinner,350,24.0,7.4,20.3,1.8,201,4.9,25,1,0,1,1,1,0,1,0,0
+1337,Vegetable Lasagna (V22),dinner,449,18.0,50.6,18.0,4.5,148,16.8,10,0,0,1,0,0,0,1,1,1
+1338,Shrimp Stir Fry (V22),dinner,351,26.4,30.8,11.0,3.3,682,14.4,60,1,0,0,0,1,0,1,0,0
+1339,Turkey Meatballs with Pasta (V22),dinner,374,23.8,40.8,11.9,2.6,175,14.2,30,0,0,1,0,1,0,1,1,0
+1340,Baked Cod with Potatoes (V22),dinner,317,26.1,28.0,7.5,2.8,741,14.8,20,1,0,0,1,1,1,1,0,1
+1341,Lamb Chops with Salad (V22),dinner,393,26.2,8.7,24.5,2.6,151,6.1,25,1,0,1,1,1,0,1,0,0
+1342,Stuffed Bell Peppers (V22),dinner,326,19.6,30.5,10.9,5.4,779,9.2,45,1,0,0,0,0,0,1,1,0
+1343,Grilled Pork Tenderloin (V22),dinner,347,30.9,11.6,13.5,1.9,519,2.2,10,1,0,0,1,1,0,1,1,0
+1344,Eggplant Parmesan (V22),dinner,389,14.4,35.9,18.5,5.1,463,17.5,40,0,0,0,0,0,0,1,1,0
+1345,Baked Salmon with Broccoli (V23),dinner,384,32.4,12.1,18.2,4.0,636,16.1,10,1,0,0,1,1,0,1,0,1
+1346,Chicken Breast with Vegetables (V23),dinner,395,33.9,22.6,13.6,4.5,610,8.9,25,1,0,0,1,1,0,1,0,0
+1347,Pasta Primavera (V23),dinner,356,10.7,51.7,10.7,4.5,542,17.8,30,0,0,0,0,0,0,1,0,0
+1348,Beef Stew (V23),dinner,391,26.1,28.0,14.9,3.7,705,4.2,10,0,0,0,1,1,0,1,0,0
+1349,Grilled Tofu with Rice (V23),dinner,330,15.5,43.7,9.7,2.9,444,19.0,15,0,1,0,0,0,1,1,1,0
+1350,Fish Tacos (V23),dinner,374,22.9,33.3,14.6,3.1,722,12.8,20,0,0,0,0,1,0,1,0,1
+1351,Roasted Chicken Thigh (V23),dinner,428,29.3,9.0,24.8,2.3,596,2.2,45,1,0,0,1,1,0,1,0,1
+1352,Vegetable Lasagna (V23),dinner,400,16.0,45.0,16.0,4.0,420,3.0,45,0,0,0,0,0,0,1,0,0
+1353,Shrimp Stir Fry (V23),dinner,342,25.7,30.0,10.7,3.2,314,6.6,25,1,1,1,0,1,0,1,0,0
+1354,Turkey Meatballs with Pasta (V23),dinner,459,29.2,50.1,14.6,3.1,763,12.6,20,0,0,0,0,1,0,1,0,0
+1355,Baked Cod with Potatoes (V23),dinner,297,24.5,26.3,7.0,2.6,684,18.6,25,1,0,0,1,1,1,1,0,1
+1356,Lamb Chops with Salad (V23),dinner,424,28.3,9.4,26.4,2.8,328,17.0,15,1,0,1,1,1,0,1,0,0
+1357,Stuffed Bell Peppers (V23),dinner,342,20.5,31.9,11.4,5.7,303,5.6,25,1,1,1,0,1,0,1,0,1
+1358,Grilled Pork Tenderloin (V23),dinner,339,30.2,11.3,13.2,1.9,234,2.5,15,1,1,1,1,1,0,1,0,0
+1359,Eggplant Parmesan (V23),dinner,405,14.9,37.4,19.2,5.3,648,18.5,15,0,0,0,0,0,0,1,0,1
+1360,Baked Salmon with Broccoli (V24),dinner,412,34.8,13.0,19.6,4.3,431,16.5,10,1,0,0,1,1,0,1,1,0
+1361,Chicken Breast with Vegetables (V24),dinner,309,26.5,17.7,10.6,3.5,208,4.2,25,1,1,1,1,1,0,1,0,0
+1362,Pasta Primavera (V24),dinner,349,10.5,50.7,10.5,4.4,772,3.3,10,0,0,0,0,0,0,1,0,1
+1363,Beef Stew (V24),dinner,451,30.1,32.3,17.2,4.3,701,12.0,40,0,0,0,0,1,0,1,1,0
+1364,Grilled Tofu with Rice (V24),dinner,364,17.1,48.2,10.7,3.2,412,5.6,45,0,1,0,0,0,0,1,0,1
+1365,Fish Tacos (V24),dinner,408,24.9,36.3,15.9,3.4,450,6.8,60,0,0,0,0,1,0,1,0,0
+1366,Roasted Chicken Thigh (V24),dinner,424,29.1,8.9,24.6,2.2,609,10.0,10,1,0,0,1,1,0,1,0,0
+1367,Vegetable Lasagna (V24),dinner,368,14.7,41.5,14.7,3.7,217,16.8,45,0,0,1,0,0,0,1,0,0
+1368,Shrimp Stir Fry (V24),dinner,316,23.7,27.7,9.9,3.0,343,7.2,25,1,1,1,1,1,1,1,0,0
+1369,Turkey Meatballs with Pasta (V24),dinner,457,29.1,49.9,14.5,3.1,172,13.0,30,0,0,1,0,1,0,1,0,0
+1370,Baked Cod with Potatoes (V24),dinner,315,26.0,27.9,7.4,2.8,352,10.7,25,1,1,1,1,1,1,1,0,0
+1371,Lamb Chops with Salad (V24),dinner,430,28.7,9.6,26.8,2.9,379,10.6,25,1,0,1,1,1,0,1,0,0
+1372,Stuffed Bell Peppers (V24),dinner,290,17.4,27.1,9.7,4.8,372,19.7,30,1,1,1,1,0,1,1,0,0
+1373,Grilled Pork Tenderloin (V24),dinner,330,29.4,11.0,12.9,1.8,422,12.7,10,1,1,0,1,1,0,1,1,0
+1374,Eggplant Parmesan (V24),dinner,427,15.7,39.4,20.2,5.6,638,10.8,40,0,0,0,0,0,0,1,0,0
+1375,Baked Salmon with Broccoli (V25),dinner,424,35.7,13.4,20.1,4.5,776,15.8,60,1,0,0,1,1,0,1,1,0
+1376,Chicken Breast with Vegetables (V25),dinner,364,31.2,20.8,12.5,4.2,458,11.3,40,1,1,0,1,1,0,1,0,0
+1377,Pasta Primavera (V25),dinner,398,12.0,57.8,12.0,5.0,298,15.7,25,0,0,1,0,0,0,1,0,0
+1378,Beef Stew (V25),dinner,378,25.2,27.0,14.4,3.6,659,3.3,40,0,0,0,1,1,0,1,1,0
+1379,Grilled Tofu with Rice (V25),dinner,346,16.3,45.9,10.2,3.1,343,2.2,45,0,1,1,0,0,0,1,0,1
+1380,Fish Tacos (V25),dinner,320,19.6,28.5,12.5,2.7,464,19.4,25,0,1,0,1,0,0,1,0,0
+1381,Roasted Chicken Thigh (V25),dinner,335,23.0,7.1,19.4,1.8,145,8.2,20,1,0,1,1,1,0,1,1,0
+1382,Vegetable Lasagna (V25),dinner,345,13.8,38.9,13.8,3.5,428,18.0,25,0,0,0,0,0,0,1,0,0
+1383,Shrimp Stir Fry (V25),dinner,355,26.7,31.1,11.1,3.3,541,15.6,15,1,0,0,0,1,0,1,0,0
+1384,Turkey Meatballs with Pasta (V25),dinner,389,24.8,42.5,12.4,2.7,725,14.5,30,0,0,0,0,1,0,1,1,0
+1385,Baked Cod with Potatoes (V25),dinner,377,31.0,33.3,8.9,3.3,381,5.0,25,1,1,1,0,1,1,1,0,0
+1386,Lamb Chops with Salad (V25),dinner,418,27.9,9.3,26.0,2.8,494,7.8,40,1,0,0,1,1,0,1,1,0
+1387,Stuffed Bell Peppers (V25),dinner,343,20.6,32.1,11.4,5.7,632,10.0,20,1,0,0,0,1,0,1,0,0
+1388,Grilled Pork Tenderloin (V25),dinner,350,31.1,11.7,13.6,1.9,667,15.4,30,1,0,0,1,1,0,1,1,0
+1389,Eggplant Parmesan (V25),dinner,378,13.9,34.8,17.9,5.0,530,18.1,15,0,0,0,0,0,0,1,0,0
+1390,Baked Salmon with Broccoli (V26),dinner,325,27.4,10.3,15.4,3.4,659,3.3,10,1,0,0,1,1,0,1,0,1
+1391,Chicken Breast with Vegetables (V26),dinner,377,32.3,21.6,12.9,4.3,338,13.9,10,1,1,1,1,1,0,1,1,1
+1392,Pasta Primavera (V26),dinner,414,12.4,60.1,12.4,5.2,482,16.8,10,0,0,0,0,0,0,1,0,0
+1393,Beef Stew (V26),dinner,476,31.8,34.0,18.2,4.5,676,8.1,60,0,0,0,0,1,0,1,1,1
+1394,Grilled Tofu with Rice (V26),dinner,339,16.0,44.9,10.0,3.0,771,12.6,20,0,0,0,0,0,0,1,1,0
+1395,Fish Tacos (V26),dinner,345,21.1,30.7,13.4,2.9,101,16.4,10,0,1,1,0,1,0,1,0,0
+1396,Roasted Chicken Thigh (V26),dinner,424,29.0,8.9,24.6,2.2,543,18.4,20,1,0,0,1,1,0,1,0,0
+1397,Vegetable Lasagna (V26),dinner,388,15.5,43.7,15.5,3.9,392,19.4,45,0,0,1,0,0,0,1,0,0
+1398,Shrimp Stir Fry (V26),dinner,272,20.4,23.8,8.5,2.6,736,19.5,60,1,0,0,1,1,1,1,0,0
+1399,Turkey Meatballs with Pasta (V26),dinner,499,31.8,54.5,15.9,3.4,303,11.6,10,0,0,1,0,1,0,1,0,1
+1400,Baked Cod with Potatoes (V26),dinner,371,30.6,32.8,8.8,3.3,313,5.9,15,1,1,1,0,1,1,1,1,1
+1401,Lamb Chops with Salad (V26),dinner,460,30.7,10.2,28.6,3.1,259,17.5,30,1,0,1,1,1,0,1,1,1
+1402,Stuffed Bell Peppers (V26),dinner,344,20.7,32.1,11.5,5.7,179,2.9,20,1,1,1,0,1,0,1,1,0
+1403,Grilled Pork Tenderloin (V26),dinner,321,28.6,10.7,12.5,1.8,391,16.9,45,1,1,1,1,1,0,1,0,0
+1404,Eggplant Parmesan (V26),dinner,353,13.0,32.6,16.7,4.7,585,10.5,20,0,0,0,0,0,0,1,0,0
+1405,Baked Salmon with Broccoli (V27),dinner,396,33.4,12.5,18.8,4.2,646,10.9,60,1,0,0,1,1,0,1,0,1
+1406,Chicken Breast with Vegetables (V27),dinner,368,31.6,21.1,12.6,4.2,180,19.0,40,1,1,1,1,1,0,1,0,1
+1407,Pasta Primavera (V27),dinner,372,11.2,54.0,11.2,4.7,527,11.7,30,0,0,0,0,0,0,1,1,0
+1408,Beef Stew (V27),dinner,376,25.1,26.9,14.3,3.6,748,12.4,30,0,0,0,1,1,0,1,1,0
+1409,Grilled Tofu with Rice (V27),dinner,341,16.1,45.3,10.1,3.0,171,3.8,15,0,1,1,0,0,0,1,1,0
+1410,Fish Tacos (V27),dinner,323,19.8,28.8,12.6,2.7,769,9.3,20,0,0,0,1,0,0,1,0,0
+1411,Roasted Chicken Thigh (V27),dinner,380,26.0,8.0,22.0,2.0,672,12.1,15,1,0,0,1,1,0,1,0,0
+1412,Vegetable Lasagna (V27),dinner,447,17.9,50.3,17.9,4.5,622,7.2,60,0,0,0,0,0,0,1,0,1
+1413,Shrimp Stir Fry (V27),dinner,289,21.7,25.3,9.0,2.7,593,11.7,25,1,0,0,1,1,1,1,0,0
+1414,Turkey Meatballs with Pasta (V27),dinner,390,24.9,42.7,12.4,2.7,573,14.3,10,0,0,0,0,1,0,1,0,0
+1415,Baked Cod with Potatoes (V27),dinner,304,25.1,26.9,7.2,2.7,665,9.3,30,1,0,0,1,1,1,1,0,0
+1416,Lamb Chops with Salad (V27),dinner,449,30.0,10.0,28.0,3.0,315,5.2,10,1,0,1,1,1,0,1,1,0
+1417,Stuffed Bell Peppers (V27),dinner,287,17.2,26.8,9.6,4.8,356,16.9,30,1,1,1,1,0,1,1,0,0
+1418,Grilled Pork Tenderloin (V27),dinner,338,30.1,11.3,13.2,1.9,724,3.5,15,1,0,0,1,1,0,1,0,0
+1419,Eggplant Parmesan (V27),dinner,344,12.7,31.7,16.3,4.5,127,9.5,20,0,0,1,0,0,0,1,0,0
+1420,Baked Salmon with Broccoli (V28),dinner,406,34.2,12.8,19.3,4.3,685,13.9,60,1,0,0,1,1,0,1,0,1
+1421,Chicken Breast with Vegetables (V28),dinner,316,27.2,18.1,10.9,3.6,285,5.8,25,1,1,1,1,1,0,1,0,0
+1422,Pasta Primavera (V28),dinner,443,13.3,64.3,13.3,5.5,700,7.0,30,0,0,0,0,0,0,1,0,0
+1423,Beef Stew (V28),dinner,413,27.6,29.6,15.8,3.9,516,8.1,20,0,0,0,1,1,0,1,0,0
+1424,Grilled Tofu with Rice (V28),dinner,306,14.4,40.5,9.0,2.7,328,4.1,30,0,1,1,0,0,1,1,0,0
+1425,Fish Tacos (V28),dinner,379,23.2,33.7,14.7,3.2,366,17.7,45,0,1,1,0,1,0,1,1,0
+1426,Roasted Chicken Thigh (V28),dinner,432,29.6,9.1,25.0,2.3,601,6.6,10,1,0,0,1,1,0,1,0,0
+1427,Vegetable Lasagna (V28),dinner,344,13.8,38.8,13.8,3.4,143,8.7,30,0,0,1,0,0,0,1,0,0
+1428,Shrimp Stir Fry (V28),dinner,351,26.4,30.8,11.0,3.3,522,8.0,30,1,0,0,0,1,0,1,0,0
+1429,Turkey Meatballs with Pasta (V28),dinner,376,24.0,41.1,12.0,2.6,211,9.2,30,0,0,1,0,1,0,1,0,1
+1430,Baked Cod with Potatoes (V28),dinner,344,28.4,30.4,8.1,3.0,688,10.0,15,1,0,0,0,1,1,1,1,0
+1431,Lamb Chops with Salad (V28),dinner,393,26.2,8.7,24.5,2.6,720,9.3,10,1,0,0,1,1,0,1,0,0
+1432,Stuffed Bell Peppers (V28),dinner,341,20.5,31.8,11.4,5.7,672,16.5,60,1,0,0,0,1,0,1,0,0
+1433,Grilled Pork Tenderloin (V28),dinner,324,28.8,10.8,12.6,1.8,707,3.4,45,1,0,0,1,1,0,1,0,0
+1434,Eggplant Parmesan (V28),dinner,431,15.9,39.8,20.4,5.7,562,11.8,15,0,0,0,0,0,0,1,0,0
+1435,Baked Salmon with Broccoli (V29),dinner,413,34.8,13.1,19.6,4.4,733,19.0,25,1,0,0,1,1,0,1,1,0
+1436,Chicken Breast with Vegetables (V29),dinner,356,30.6,20.4,12.2,4.1,299,17.1,30,1,1,1,1,1,0,1,0,0
+1437,Pasta Primavera (V29),dinner,432,13.0,62.7,13.0,5.4,181,16.8,25,0,0,1,0,0,0,1,0,0
+1438,Beef Stew (V29),dinner,455,30.4,32.6,17.4,4.3,214,15.0,15,0,0,1,0,1,0,1,0,0
+1439,Grilled Tofu with Rice (V29),dinner,325,15.3,43.0,9.6,2.9,486,15.0,15,0,1,0,0,0,1,1,0,0
+1440,Fish Tacos (V29),dinner,334,20.4,29.7,13.0,2.8,738,8.9,10,0,0,0,1,1,0,1,1,0
+1441,Roasted Chicken Thigh (V29),dinner,418,28.7,8.8,24.2,2.2,611,2.7,60,1,0,0,1,1,0,1,0,0
+1442,Vegetable Lasagna (V29),dinner,387,15.5,43.6,15.5,3.9,572,17.7,20,0,0,0,0,0,0,1,0,0
+1443,Shrimp Stir Fry (V29),dinner,288,21.6,25.2,9.0,2.7,425,10.3,10,1,1,0,1,1,1,1,1,0
+1444,Turkey Meatballs with Pasta (V29),dinner,466,29.7,50.9,14.9,3.2,406,12.3,60,0,0,0,0,1,0,1,0,0
+1445,Baked Cod with Potatoes (V29),dinner,353,29.1,31.2,8.3,3.1,592,14.2,20,1,0,0,0,1,1,1,0,0
+1446,Lamb Chops with Salad (V29),dinner,491,32.8,10.9,30.6,3.3,571,2.5,30,1,0,0,1,1,0,1,1,0
+1447,Stuffed Bell Peppers (V29),dinner,300,18.0,28.0,10.0,5.0,367,8.2,60,1,1,1,1,0,0,1,1,0
+1448,Grilled Pork Tenderloin (V29),dinner,310,27.6,10.3,12.1,1.7,118,19.1,60,1,1,1,1,1,0,1,1,0
+1449,Eggplant Parmesan (V29),dinner,323,11.9,29.8,15.3,4.3,679,12.5,30,0,0,0,1,0,0,1,0,0
+1450,Baked Salmon with Broccoli (V30),dinner,406,34.2,12.8,19.3,4.3,760,15.0,10,1,0,0,1,1,0,1,1,0
+1451,Chicken Breast with Vegetables (V30),dinner,368,31.6,21.1,12.6,4.2,107,6.0,30,1,1,1,1,1,0,1,0,1
+1452,Pasta Primavera (V30),dinner,363,10.9,52.6,10.9,4.5,616,15.0,15,0,0,0,0,0,0,1,0,0
+1453,Beef Stew (V30),dinner,459,30.6,32.8,17.5,4.4,235,2.2,10,0,0,1,0,1,0,1,0,0
+1454,Grilled Tofu with Rice (V30),dinner,306,14.4,40.6,9.0,2.7,789,12.4,10,0,0,0,0,0,1,1,0,0
+1455,Fish Tacos (V30),dinner,397,24.3,35.3,15.5,3.3,594,8.1,45,0,0,0,0,1,0,1,0,0
+1456,Roasted Chicken Thigh (V30),dinner,424,29.0,8.9,24.6,2.2,259,9.1,20,1,0,1,1,1,0,1,1,0
+1457,Vegetable Lasagna (V30),dinner,346,13.8,38.9,13.8,3.5,675,19.3,30,0,0,0,0,0,0,1,0,0
+1458,Shrimp Stir Fry (V30),dinner,287,21.5,25.1,9.0,2.7,132,11.2,15,1,1,1,1,1,1,1,0,1
+1459,Turkey Meatballs with Pasta (V30),dinner,427,27.2,46.6,13.6,2.9,128,15.5,25,0,0,1,0,1,0,1,1,0
+1460,Baked Cod with Potatoes (V30),dinner,379,31.2,33.5,8.9,3.3,296,14.0,45,1,1,1,0,1,1,1,0,1
+1461,Lamb Chops with Salad (V30),dinner,399,26.7,8.9,24.9,2.7,665,18.1,30,1,0,0,1,1,0,1,0,0
+1462,Stuffed Bell Peppers (V30),dinner,278,16.7,26.0,9.3,4.6,416,15.6,10,1,1,0,1,0,1,1,0,1
+1463,Grilled Pork Tenderloin (V30),dinner,340,30.3,11.4,13.2,1.9,357,16.0,15,1,1,1,1,1,0,1,1,1
+1464,Eggplant Parmesan (V30),dinner,415,15.3,38.3,19.7,5.5,158,16.5,25,0,0,1,0,0,0,1,0,0
+1465,Baked Salmon with Broccoli (V31),dinner,377,31.8,11.9,17.9,4.0,353,2.7,60,1,0,1,1,1,0,1,0,0
+1466,Chicken Breast with Vegetables (V31),dinner,330,28.3,18.9,11.3,3.8,361,7.0,60,1,1,1,1,1,0,1,0,0
+1467,Pasta Primavera (V31),dinner,389,11.7,56.5,11.7,4.9,432,15.9,30,0,0,0,0,0,0,1,0,0
+1468,Beef Stew (V31),dinner,481,32.1,34.4,18.3,4.6,519,12.4,45,0,0,0,0,1,0,1,0,0
+1469,Grilled Tofu with Rice (V31),dinner,316,14.9,41.9,9.3,2.8,587,18.9,45,0,0,0,0,0,1,1,0,0
+1470,Fish Tacos (V31),dinner,385,23.6,34.3,15.0,3.2,641,15.8,20,0,0,0,0,1,0,1,1,0
+1471,Roasted Chicken Thigh (V31),dinner,404,27.7,8.5,23.4,2.1,512,3.3,10,1,0,0,1,1,0,1,1,0
+1472,Vegetable Lasagna (V31),dinner,409,16.4,46.1,16.4,4.1,726,17.2,60,0,0,0,0,0,0,1,0,0
+1473,Shrimp Stir Fry (V31),dinner,367,27.6,32.2,11.5,3.4,584,2.6,45,1,0,0,0,1,0,1,0,1
+1474,Turkey Meatballs with Pasta (V31),dinner,378,24.1,41.2,12.0,2.6,786,2.1,40,0,0,0,0,1,0,1,0,0
+1475,Baked Cod with Potatoes (V31),dinner,292,24.1,25.8,6.9,2.6,602,6.3,40,1,0,0,1,1,1,1,0,1
+1476,Lamb Chops with Salad (V31),dinner,402,26.8,8.9,25.0,2.7,169,18.6,30,1,0,1,1,1,0,1,0,1
+1477,Stuffed Bell Peppers (V31),dinner,291,17.5,27.2,9.7,4.9,356,2.1,40,1,1,1,1,0,1,1,0,0
+1478,Grilled Pork Tenderloin (V31),dinner,311,27.7,10.4,12.1,1.7,794,9.6,45,1,0,0,1,1,0,1,0,0
+1479,Eggplant Parmesan (V31),dinner,343,12.7,31.6,16.3,4.5,555,8.9,15,0,0,0,0,0,0,1,1,0
+1480,Baked Salmon with Broccoli (V32),dinner,427,36.0,13.5,20.2,4.5,670,15.1,60,1,0,0,1,1,0,1,1,0
+1481,Chicken Breast with Vegetables (V32),dinner,314,27.0,18.0,10.8,3.6,322,7.4,60,1,1,1,1,1,0,1,0,0
+1482,Pasta Primavera (V32),dinner,345,10.4,50.1,10.4,4.3,288,7.4,10,0,0,1,0,0,0,1,1,0
+1483,Beef Stew (V32),dinner,459,30.6,32.8,17.5,4.4,354,9.7,10,0,0,1,0,1,0,1,0,0
+1484,Grilled Tofu with Rice (V32),dinner,387,18.2,51.2,11.4,3.4,117,18.1,25,0,1,1,0,0,0,1,1,1
+1485,Fish Tacos (V32),dinner,368,22.5,32.7,14.3,3.1,287,17.6,45,0,1,1,0,1,0,1,0,0
+1486,Roasted Chicken Thigh (V32),dinner,366,25.0,7.7,21.2,1.9,540,13.7,45,1,0,0,1,1,0,1,0,0
+1487,Vegetable Lasagna (V32),dinner,369,14.8,41.6,14.8,3.7,659,18.6,20,0,0,0,0,0,0,1,1,0
+1488,Shrimp Stir Fry (V32),dinner,349,26.2,30.5,10.9,3.3,774,9.9,15,1,0,0,0,1,0,1,0,1
+1489,Turkey Meatballs with Pasta (V32),dinner,490,31.2,53.5,15.6,3.3,530,19.0,40,0,0,0,0,1,0,1,0,0
+1490,Baked Cod with Potatoes (V32),dinner,340,28.0,30.0,8.0,3.0,632,12.5,20,1,0,0,0,1,1,1,1,0
+1491,Lamb Chops with Salad (V32),dinner,463,30.9,10.3,28.9,3.1,407,5.7,25,1,0,0,1,1,0,1,0,1
+1492,Stuffed Bell Peppers (V32),dinner,276,16.6,25.8,9.2,4.6,580,2.7,60,1,0,0,1,0,1,1,0,0
+1493,Grilled Pork Tenderloin (V32),dinner,340,30.3,11.3,13.2,1.9,424,3.9,25,1,1,0,1,1,0,1,1,0
+1494,Eggplant Parmesan (V32),dinner,419,15.4,38.6,19.9,5.5,476,9.5,20,0,0,0,0,0,0,1,1,0
+1495,Baked Salmon with Broccoli (V33),dinner,349,29.4,11.0,16.5,3.7,158,6.6,10,1,0,1,1,1,0,1,0,1
+1496,Chicken Breast with Vegetables (V33),dinner,363,31.2,20.8,12.5,4.2,629,8.9,45,1,0,0,1,1,0,1,0,0
+1497,Pasta Primavera (V33),dinner,442,13.3,64.2,13.3,5.5,175,19.0,30,0,0,1,0,0,0,1,0,0
+1498,Beef Stew (V33),dinner,408,27.2,29.1,15.5,3.9,695,9.4,25,0,0,0,1,1,0,1,1,0
+1499,Grilled Tofu with Rice (V33),dinner,356,16.8,47.2,10.5,3.1,185,14.5,10,0,1,1,0,0,0,1,0,0
+1500,Apple Slices with Peanut Butter,snack,184,5.5,20.3,9.2,2.8,624,3.2,15,1,0,0,1,0,1,1,0,0
+1501,Mixed Nuts,snack,165,4.6,7.3,14.7,1.8,243,2.6,30,1,1,1,1,0,0,1,1,0
+1502,Yogurt Cup,snack,158,8.5,19.1,4.2,0.0,370,17.1,20,1,0,1,1,0,1,1,0,0
+1503,Carrot Sticks with Hummus,snack,126,3.9,15.6,5.8,3.9,331,4.5,20,1,1,1,1,0,1,1,0,0
+1504,Cheese and Crackers,snack,170,6.8,15.4,8.5,0.9,795,13.3,40,0,0,0,1,0,1,1,0,1
+1505,Banana,snack,102,1.0,26.4,0.0,2.9,738,7.4,15,1,0,0,1,0,1,1,0,1
+1506,Trail Mix,snack,249,6.8,27.2,13.6,3.4,102,13.0,45,0,1,1,1,0,0,1,0,0
+1507,Rice Cakes with Avocado,snack,154,2.9,19.3,7.7,2.9,103,9.0,40,1,1,1,1,0,1,1,1,0
+1508,Hard Boiled Egg,snack,79,6.1,1.0,5.1,0.0,191,12.2,30,1,1,1,1,0,1,1,0,1
+1509,Dark Chocolate Square,snack,116,1.9,13.6,7.7,1.9,200,9.2,60,1,1,1,1,0,1,1,0,0
+1510,Cottage Cheese Cup,snack,95,10.5,3.5,3.5,0.0,272,10.8,25,1,0,1,1,0,1,1,0,0
+1511,Fruit Smoothie,snack,174,3.9,34.9,1.9,2.9,632,17.9,15,1,0,0,0,0,1,1,0,0
+1512,Whole Grain Toast with Honey,snack,172,4.3,32.3,3.2,2.2,226,2.8,20,0,1,1,0,0,1,1,0,0
+1513,Edamame,snack,131,10.9,8.7,5.5,4.4,703,10.9,20,1,0,0,1,0,1,1,0,0
+1514,Vegetable Soup Cup,snack,97,3.9,13.7,2.0,2.9,746,2.0,60,1,0,0,1,0,1,1,0,0
+1515,Apple Slices with Peanut Butter (V1),snack,198,6.0,21.8,9.9,3.0,448,9.4,10,1,1,0,1,0,1,1,0,0
+1516,Mixed Nuts (V1),snack,155,4.3,6.9,13.8,1.7,150,7.7,20,1,1,1,1,0,0,1,0,0
+1517,Yogurt Cup (V1),snack,162,8.7,19.5,4.3,0.0,580,3.7,25,1,0,0,1,0,1,1,0,0
+1518,Carrot Sticks with Hummus (V1),snack,123,3.8,15.2,5.7,3.8,772,4.2,45,1,0,0,1,0,1,1,0,0
+1519,Cheese and Crackers (V1),snack,223,8.9,20.1,11.2,1.1,379,8.5,15,0,0,1,1,0,0,1,0,1
+1520,Banana (V1),snack,93,0.9,24.1,0.0,2.7,539,4.5,40,1,0,0,1,0,1,1,0,0
+1521,Trail Mix (V1),snack,230,6.3,25.2,12.6,3.1,775,5.1,15,0,0,0,1,0,0,1,0,1
+1522,Rice Cakes with Avocado (V1),snack,178,3.4,22.4,8.9,3.4,354,18.4,45,1,1,1,1,0,1,1,0,1
+1523,Hard Boiled Egg (V1),snack,67,5.2,0.9,4.3,0.0,583,7.7,25,1,0,0,1,0,1,1,0,0
+1524,Dark Chocolate Square (V1),snack,106,1.8,12.4,7.1,1.8,154,6.9,40,1,1,1,1,0,1,1,0,0
+1525,Cottage Cheese Cup (V1),snack,101,11.0,3.7,3.7,0.0,214,6.7,20,1,0,1,1,0,1,1,0,0
+1526,Fruit Smoothie (V1),snack,161,3.6,32.3,1.8,2.7,600,2.3,30,1,0,0,0,0,1,1,0,1
+1527,Whole Grain Toast with Honey (V1),snack,146,3.7,27.4,2.7,1.8,190,10.0,60,0,1,1,1,0,1,1,0,0
+1528,Edamame (V1),snack,130,10.9,8.7,5.4,4.3,774,7.4,60,1,0,0,1,0,1,1,0,0
+1529,Vegetable Soup Cup (V1),snack,91,3.7,12.9,1.8,2.8,613,12.1,15,1,0,0,1,0,1,1,1,1
+1530,Apple Slices with Peanut Butter (V2),snack,197,5.9,21.7,9.9,3.0,348,14.7,10,1,1,1,1,0,1,1,0,0
+1531,Mixed Nuts (V2),snack,158,4.4,7.0,14.1,1.8,253,3.8,45,1,1,1,1,0,0,1,0,0
+1532,Yogurt Cup (V2),snack,139,7.4,16.7,3.7,0.0,187,14.1,15,1,0,1,1,0,1,1,0,0
+1533,Carrot Sticks with Hummus (V2),snack,135,4.2,16.7,6.2,4.2,774,11.4,60,1,0,0,1,0,1,1,0,0
+1534,Cheese and Crackers (V2),snack,207,8.3,18.6,10.4,1.0,749,15.0,15,0,0,0,1,0,0,1,0,0
+1535,Banana (V2),snack,114,1.1,29.4,0.0,3.3,128,10.2,20,1,1,1,1,0,1,1,0,0
+1536,Trail Mix (V2),snack,202,5.5,22.0,11.0,2.8,555,16.8,20,0,0,0,1,0,0,1,0,0
+1537,Rice Cakes with Avocado (V2),snack,147,2.8,18.5,7.4,2.8,320,17.7,30,1,1,1,1,0,1,1,1,0
+1538,Hard Boiled Egg (V2),snack,86,6.6,1.1,5.5,0.0,621,11.6,45,1,0,0,1,0,1,1,0,0
+1539,Dark Chocolate Square (V2),snack,103,1.7,12.1,6.9,1.7,598,10.1,40,1,0,0,1,0,1,1,0,0
+1540,Cottage Cheese Cup (V2),snack,109,11.9,4.0,4.0,0.0,687,4.5,10,1,0,0,1,0,1,1,1,0
+1541,Fruit Smoothie (V2),snack,202,4.5,40.4,2.2,3.4,418,16.4,10,0,1,0,0,0,1,1,0,1
+1542,Whole Grain Toast with Honey (V2),snack,166,4.2,31.3,3.1,2.1,185,11.9,45,0,1,1,0,0,1,1,1,0
+1543,Edamame (V2),snack,116,9.7,7.8,4.8,3.9,120,19.4,10,1,1,1,1,0,1,1,1,1
+1544,Vegetable Soup Cup (V2),snack,109,4.4,15.3,2.2,3.3,439,12.3,15,1,1,0,1,0,1,1,1,0
+1545,Apple Slices with Peanut Butter (V3),snack,174,5.2,19.2,8.7,2.6,418,17.0,40,1,1,0,1,0,1,1,0,0
+1546,Mixed Nuts (V3),snack,181,5.0,8.1,16.2,2.0,141,10.7,45,1,0,1,1,0,0,1,0,0
+1547,Yogurt Cup (V3),snack,160,8.6,19.3,4.3,0.0,563,10.1,20,1,0,0,1,0,1,1,0,0
+1548,Carrot Sticks with Hummus (V3),snack,112,3.5,13.8,5.2,3.5,167,6.3,30,1,1,1,1,0,1,1,0,0
+1549,Cheese and Crackers (V3),snack,228,9.1,20.6,11.4,1.1,430,7.8,20,0,0,0,1,0,0,1,1,1
+1550,Banana (V3),snack,103,1.0,26.5,0.0,2.9,431,9.0,60,1,1,0,1,0,1,1,0,0
+1551,Trail Mix (V3),snack,250,6.8,27.3,13.7,3.4,412,10.9,15,0,1,0,1,0,0,1,0,0
+1552,Rice Cakes with Avocado (V3),snack,142,2.7,17.8,7.1,2.7,526,2.3,40,1,0,0,1,0,1,1,0,0
+1553,Hard Boiled Egg (V3),snack,83,6.4,1.1,5.3,0.0,502,5.1,10,1,0,0,1,0,1,1,0,0
+1554,Dark Chocolate Square (V3),snack,126,2.1,14.8,8.4,2.1,138,13.8,10,1,1,1,1,0,1,1,0,1
+1555,Cottage Cheese Cup (V3),snack,102,11.1,3.7,3.7,0.0,160,2.6,15,1,0,1,1,0,1,1,0,0
+1556,Fruit Smoothie (V3),snack,205,4.6,41.1,2.3,3.4,279,14.3,30,0,1,1,0,0,1,1,0,0
+1557,Whole Grain Toast with Honey (V3),snack,169,4.2,31.7,3.2,2.1,510,7.2,15,0,0,0,0,0,1,1,0,0
+1558,Edamame (V3),snack,103,8.6,6.9,4.3,3.4,417,19.1,15,1,1,0,1,0,1,1,1,0
+1559,Vegetable Soup Cup (V3),snack,108,4.3,15.2,2.2,3.3,466,6.5,20,1,1,0,1,0,1,1,0,1
+1560,Apple Slices with Peanut Butter (V4),snack,223,6.7,24.6,11.2,3.4,475,14.7,20,1,1,0,1,0,0,1,0,0
+1561,Mixed Nuts (V4),snack,174,4.9,7.8,15.5,1.9,158,19.3,15,1,0,1,1,0,0,1,0,0
+1562,Yogurt Cup (V4),snack,169,9.1,20.4,4.5,0.0,321,8.5,45,1,0,1,1,0,1,1,0,1
+1563,Carrot Sticks with Hummus (V4),snack,148,4.6,18.3,6.9,4.6,679,13.7,15,1,0,0,1,0,1,1,0,0
+1564,Cheese and Crackers (V4),snack,208,8.3,18.7,10.4,1.0,745,19.7,10,0,0,0,1,0,0,1,0,1
+1565,Banana (V4),snack,92,0.9,23.7,0.0,2.6,794,7.3,20,1,0,0,1,0,1,1,1,0
+1566,Trail Mix (V4),snack,206,5.6,22.5,11.2,2.8,516,11.4,10,0,0,0,1,0,0,1,0,0
+1567,Rice Cakes with Avocado (V4),snack,153,2.9,19.2,7.7,2.9,415,4.4,15,1,1,0,1,0,1,1,0,1
+1568,Hard Boiled Egg (V4),snack,75,5.8,1.0,4.8,0.0,563,15.6,30,1,0,0,1,0,1,1,1,0
+1569,Dark Chocolate Square (V4),snack,104,1.7,12.2,7.0,1.7,646,18.8,30,1,0,0,1,0,1,1,0,0
+1570,Cottage Cheese Cup (V4),snack,101,11.1,3.7,3.7,0.0,547,19.0,10,1,0,0,1,0,1,1,0,1
+1571,Fruit Smoothie (V4),snack,162,3.6,32.5,1.8,2.7,179,2.3,25,1,1,1,0,0,1,1,0,0
+1572,Whole Grain Toast with Honey (V4),snack,141,3.5,26.5,2.6,1.8,477,19.6,30,0,1,0,1,0,1,1,0,0
+1573,Edamame (V4),snack,108,9.1,7.3,4.5,3.6,464,18.2,10,1,1,0,1,0,1,1,1,0
+1574,Vegetable Soup Cup (V4),snack,114,4.6,16.0,2.3,3.4,185,9.6,25,1,1,1,1,0,1,1,1,0
+1575,Apple Slices with Peanut Butter (V5),snack,217,6.5,24.0,10.9,3.3,704,4.0,60,1,0,0,1,0,0,1,0,0
+1576,Mixed Nuts (V5),snack,195,5.4,8.7,17.4,2.2,487,2.9,20,1,0,0,1,0,0,1,0,0
+1577,Yogurt Cup (V5),snack,128,6.9,15.4,3.4,0.0,417,8.0,30,1,0,0,1,0,1,1,0,0
+1578,Carrot Sticks with Hummus (V5),snack,112,3.4,13.8,5.2,3.4,791,16.2,25,1,0,0,1,0,1,1,0,1
+1579,Cheese and Crackers (V5),snack,207,8.3,18.7,10.4,1.0,253,3.9,10,0,0,1,1,0,0,1,0,0
+1580,Banana (V5),snack,114,1.1,29.4,0.0,3.3,667,11.0,20,1,0,0,1,0,1,1,0,1
+1581,Trail Mix (V5),snack,240,6.6,26.3,13.1,3.3,546,12.7,25,0,0,0,1,0,0,1,0,0
+1582,Rice Cakes with Avocado (V5),snack,169,3.2,21.2,8.5,3.2,281,16.7,20,1,1,1,1,0,1,1,1,0
+1583,Hard Boiled Egg (V5),snack,78,6.0,1.0,5.0,0.0,787,4.9,60,1,0,0,1,0,1,1,0,0
+1584,Dark Chocolate Square (V5),snack,102,1.7,12.0,6.9,1.7,364,2.5,20,1,1,1,1,0,1,1,0,0
+1585,Cottage Cheese Cup (V5),snack,121,13.3,4.4,4.4,0.0,672,2.3,30,1,0,0,1,0,1,1,0,0
+1586,Fruit Smoothie (V5),snack,176,3.9,35.3,2.0,2.9,775,3.3,30,1,0,0,0,0,1,1,0,0
+1587,Whole Grain Toast with Honey (V5),snack,175,4.4,33.0,3.3,2.2,779,14.6,15,0,0,0,0,0,1,1,0,0
+1588,Edamame (V5),snack,111,9.3,7.4,4.6,3.7,739,6.3,30,1,0,0,1,0,1,1,1,1
+1589,Vegetable Soup Cup (V5),snack,90,3.6,12.7,1.8,2.7,514,16.3,45,1,0,0,1,0,1,1,0,0
+1590,Apple Slices with Peanut Butter (V6),snack,171,5.2,18.9,8.6,2.6,245,19.0,25,1,1,1,1,0,1,1,1,0
+1591,Mixed Nuts (V6),snack,193,5.4,8.6,17.2,2.1,591,3.1,25,1,0,0,1,0,0,1,1,0
+1592,Yogurt Cup (V6),snack,136,7.3,16.4,3.6,0.0,465,14.8,30,1,0,0,1,0,1,1,0,1
+1593,Carrot Sticks with Hummus (V6),snack,145,4.5,17.9,6.7,4.5,139,10.4,40,1,1,1,1,0,1,1,1,0
+1594,Cheese and Crackers (V6),snack,177,7.1,16.0,8.9,0.9,269,16.1,45,0,0,1,1,0,1,1,1,1
+1595,Banana (V6),snack,99,1.0,25.7,0.0,2.9,440,16.1,20,1,1,0,1,0,1,1,1,1
+1596,Trail Mix (V6),snack,188,5.1,20.6,10.3,2.6,472,17.8,60,0,1,0,1,0,0,1,0,1
+1597,Rice Cakes with Avocado (V6),snack,158,3.0,19.8,7.9,3.0,719,9.9,60,1,0,0,1,0,1,1,1,0
+1598,Hard Boiled Egg (V6),snack,79,6.1,1.0,5.1,0.0,227,7.7,20,1,1,1,1,0,1,1,0,0
+1599,Dark Chocolate Square (V6),snack,121,2.0,14.1,8.1,2.0,123,4.4,25,1,1,1,1,0,1,1,1,0
+1600,Cottage Cheese Cup (V6),snack,116,12.7,4.2,4.2,0.0,447,10.1,25,1,0,0,1,0,1,1,0,0
+1601,Fruit Smoothie (V6),snack,156,3.5,31.3,1.7,2.6,320,9.9,40,1,1,1,0,0,1,1,0,0
+1602,Whole Grain Toast with Honey (V6),snack,158,4.0,29.7,3.0,2.0,709,5.1,20,0,0,0,1,0,1,1,0,1
+1603,Edamame (V6),snack,114,9.5,7.6,4.8,3.8,688,5.1,20,1,0,0,1,0,1,1,1,0
+1604,Vegetable Soup Cup (V6),snack,101,4.1,14.3,2.0,3.1,121,19.6,60,1,1,1,1,0,1,1,1,0
+1605,Apple Slices with Peanut Butter (V7),snack,227,6.8,25.0,11.4,3.4,379,19.3,25,1,1,1,1,0,0,1,1,1
+1606,Mixed Nuts (V7),snack,184,5.1,8.2,16.4,2.0,779,10.1,60,1,0,0,1,0,0,1,0,0
+1607,Yogurt Cup (V7),snack,141,7.6,17.0,3.8,0.0,474,12.5,15,1,0,0,1,0,1,1,0,0
+1608,Carrot Sticks with Hummus (V7),snack,143,4.4,17.7,6.6,4.4,648,6.3,45,1,0,0,1,0,1,1,1,0
+1609,Cheese and Crackers (V7),snack,190,7.6,17.2,9.5,1.0,399,8.3,45,0,0,1,1,0,1,1,0,0
+1610,Banana (V7),snack,117,1.1,30.1,0.0,3.3,107,12.3,60,1,1,1,0,0,1,1,0,0
+1611,Trail Mix (V7),snack,218,6.0,23.8,11.9,3.0,707,18.3,40,0,0,0,1,0,0,1,1,0
+1612,Rice Cakes with Avocado (V7),snack,141,2.7,17.7,7.1,2.7,104,2.0,60,1,1,1,1,0,1,1,1,1
+1613,Hard Boiled Egg (V7),snack,80,6.2,1.0,5.1,0.0,107,6.8,60,1,1,1,1,0,1,1,0,1
+1614,Dark Chocolate Square (V7),snack,118,2.0,13.8,7.9,2.0,739,15.1,25,1,0,0,1,0,1,1,0,0
+1615,Cottage Cheese Cup (V7),snack,100,10.9,3.6,3.6,0.0,716,11.8,15,1,0,0,1,0,1,1,1,0
+1616,Fruit Smoothie (V7),snack,183,4.1,36.7,2.0,3.1,747,7.6,10,1,0,0,0,0,1,1,0,0
+1617,Whole Grain Toast with Honey (V7),snack,141,3.5,26.5,2.7,1.8,482,15.2,30,0,1,0,1,0,1,1,0,1
+1618,Edamame (V7),snack,125,10.4,8.3,5.2,4.2,518,17.2,60,1,0,0,1,0,1,1,0,0
+1619,Vegetable Soup Cup (V7),snack,112,4.5,15.7,2.2,3.4,596,11.6,40,1,0,0,1,0,1,1,0,0
+1620,Apple Slices with Peanut Butter (V8),snack,196,5.9,21.6,9.8,2.9,254,13.0,20,1,1,1,1,0,1,1,1,1
+1621,Mixed Nuts (V8),snack,168,4.7,7.5,15.0,1.9,111,2.9,60,1,0,1,1,0,0,1,0,0
+1622,Yogurt Cup (V8),snack,131,7.0,15.8,3.5,0.0,452,16.1,45,1,0,0,1,0,1,1,0,1
+1623,Carrot Sticks with Hummus (V8),snack,120,3.7,14.8,5.5,3.7,620,9.6,25,1,0,0,1,0,1,1,0,0
+1624,Cheese and Crackers (V8),snack,175,7.0,15.8,8.8,0.9,584,2.3,15,0,0,0,1,0,1,1,1,0
+1625,Banana (V8),snack,93,0.9,24.0,0.0,2.7,523,18.9,40,1,0,0,1,0,1,1,1,0
+1626,Trail Mix (V8),snack,252,6.9,27.6,13.8,3.4,376,4.5,10,0,1,1,1,0,0,1,0,0
+1627,Rice Cakes with Avocado (V8),snack,150,2.8,18.9,7.5,2.8,563,19.5,30,1,0,0,1,0,1,1,0,0
+1628,Hard Boiled Egg (V8),snack,69,5.3,0.9,4.4,0.0,671,18.5,30,1,0,0,1,0,1,1,0,0
+1629,Dark Chocolate Square (V8),snack,118,2.0,13.8,7.9,2.0,269,2.9,25,1,1,1,1,0,1,1,1,0
+1630,Cottage Cheese Cup (V8),snack,123,13.5,4.5,4.5,0.0,626,17.2,20,1,0,0,1,0,1,1,0,0
+1631,Fruit Smoothie (V8),snack,188,4.2,37.7,2.1,3.1,554,11.7,60,1,0,0,0,0,1,1,0,0
+1632,Whole Grain Toast with Honey (V8),snack,154,3.9,29.0,2.9,1.9,248,13.4,45,0,1,1,1,0,1,1,1,0
+1633,Edamame (V8),snack,116,9.7,7.8,4.9,3.9,392,11.7,45,1,1,1,1,0,1,1,1,0
+1634,Vegetable Soup Cup (V8),snack,113,4.5,15.9,2.3,3.4,645,17.8,60,1,0,0,1,0,1,1,0,1
+1635,Apple Slices with Peanut Butter (V9),snack,221,6.6,24.4,11.1,3.3,331,9.2,40,1,1,1,1,0,0,1,0,0
+1636,Mixed Nuts (V9),snack,198,5.5,8.8,17.7,2.2,320,3.7,45,1,0,1,1,0,0,1,0,0
+1637,Yogurt Cup (V9),snack,130,7.0,15.7,3.5,0.0,370,9.3,25,1,0,1,1,0,1,1,0,0
+1638,Carrot Sticks with Hummus (V9),snack,121,3.7,15.0,5.6,3.7,570,16.9,30,1,0,0,1,0,1,1,0,0
+1639,Cheese and Crackers (V9),snack,211,8.4,19.0,10.6,1.1,142,11.8,15,0,0,1,1,0,0,1,0,0
+1640,Banana (V9),snack,95,0.9,24.6,0.0,2.7,435,10.0,40,1,1,0,1,0,1,1,1,0
+1641,Trail Mix (V9),snack,243,6.6,26.6,13.3,3.3,248,6.8,30,0,1,1,1,0,0,1,1,0
+1642,Rice Cakes with Avocado (V9),snack,138,2.6,17.4,6.9,2.6,637,4.9,20,1,0,0,1,0,1,1,0,1
+1643,Hard Boiled Egg (V9),snack,77,5.9,1.0,4.9,0.0,162,4.5,15,1,1,1,1,0,1,1,0,0
+1644,Dark Chocolate Square (V9),snack,126,2.1,14.7,8.4,2.1,511,2.2,25,1,0,0,1,0,1,1,0,0
+1645,Cottage Cheese Cup (V9),snack,93,10.2,3.4,3.4,0.0,430,11.5,10,1,0,0,1,0,1,1,0,0
+1646,Fruit Smoothie (V9),snack,153,3.4,30.6,1.7,2.6,792,14.9,45,1,0,0,0,0,1,1,0,0
+1647,Whole Grain Toast with Honey (V9),snack,159,4.0,29.9,3.0,2.0,498,3.4,60,0,1,0,1,0,1,1,0,0
+1648,Edamame (V9),snack,117,9.8,7.8,4.9,3.9,740,12.3,20,1,0,0,1,0,1,1,1,0
+1649,Vegetable Soup Cup (V9),snack,113,4.5,15.9,2.3,3.4,126,11.2,40,1,1,1,1,0,1,1,1,0
+1650,Apple Slices with Peanut Butter (V10),snack,180,5.4,19.9,9.0,2.7,540,19.7,15,1,0,0,1,0,1,1,1,0
+1651,Mixed Nuts (V10),snack,167,4.7,7.5,14.9,1.9,330,9.7,40,1,1,1,1,0,0,1,0,1
+1652,Yogurt Cup (V10),snack,129,6.9,15.5,3.4,0.0,227,19.6,20,1,0,1,1,0,1,1,0,0
+1653,Carrot Sticks with Hummus (V10),snack,128,3.9,15.8,5.9,3.9,754,18.0,15,1,0,0,1,0,1,1,0,0
+1654,Cheese and Crackers (V10),snack,186,7.5,16.8,9.3,0.9,112,12.0,10,0,0,1,1,0,1,1,0,0
+1655,Banana (V10),snack,92,0.9,23.7,0.0,2.6,671,9.3,30,1,0,0,1,0,1,1,1,0
+1656,Trail Mix (V10),snack,202,5.5,22.0,11.0,2.8,177,4.0,10,0,1,1,1,0,0,1,0,0
+1657,Rice Cakes with Avocado (V10),snack,145,2.7,18.2,7.3,2.7,755,19.2,15,1,0,0,1,0,1,1,0,0
+1658,Hard Boiled Egg (V10),snack,67,5.2,0.9,4.3,0.0,342,12.0,15,1,1,1,1,0,1,1,1,1
+1659,Dark Chocolate Square (V10),snack,125,2.1,14.6,8.4,2.1,309,16.6,25,1,1,1,1,0,1,1,1,0
+1660,Cottage Cheese Cup (V10),snack,111,12.2,4.1,4.1,0.0,678,3.1,60,1,0,0,1,0,1,1,0,0
+1661,Fruit Smoothie (V10),snack,161,3.6,32.2,1.8,2.7,246,4.6,25,1,1,1,0,0,1,1,0,0
+1662,Whole Grain Toast with Honey (V10),snack,178,4.5,33.4,3.3,2.2,500,8.1,25,0,0,0,0,0,1,1,0,0
+1663,Edamame (V10),snack,113,9.4,7.5,4.7,3.8,650,5.4,25,1,0,0,1,0,1,1,1,0
+1664,Vegetable Soup Cup (V10),snack,85,3.4,11.9,1.7,2.6,255,11.3,10,1,1,1,1,0,1,1,0,1
+1665,Apple Slices with Peanut Butter (V11),snack,224,6.7,24.7,11.2,3.4,431,12.3,25,1,1,0,1,0,0,1,0,0
+1666,Mixed Nuts (V11),snack,195,5.4,8.7,17.4,2.2,580,6.7,30,1,0,0,1,0,0,1,0,0
+1667,Yogurt Cup (V11),snack,157,8.4,18.9,4.2,0.0,523,13.5,25,1,0,0,1,0,1,1,1,0
+1668,Carrot Sticks with Hummus (V11),snack,127,3.9,15.6,5.9,3.9,644,2.6,25,1,0,0,1,0,1,1,0,0
+1669,Cheese and Crackers (V11),snack,188,7.6,17.0,9.4,0.9,385,17.6,25,0,0,1,1,0,1,1,0,0
+1670,Banana (V11),snack,95,0.9,24.7,0.0,2.7,287,9.6,20,1,1,1,1,0,1,1,0,0
+1671,Trail Mix (V11),snack,216,5.9,23.7,11.8,3.0,170,10.7,15,0,1,1,1,0,0,1,1,1
+1672,Rice Cakes with Avocado (V11),snack,164,3.1,20.5,8.2,3.1,634,7.1,45,1,0,0,1,0,1,1,1,0
+1673,Hard Boiled Egg (V11),snack,78,6.0,1.0,5.0,0.0,407,15.7,30,1,1,0,1,0,1,1,1,1
+1674,Dark Chocolate Square (V11),snack,123,2.1,14.5,8.3,2.1,601,16.0,25,1,0,0,1,0,1,1,0,0
+1675,Cottage Cheese Cup (V11),snack,101,11.0,3.7,3.7,0.0,731,15.3,40,1,0,0,1,0,1,1,0,1
+1676,Fruit Smoothie (V11),snack,189,4.2,37.9,2.1,3.2,447,6.6,25,1,1,0,0,0,1,1,1,0
+1677,Whole Grain Toast with Honey (V11),snack,174,4.4,32.6,3.3,2.2,688,6.7,10,0,0,0,0,0,1,1,1,0
+1678,Edamame (V11),snack,111,9.3,7.4,4.6,3.7,665,2.7,60,1,0,0,1,0,1,1,0,1
+1679,Vegetable Soup Cup (V11),snack,114,4.6,16.0,2.3,3.4,684,7.0,40,1,0,0,1,0,1,1,0,1
+1680,Apple Slices with Peanut Butter (V12),snack,221,6.6,24.4,11.1,3.3,637,4.9,30,1,0,0,1,0,0,1,0,0
+1681,Mixed Nuts (V12),snack,179,5.0,8.0,16.0,2.0,518,5.3,20,1,0,0,1,0,0,1,0,0
+1682,Yogurt Cup (V12),snack,130,6.9,15.6,3.5,0.0,323,8.4,25,1,0,1,1,0,1,1,0,1
+1683,Carrot Sticks with Hummus (V12),snack,130,4.0,16.0,6.0,4.0,612,4.8,30,1,0,0,1,0,1,1,0,0
+1684,Cheese and Crackers (V12),snack,198,8.0,17.9,9.9,1.0,661,11.9,60,0,0,0,1,0,1,1,0,0
+1685,Banana (V12),snack,113,1.1,29.2,0.0,3.2,133,4.2,30,1,1,1,1,0,1,1,0,1
+1686,Trail Mix (V12),snack,189,5.2,20.7,10.3,2.6,271,13.8,25,0,1,1,1,0,0,1,1,0
+1687,Rice Cakes with Avocado (V12),snack,151,2.8,18.9,7.6,2.8,339,8.2,30,1,1,1,1,0,1,1,0,0
+1688,Hard Boiled Egg (V12),snack,88,6.8,1.1,5.7,0.0,153,4.5,60,1,1,1,1,0,1,1,0,0
+1689,Dark Chocolate Square (V12),snack,116,1.9,13.5,7.7,1.9,580,12.5,20,1,0,0,1,0,1,1,0,0
+1690,Cottage Cheese Cup (V12),snack,110,12.0,4.0,4.0,0.0,482,14.0,60,1,0,0,1,0,1,1,0,0
+1691,Fruit Smoothie (V12),snack,202,4.5,40.5,2.3,3.4,268,12.3,15,0,1,1,0,0,1,1,0,1
+1692,Whole Grain Toast with Honey (V12),snack,139,3.5,26.2,2.6,1.7,711,15.2,20,0,0,0,1,0,1,1,0,0
+1693,Edamame (V12),snack,125,10.5,8.4,5.2,4.2,136,11.5,30,1,1,1,1,0,1,1,1,0
+1694,Vegetable Soup Cup (V12),snack,99,4.0,13.9,2.0,3.0,145,19.9,30,1,1,1,1,0,1,1,1,0
+1695,Apple Slices with Peanut Butter (V13),snack,207,6.2,22.8,10.4,3.1,145,13.1,40,1,1,1,1,0,0,1,0,0
+1696,Mixed Nuts (V13),snack,163,4.6,7.3,14.6,1.8,127,13.7,45,1,1,1,1,0,0,1,0,0
+1697,Yogurt Cup (V13),snack,137,7.3,16.5,3.7,0.0,213,2.1,20,1,0,1,1,0,1,1,0,1
+1698,Carrot Sticks with Hummus (V13),snack,141,4.4,17.4,6.5,4.4,402,8.7,30,1,1,0,1,0,1,1,0,0
+1699,Cheese and Crackers (V13),snack,226,9.1,20.4,11.3,1.1,196,7.8,60,0,0,1,1,0,0,1,0,1
+1700,Banana (V13),snack,91,0.9,23.4,0.0,2.6,316,7.6,60,1,1,1,1,0,1,1,1,0
+1701,Trail Mix (V13),snack,198,5.4,21.7,10.8,2.7,667,10.9,45,0,0,0,1,0,0,1,0,0
+1702,Rice Cakes with Avocado (V13),snack,138,2.6,17.3,6.9,2.6,772,3.4,45,1,0,0,1,0,1,1,0,1
+1703,Hard Boiled Egg (V13),snack,74,5.7,1.0,4.8,0.0,695,8.5,60,1,0,0,1,0,1,1,0,0
+1704,Dark Chocolate Square (V13),snack,124,2.1,14.5,8.3,2.1,652,4.7,15,1,0,0,1,0,1,1,0,0
+1705,Cottage Cheese Cup (V13),snack,122,13.3,4.4,4.4,0.0,739,3.5,45,1,0,0,1,0,1,1,1,0
+1706,Fruit Smoothie (V13),snack,185,4.1,37.1,2.1,3.1,112,12.3,60,1,1,1,0,0,1,1,0,0
+1707,Whole Grain Toast with Honey (V13),snack,167,4.2,31.4,3.1,2.1,604,4.8,10,0,0,0,0,0,1,1,1,0
+1708,Edamame (V13),snack,132,11.0,8.8,5.5,4.4,737,19.6,25,1,0,0,1,0,1,1,0,0
+1709,Vegetable Soup Cup (V13),snack,88,3.5,12.4,1.8,2.6,393,13.0,40,1,1,1,1,0,1,1,0,1
+1710,Apple Slices with Peanut Butter (V14),snack,211,6.3,23.2,10.6,3.2,645,15.6,25,1,0,0,1,0,0,1,0,0
+1711,Mixed Nuts (V14),snack,203,5.6,9.0,18.1,2.3,139,6.8,20,1,0,1,1,0,0,1,0,0
+1712,Yogurt Cup (V14),snack,138,7.4,16.6,3.7,0.0,183,7.0,40,1,0,1,1,0,1,1,0,1
+1713,Carrot Sticks with Hummus (V14),snack,132,4.1,16.3,6.1,4.1,392,17.8,15,1,1,1,1,0,1,1,0,0
+1714,Cheese and Crackers (V14),snack,206,8.3,18.6,10.3,1.0,601,6.8,45,0,0,0,1,0,0,1,0,0
+1715,Banana (V14),snack,119,1.1,30.7,0.0,3.4,700,13.9,30,1,0,0,0,0,1,1,0,1
+1716,Trail Mix (V14),snack,215,5.9,23.5,11.7,2.9,442,4.1,30,0,1,0,1,0,0,1,0,0
+1717,Rice Cakes with Avocado (V14),snack,148,2.8,18.6,7.4,2.8,388,12.0,25,1,1,1,1,0,1,1,0,0
+1718,Hard Boiled Egg (V14),snack,75,5.8,1.0,4.8,0.0,272,15.6,10,1,1,1,1,0,1,1,0,0
+1719,Dark Chocolate Square (V14),snack,124,2.1,14.5,8.3,2.1,111,14.5,40,1,1,1,1,0,1,1,0,0
+1720,Cottage Cheese Cup (V14),snack,110,12.0,4.0,4.0,0.0,790,14.2,25,1,0,0,1,0,1,1,0,0
+1721,Fruit Smoothie (V14),snack,180,4.0,36.2,2.0,3.0,720,19.6,30,1,0,0,0,0,1,1,0,1
+1722,Whole Grain Toast with Honey (V14),snack,137,3.4,25.9,2.6,1.7,559,15.0,10,0,0,0,1,0,1,1,0,0
+1723,Edamame (V14),snack,121,10.1,8.1,5.0,4.0,604,12.4,20,1,0,0,1,0,1,1,1,0
+1724,Vegetable Soup Cup (V14),snack,112,4.5,15.8,2.3,3.4,244,3.5,10,1,1,1,1,0,1,1,0,1
+1725,Apple Slices with Peanut Butter (V15),snack,216,6.5,23.8,10.8,3.2,617,16.6,40,1,0,0,1,0,0,1,1,0
+1726,Mixed Nuts (V15),snack,195,5.4,8.7,17.4,2.2,575,10.7,25,1,0,0,1,0,0,1,1,0
+1727,Yogurt Cup (V15),snack,150,8.0,18.0,4.0,0.0,777,8.6,60,1,0,0,1,0,1,1,0,0
+1728,Carrot Sticks with Hummus (V15),snack,138,4.3,17.0,6.4,4.3,630,17.0,25,1,0,0,1,0,1,1,0,0
+1729,Cheese and Crackers (V15),snack,204,8.2,18.4,10.2,1.0,761,15.2,15,0,0,0,1,0,0,1,0,1
+1730,Banana (V15),snack,102,1.0,26.4,0.0,2.9,373,6.6,25,1,1,1,1,0,1,1,0,0
+1731,Trail Mix (V15),snack,221,6.0,24.1,12.1,3.0,575,19.2,15,0,0,0,1,0,0,1,0,0
+1732,Rice Cakes with Avocado (V15),snack,141,2.7,17.7,7.1,2.7,665,7.7,45,1,0,0,1,0,1,1,1,0
+1733,Hard Boiled Egg (V15),snack,88,6.8,1.1,5.7,0.0,506,6.0,45,1,0,0,1,0,1,1,0,0
+1734,Dark Chocolate Square (V15),snack,131,2.2,15.3,8.7,2.2,575,15.3,60,1,0,0,1,0,1,1,0,0
+1735,Cottage Cheese Cup (V15),snack,110,12.0,4.0,4.0,0.0,546,18.0,20,1,0,0,1,0,1,1,0,1
+1736,Fruit Smoothie (V15),snack,188,4.2,37.7,2.1,3.1,763,15.3,60,1,0,0,0,0,1,1,0,1
+1737,Whole Grain Toast with Honey (V15),snack,180,4.5,33.9,3.4,2.3,752,8.1,60,0,0,0,0,0,1,1,0,0
+1738,Edamame (V15),snack,117,9.8,7.9,4.9,3.9,488,13.3,40,1,1,0,1,0,1,1,0,1
+1739,Vegetable Soup Cup (V15),snack,103,4.1,14.5,2.1,3.1,739,2.6,30,1,0,0,1,0,1,1,0,0
+1740,Apple Slices with Peanut Butter (V16),snack,200,6.0,22.1,10.0,3.0,727,7.2,20,1,0,0,1,0,0,1,0,0
+1741,Mixed Nuts (V16),snack,194,5.4,8.7,17.3,2.2,681,16.3,20,1,0,0,1,0,0,1,1,1
+1742,Yogurt Cup (V16),snack,143,7.6,17.2,3.8,0.0,763,4.6,10,1,0,0,1,0,1,1,0,0
+1743,Carrot Sticks with Hummus (V16),snack,120,3.7,14.9,5.6,3.7,533,11.5,45,1,0,0,1,0,1,1,1,1
+1744,Cheese and Crackers (V16),snack,207,8.3,18.7,10.4,1.0,161,9.2,20,0,0,1,1,0,0,1,0,0
+1745,Banana (V16),snack,117,1.1,30.2,0.0,3.4,577,13.8,30,1,0,0,0,0,1,1,0,0
+1746,Trail Mix (V16),snack,234,6.4,25.6,12.8,3.2,467,12.8,60,0,1,0,1,0,0,1,0,1
+1747,Rice Cakes with Avocado (V16),snack,161,3.0,20.2,8.1,3.0,799,11.4,25,1,0,0,1,0,1,1,1,0
+1748,Hard Boiled Egg (V16),snack,84,6.5,1.1,5.4,0.0,794,7.8,30,1,0,0,1,0,1,1,0,0
+1749,Dark Chocolate Square (V16),snack,121,2.0,14.1,8.1,2.0,680,2.6,30,1,0,0,1,0,1,1,0,0
+1750,Cottage Cheese Cup (V16),snack,105,11.5,3.8,3.8,0.0,328,9.4,15,1,0,1,1,0,1,1,0,1
+1751,Fruit Smoothie (V16),snack,187,4.2,37.5,2.1,3.1,452,13.5,25,1,1,0,0,0,1,1,1,0
+1752,Whole Grain Toast with Honey (V16),snack,165,4.1,30.9,3.1,2.1,223,9.2,10,0,1,1,0,0,1,1,1,0
+1753,Edamame (V16),snack,114,9.5,7.6,4.8,3.8,372,19.3,30,1,1,1,1,0,1,1,1,0
+1754,Vegetable Soup Cup (V16),snack,95,3.8,13.4,1.9,2.9,464,7.1,45,1,1,0,1,0,1,1,0,1
+1755,Apple Slices with Peanut Butter (V17),snack,216,6.5,23.8,10.8,3.2,372,6.9,20,1,1,1,1,0,0,1,0,0
+1756,Mixed Nuts (V17),snack,203,5.7,9.0,18.1,2.3,614,9.7,45,1,0,0,1,0,0,1,1,1
+1757,Yogurt Cup (V17),snack,157,8.4,18.9,4.2,0.0,748,15.0,20,1,0,0,1,0,1,1,1,0
+1758,Carrot Sticks with Hummus (V17),snack,148,4.6,18.3,6.9,4.6,611,18.3,25,1,0,0,1,0,1,1,0,0
+1759,Cheese and Crackers (V17),snack,198,8.0,17.9,9.9,1.0,233,3.7,25,0,0,1,1,0,1,1,0,1
+1760,Banana (V17),snack,105,1.0,27.0,0.0,3.0,685,19.0,45,1,0,0,1,0,1,1,1,0
+1761,Trail Mix (V17),snack,220,6.0,24.1,12.0,3.0,468,3.4,15,0,1,0,1,0,0,1,0,0
+1762,Rice Cakes with Avocado (V17),snack,154,2.9,19.3,7.7,2.9,424,12.0,10,1,1,0,1,0,1,1,1,0
+1763,Hard Boiled Egg (V17),snack,66,5.1,0.9,4.3,0.0,723,7.7,20,1,0,0,1,0,1,1,0,0
+1764,Dark Chocolate Square (V17),snack,106,1.8,12.4,7.1,1.8,589,12.6,10,1,0,0,1,0,1,1,1,0
+1765,Cottage Cheese Cup (V17),snack,108,11.8,3.9,3.9,0.0,110,18.0,25,1,0,1,1,0,1,1,1,1
+1766,Fruit Smoothie (V17),snack,158,3.5,31.7,1.8,2.6,183,18.7,60,1,1,1,0,0,1,1,1,0
+1767,Whole Grain Toast with Honey (V17),snack,143,3.6,26.9,2.7,1.8,479,4.3,25,0,1,0,1,0,1,1,0,0
+1768,Edamame (V17),snack,127,10.6,8.5,5.3,4.2,313,4.5,40,1,1,1,1,0,1,1,0,0
+1769,Vegetable Soup Cup (V17),snack,98,3.9,13.8,2.0,3.0,625,7.5,60,1,0,0,1,0,1,1,0,0
+1770,Apple Slices with Peanut Butter (V18),snack,222,6.7,24.5,11.1,3.3,530,16.5,15,1,0,0,1,0,0,1,1,1
+1771,Mixed Nuts (V18),snack,194,5.4,8.7,17.3,2.2,585,6.6,30,1,0,0,1,0,0,1,0,0
+1772,Yogurt Cup (V18),snack,155,8.3,18.7,4.2,0.0,227,16.2,60,1,0,1,1,0,1,1,1,1
+1773,Carrot Sticks with Hummus (V18),snack,121,3.7,15.0,5.6,3.7,683,11.4,45,1,0,0,1,0,1,1,1,1
+1774,Cheese and Crackers (V18),snack,218,8.7,19.7,10.9,1.1,231,7.2,60,0,0,1,1,0,0,1,1,0
+1775,Banana (V18),snack,117,1.1,30.2,0.0,3.4,583,19.0,60,1,0,0,0,0,1,1,0,0
+1776,Trail Mix (V18),snack,242,6.6,26.5,13.2,3.3,512,13.0,25,0,0,0,1,0,0,1,0,0
+1777,Rice Cakes with Avocado (V18),snack,174,3.3,21.8,8.7,3.3,496,11.9,15,1,1,0,1,0,1,1,0,0
+1778,Hard Boiled Egg (V18),snack,81,6.3,1.1,5.3,0.0,168,17.8,40,1,1,1,1,0,1,1,0,1
+1779,Dark Chocolate Square (V18),snack,102,1.7,12.0,6.9,1.7,516,10.9,20,1,0,0,1,0,1,1,0,1
+1780,Cottage Cheese Cup (V18),snack,99,10.8,3.6,3.6,0.0,483,6.5,25,1,0,0,1,0,1,1,0,0
+1781,Fruit Smoothie (V18),snack,167,3.7,33.5,1.9,2.8,392,8.3,20,1,1,1,0,0,1,1,0,0
+1782,Whole Grain Toast with Honey (V18),snack,164,4.1,30.9,3.1,2.1,334,16.5,10,0,1,1,0,0,1,1,0,0
+1783,Edamame (V18),snack,110,9.2,7.4,4.6,3.7,190,17.9,15,1,1,1,1,0,1,1,0,0
+1784,Vegetable Soup Cup (V18),snack,87,3.5,12.2,1.7,2.6,681,17.2,15,1,0,0,1,0,1,1,0,0
+1785,Apple Slices with Peanut Butter (V19),snack,211,6.4,23.3,10.6,3.2,211,18.3,20,1,1,1,1,0,0,1,0,0
+1786,Mixed Nuts (V19),snack,164,4.6,7.3,14.6,1.8,543,19.6,15,1,0,0,1,0,0,1,0,0
+1787,Yogurt Cup (V19),snack,158,8.5,19.0,4.2,0.0,542,17.2,60,1,0,0,1,0,1,1,0,0
+1788,Carrot Sticks with Hummus (V19),snack,134,4.1,16.5,6.2,4.1,228,7.8,40,1,1,1,1,0,1,1,0,1
+1789,Cheese and Crackers (V19),snack,190,7.6,17.2,9.5,1.0,666,5.6,25,0,0,0,1,0,1,1,0,0
+1790,Banana (V19),snack,107,1.0,27.7,0.0,3.1,761,17.4,10,1,0,0,1,0,1,1,1,1
+1791,Trail Mix (V19),snack,223,6.1,24.3,12.2,3.0,763,2.9,25,0,0,0,1,0,0,1,0,0
+1792,Rice Cakes with Avocado (V19),snack,174,3.3,21.8,8.7,3.3,205,12.5,60,1,1,1,1,0,1,1,0,0
+1793,Hard Boiled Egg (V19),snack,68,5.2,0.9,4.4,0.0,303,3.4,15,1,1,1,1,0,1,1,0,0
+1794,Dark Chocolate Square (V19),snack,135,2.3,15.8,9.0,2.3,148,5.2,10,1,1,1,1,0,1,1,0,0
+1795,Cottage Cheese Cup (V19),snack,111,12.1,4.0,4.0,0.0,618,18.4,20,1,0,0,1,0,1,1,0,0
+1796,Fruit Smoothie (V19),snack,156,3.5,31.4,1.7,2.6,712,15.0,10,1,0,0,0,0,1,1,0,0
+1797,Whole Grain Toast with Honey (V19),snack,136,3.4,25.6,2.6,1.7,615,10.8,60,0,0,0,1,0,1,1,0,1
+1798,Edamame (V19),snack,132,11.0,8.8,5.5,4.4,180,7.6,10,1,1,1,1,0,1,1,0,1
+1799,Vegetable Soup Cup (V19),snack,101,4.0,14.1,2.0,3.0,408,12.7,25,1,1,0,1,0,1,1,1,0
+1800,Apple Slices with Peanut Butter (V20),snack,215,6.5,23.7,10.8,3.2,746,10.4,30,1,0,0,1,0,0,1,0,0
+1801,Mixed Nuts (V20),snack,160,4.5,7.1,14.3,1.8,745,11.3,30,1,0,0,1,0,0,1,1,0
+1802,Yogurt Cup (V20),snack,144,7.7,17.3,3.9,0.0,368,19.1,30,1,0,1,1,0,1,1,0,0
+1803,Carrot Sticks with Hummus (V20),snack,132,4.1,16.3,6.1,4.1,375,16.9,15,1,1,1,1,0,1,1,0,0
+1804,Cheese and Crackers (V20),snack,209,8.4,18.9,10.5,1.0,665,7.4,30,0,0,0,1,0,0,1,0,0
+1805,Banana (V20),snack,94,0.9,24.3,0.0,2.7,211,5.1,15,1,1,1,1,0,1,1,0,1
+1806,Trail Mix (V20),snack,251,6.8,27.4,13.7,3.4,112,2.8,10,0,1,1,1,0,0,1,0,1
+1807,Rice Cakes with Avocado (V20),snack,143,2.7,17.9,7.2,2.7,476,10.1,60,1,1,0,1,0,1,1,1,0
+1808,Hard Boiled Egg (V20),snack,74,5.7,1.0,4.8,0.0,352,6.6,10,1,1,1,1,0,1,1,0,0
+1809,Dark Chocolate Square (V20),snack,137,2.3,16.1,9.2,2.3,597,14.3,30,1,0,0,1,0,1,1,0,0
+1810,Cottage Cheese Cup (V20),snack,108,11.8,3.9,3.9,0.0,620,14.9,30,1,0,0,1,0,1,1,0,0
+1811,Fruit Smoothie (V20),snack,172,3.8,34.5,1.9,2.9,633,15.1,60,1,0,0,0,0,1,1,0,1
+1812,Whole Grain Toast with Honey (V20),snack,180,4.5,33.8,3.4,2.3,488,19.6,20,0,1,0,0,0,1,1,1,0
+1813,Edamame (V20),snack,126,10.6,8.5,5.3,4.2,251,4.9,10,1,1,1,1,0,1,1,0,0
+1814,Vegetable Soup Cup (V20),snack,103,4.1,14.5,2.1,3.1,564,2.0,25,1,0,0,1,0,1,1,1,0
+1815,Apple Slices with Peanut Butter (V21),snack,200,6.0,22.0,10.0,3.0,338,8.3,40,1,1,1,1,0,0,1,0,0
+1816,Mixed Nuts (V21),snack,184,5.1,8.2,16.4,2.1,485,3.3,40,1,0,0,1,0,0,1,1,0
+1817,Yogurt Cup (V21),snack,160,8.6,19.3,4.3,0.0,111,11.8,40,1,0,1,1,0,1,1,0,1
+1818,Carrot Sticks with Hummus (V21),snack,134,4.1,16.5,6.2,4.1,713,12.6,25,1,0,0,1,0,1,1,0,0
+1819,Cheese and Crackers (V21),snack,174,7.0,15.7,8.7,0.9,308,5.9,25,0,0,1,1,0,1,1,0,0
+1820,Banana (V21),snack,105,1.0,27.2,0.0,3.0,545,6.6,30,1,0,0,1,0,1,1,0,0
+1821,Trail Mix (V21),snack,231,6.3,25.2,12.6,3.2,152,8.5,30,0,1,1,1,0,0,1,0,1
+1822,Rice Cakes with Avocado (V21),snack,183,3.4,22.9,9.2,3.4,668,15.1,15,1,0,0,1,0,1,1,0,0
+1823,Hard Boiled Egg (V21),snack,86,6.6,1.1,5.5,0.0,388,9.9,10,1,1,1,1,0,1,1,0,0
+1824,Dark Chocolate Square (V21),snack,104,1.7,12.2,7.0,1.7,320,5.4,60,1,1,1,1,0,1,1,1,0
+1825,Cottage Cheese Cup (V21),snack,98,10.8,3.6,3.6,0.0,287,3.9,45,1,0,1,1,0,1,1,0,0
+1826,Fruit Smoothie (V21),snack,197,4.4,39.5,2.2,3.3,630,4.1,20,1,0,0,0,0,1,1,0,0
+1827,Whole Grain Toast with Honey (V21),snack,180,4.5,33.9,3.4,2.3,616,16.9,15,0,0,0,0,0,1,1,1,0
+1828,Edamame (V21),snack,130,10.9,8.7,5.4,4.3,413,17.0,60,1,1,0,1,0,1,1,0,1
+1829,Vegetable Soup Cup (V21),snack,104,4.2,14.7,2.1,3.1,702,8.1,10,1,0,0,1,0,1,1,0,0
+1830,Apple Slices with Peanut Butter (V22),snack,199,6.0,21.9,10.0,3.0,370,9.2,20,1,1,1,1,0,0,1,1,1
+1831,Mixed Nuts (V22),snack,190,5.3,8.4,16.9,2.1,601,8.1,15,1,0,0,1,0,0,1,1,0
+1832,Yogurt Cup (V22),snack,134,7.2,16.1,3.6,0.0,673,6.9,40,1,0,0,1,0,1,1,0,1
+1833,Carrot Sticks with Hummus (V22),snack,116,3.6,14.3,5.4,3.6,601,3.2,20,1,0,0,1,0,1,1,0,0
+1834,Cheese and Crackers (V22),snack,217,8.7,19.6,10.9,1.1,173,10.0,40,0,0,1,1,0,0,1,0,0
+1835,Banana (V22),snack,97,0.9,25.1,0.0,2.8,465,18.5,30,1,1,0,1,0,1,1,0,1
+1836,Trail Mix (V22),snack,213,5.8,23.3,11.6,2.9,108,11.4,60,0,1,1,1,0,0,1,1,1
+1837,Rice Cakes with Avocado (V22),snack,167,3.1,20.9,8.4,3.1,488,16.9,25,1,1,0,1,0,1,1,0,1
+1838,Hard Boiled Egg (V22),snack,83,6.4,1.1,5.4,0.0,468,10.4,30,1,1,0,1,0,1,1,0,1
+1839,Dark Chocolate Square (V22),snack,137,2.3,16.0,9.2,2.3,456,14.4,40,1,1,0,1,0,1,1,1,0
+1840,Cottage Cheese Cup (V22),snack,107,11.7,3.9,3.9,0.0,705,3.3,60,1,0,0,1,0,1,1,0,0
+1841,Fruit Smoothie (V22),snack,183,4.1,36.7,2.0,3.1,787,17.7,20,1,0,0,0,0,1,1,0,0
+1842,Whole Grain Toast with Honey (V22),snack,176,4.4,33.1,3.3,2.2,421,3.9,20,0,1,0,0,0,1,1,0,0
+1843,Edamame (V22),snack,130,10.9,8.7,5.5,4.4,525,9.9,15,1,0,0,1,0,1,1,0,1
+1844,Vegetable Soup Cup (V22),snack,105,4.2,14.7,2.1,3.2,783,11.1,15,1,0,0,1,0,1,1,0,0
+1845,Apple Slices with Peanut Butter (V23),snack,201,6.1,22.2,10.1,3.0,320,5.6,45,1,1,1,1,0,0,1,0,0
+1846,Mixed Nuts (V23),snack,178,5.0,7.9,15.9,2.0,216,18.6,45,1,0,1,1,0,0,1,0,1
+1847,Yogurt Cup (V23),snack,156,8.3,18.8,4.2,0.0,617,12.1,15,1,0,0,1,0,1,1,0,0
+1848,Carrot Sticks with Hummus (V23),snack,133,4.1,16.5,6.2,4.1,596,15.4,30,1,0,0,1,0,1,1,0,0
+1849,Cheese and Crackers (V23),snack,193,7.7,17.4,9.7,1.0,566,10.2,30,0,0,0,1,0,1,1,0,0
+1850,Banana (V23),snack,102,1.0,26.4,0.0,2.9,327,12.4,45,1,1,1,1,0,1,1,0,0
+1851,Trail Mix (V23),snack,218,6.0,23.8,11.9,3.0,706,11.1,10,0,0,0,1,0,0,1,1,0
+1852,Rice Cakes with Avocado (V23),snack,136,2.6,17.1,6.8,2.6,102,10.1,15,1,1,1,1,0,1,1,0,0
+1853,Hard Boiled Egg (V23),snack,66,5.1,0.9,4.3,0.0,340,4.0,20,1,1,1,1,0,1,1,0,0
+1854,Dark Chocolate Square (V23),snack,117,2.0,13.7,7.8,2.0,102,18.2,25,1,1,1,1,0,1,1,0,0
+1855,Cottage Cheese Cup (V23),snack,120,13.1,4.4,4.4,0.0,516,5.6,25,1,0,0,1,0,1,1,0,0
+1856,Fruit Smoothie (V23),snack,171,3.8,34.3,1.9,2.9,185,19.4,25,1,1,1,0,0,1,1,0,0
+1857,Whole Grain Toast with Honey (V23),snack,162,4.1,30.5,3.0,2.0,629,5.9,10,0,0,0,0,0,1,1,1,1
+1858,Edamame (V23),snack,119,9.9,8.0,5.0,4.0,105,5.9,25,1,1,1,1,0,1,1,1,0
+1859,Vegetable Soup Cup (V23),snack,108,4.4,15.2,2.2,3.3,384,11.3,60,1,1,1,1,0,1,1,0,1
+1860,Apple Slices with Peanut Butter (V24),snack,227,6.8,25.1,11.4,3.4,699,12.0,15,1,0,0,1,0,0,1,1,1
+1861,Mixed Nuts (V24),snack,160,4.5,7.1,14.3,1.8,102,17.2,60,1,1,1,1,0,0,1,0,0
+1862,Yogurt Cup (V24),snack,154,8.3,18.6,4.1,0.0,314,11.2,10,1,0,1,1,0,1,1,0,0
+1863,Carrot Sticks with Hummus (V24),snack,110,3.4,13.6,5.1,3.4,423,10.2,45,1,1,0,1,0,1,1,0,0
+1864,Cheese and Crackers (V24),snack,211,8.5,19.0,10.6,1.1,281,14.1,45,0,0,1,1,0,0,1,1,0
+1865,Banana (V24),snack,100,1.0,25.7,0.0,2.9,741,10.9,25,1,0,0,1,0,1,1,0,0
+1866,Trail Mix (V24),snack,203,5.5,22.2,11.1,2.8,356,3.3,10,0,1,1,1,0,0,1,0,0
+1867,Rice Cakes with Avocado (V24),snack,143,2.7,17.9,7.2,2.7,751,13.8,45,1,0,0,1,0,1,1,0,1
+1868,Hard Boiled Egg (V24),snack,81,6.2,1.0,5.2,0.0,233,15.6,45,1,1,1,1,0,1,1,1,0
+1869,Dark Chocolate Square (V24),snack,114,1.9,13.3,7.6,1.9,728,9.6,20,1,0,0,1,0,1,1,0,0
+1870,Cottage Cheese Cup (V24),snack,101,11.1,3.7,3.7,0.0,735,9.2,20,1,0,0,1,0,1,1,1,0
+1871,Fruit Smoothie (V24),snack,155,3.4,31.0,1.7,2.6,208,2.9,15,1,1,1,0,0,1,1,0,1
+1872,Whole Grain Toast with Honey (V24),snack,146,3.7,27.4,2.7,1.8,372,3.4,25,0,1,1,1,0,1,1,0,1
+1873,Edamame (V24),snack,111,9.3,7.4,4.6,3.7,641,14.8,25,1,0,0,1,0,1,1,0,0
+1874,Vegetable Soup Cup (V24),snack,97,3.9,13.6,1.9,2.9,775,6.3,10,1,0,0,1,0,1,1,1,1
+1875,Apple Slices with Peanut Butter (V25),snack,210,6.3,23.2,10.5,3.2,295,9.7,20,1,1,1,1,0,0,1,0,0
+1876,Mixed Nuts (V25),snack,206,5.7,9.2,18.3,2.3,654,6.7,60,1,0,0,1,0,0,1,0,0
+1877,Yogurt Cup (V25),snack,162,8.7,19.5,4.3,0.0,205,17.8,45,1,0,1,1,0,1,1,0,0
+1878,Carrot Sticks with Hummus (V25),snack,124,3.8,15.3,5.8,3.8,327,13.7,30,1,1,1,1,0,1,1,0,0
+1879,Cheese and Crackers (V25),snack,181,7.3,16.4,9.1,0.9,502,19.6,20,0,0,0,1,0,1,1,0,0
+1880,Banana (V25),snack,113,1.1,29.2,0.0,3.2,155,6.5,25,1,1,1,1,0,1,1,1,0
+1881,Trail Mix (V25),snack,194,5.3,21.3,10.6,2.7,368,18.0,45,0,1,1,1,0,0,1,0,1
+1882,Rice Cakes with Avocado (V25),snack,183,3.4,23.0,9.2,3.4,178,19.8,25,1,1,1,1,0,1,1,0,0
+1883,Hard Boiled Egg (V25),snack,84,6.5,1.1,5.4,0.0,472,17.3,60,1,1,0,1,0,1,1,0,1
+1884,Dark Chocolate Square (V25),snack,103,1.7,12.1,6.9,1.7,765,3.0,45,1,0,0,1,0,1,1,0,0
+1885,Cottage Cheese Cup (V25),snack,122,13.3,4.4,4.4,0.0,229,12.1,30,1,0,1,1,0,1,1,1,0
+1886,Fruit Smoothie (V25),snack,172,3.8,34.6,1.9,2.9,343,19.6,45,1,1,1,0,0,1,1,1,0
+1887,Whole Grain Toast with Honey (V25),snack,145,3.6,27.3,2.7,1.8,432,7.2,20,0,1,0,1,0,1,1,1,0
+1888,Edamame (V25),snack,111,9.3,7.4,4.6,3.7,387,5.1,25,1,1,1,1,0,1,1,1,1
+1889,Vegetable Soup Cup (V25),snack,96,3.8,13.5,1.9,2.9,443,12.0,10,1,1,0,1,0,1,1,0,0
+1890,Apple Slices with Peanut Butter (V26),snack,227,6.8,25.1,11.4,3.4,790,14.1,15,1,0,0,1,0,0,1,1,1
+1891,Mixed Nuts (V26),snack,182,5.1,8.1,16.3,2.0,403,14.9,40,1,0,0,1,0,0,1,0,0
+1892,Yogurt Cup (V26),snack,161,8.6,19.3,4.3,0.0,791,3.8,15,1,0,0,1,0,1,1,0,1
+1893,Carrot Sticks with Hummus (V26),snack,144,4.4,17.7,6.7,4.4,608,2.4,45,1,0,0,1,0,1,1,0,0
+1894,Cheese and Crackers (V26),snack,225,9.0,20.3,11.3,1.1,131,9.0,15,0,0,1,1,0,0,1,0,0
+1895,Banana (V26),snack,107,1.0,27.6,0.0,3.1,155,2.3,60,1,1,1,1,0,1,1,1,0
+1896,Trail Mix (V26),snack,216,5.9,23.7,11.8,3.0,177,4.2,10,0,1,1,1,0,0,1,0,0
+1897,Rice Cakes with Avocado (V26),snack,150,2.8,18.8,7.5,2.8,304,17.7,60,1,1,1,1,0,1,1,0,0
+1898,Hard Boiled Egg (V26),snack,71,5.5,0.9,4.6,0.0,627,10.0,45,1,0,0,1,0,1,1,0,0
+1899,Dark Chocolate Square (V26),snack,113,1.9,13.2,7.5,1.9,260,3.9,60,1,1,1,1,0,1,1,0,0
+1900,Cottage Cheese Cup (V26),snack,106,11.6,3.9,3.9,0.0,129,13.2,60,1,0,1,1,0,1,1,0,0
+1901,Fruit Smoothie (V26),snack,203,4.5,40.7,2.3,3.4,379,13.9,60,0,1,1,0,0,1,1,1,0
+1902,Whole Grain Toast with Honey (V26),snack,142,3.6,26.7,2.7,1.8,133,11.2,15,0,1,1,1,0,1,1,0,0
+1903,Edamame (V26),snack,121,10.1,8.1,5.0,4.0,703,10.0,20,1,0,0,1,0,1,1,0,0
+1904,Vegetable Soup Cup (V26),snack,105,4.2,14.7,2.1,3.2,407,19.6,15,1,1,0,1,0,1,1,0,0
+1905,Apple Slices with Peanut Butter (V27),snack,202,6.1,22.3,10.1,3.0,521,8.5,30,1,0,0,1,0,0,1,0,1
+1906,Mixed Nuts (V27),snack,193,5.4,8.6,17.2,2.1,725,3.2,20,1,0,0,1,0,0,1,0,0
+1907,Yogurt Cup (V27),snack,161,8.6,19.4,4.3,0.0,298,5.4,20,1,0,1,1,0,1,1,0,0
+1908,Carrot Sticks with Hummus (V27),snack,134,4.1,16.6,6.2,4.1,630,8.4,25,1,0,0,1,0,1,1,0,0
+1909,Cheese and Crackers (V27),snack,227,9.1,20.4,11.4,1.1,473,12.0,60,0,0,0,1,0,0,1,0,0
+1910,Banana (V27),snack,99,0.9,25.6,0.0,2.8,202,10.1,40,1,1,1,1,0,1,1,0,0
+1911,Trail Mix (V27),snack,246,6.7,26.9,13.5,3.4,113,18.2,15,0,1,1,1,0,0,1,0,0
+1912,Rice Cakes with Avocado (V27),snack,168,3.2,21.1,8.4,3.2,647,5.2,60,1,0,0,1,0,1,1,0,0
+1913,Hard Boiled Egg (V27),snack,86,6.7,1.1,5.5,0.0,428,18.9,20,1,1,0,1,0,1,1,0,0
+1914,Dark Chocolate Square (V27),snack,133,2.2,15.6,8.9,2.2,231,12.8,40,1,1,1,1,0,1,1,0,0
+1915,Cottage Cheese Cup (V27),snack,93,10.3,3.4,3.4,0.0,345,12.1,30,1,0,1,1,0,1,1,1,0
+1916,Fruit Smoothie (V27),snack,162,3.6,32.5,1.8,2.7,747,18.9,25,1,0,0,0,0,1,1,1,0
+1917,Whole Grain Toast with Honey (V27),snack,143,3.6,26.9,2.7,1.8,460,7.0,25,0,1,0,1,0,1,1,0,0
+1918,Edamame (V27),snack,102,8.5,6.8,4.3,3.4,720,18.9,15,1,0,0,1,0,1,1,0,0
+1919,Vegetable Soup Cup (V27),snack,93,3.7,13.1,1.9,2.8,385,17.6,40,1,1,1,1,0,1,1,0,1
+1920,Apple Slices with Peanut Butter (V28),snack,183,5.5,20.2,9.2,2.8,445,13.2,20,1,1,0,1,0,1,1,0,1
+1921,Mixed Nuts (V28),snack,153,4.3,6.8,13.6,1.7,406,19.7,60,1,1,0,1,0,0,1,0,0
+1922,Yogurt Cup (V28),snack,148,7.9,17.8,4.0,0.0,375,11.4,15,1,0,1,1,0,1,1,0,1
+1923,Carrot Sticks with Hummus (V28),snack,142,4.4,17.5,6.6,4.4,488,6.6,25,1,1,0,1,0,1,1,1,0
+1924,Cheese and Crackers (V28),snack,212,8.5,19.1,10.6,1.1,272,13.8,40,0,0,1,1,0,0,1,0,0
+1925,Banana (V28),snack,117,1.1,30.2,0.0,3.4,602,18.9,30,1,0,0,0,0,1,1,1,1
+1926,Trail Mix (V28),snack,209,5.7,22.8,11.4,2.9,538,11.4,15,0,0,0,1,0,0,1,0,1
+1927,Rice Cakes with Avocado (V28),snack,182,3.4,22.9,9.1,3.4,333,2.4,25,1,1,1,1,0,1,1,0,0
+1928,Hard Boiled Egg (V28),snack,67,5.2,0.9,4.3,0.0,180,9.5,20,1,1,1,1,0,1,1,1,0
+1929,Dark Chocolate Square (V28),snack,113,1.9,13.2,7.5,1.9,387,8.7,10,1,1,1,1,0,1,1,0,0
+1930,Cottage Cheese Cup (V28),snack,107,11.7,3.9,3.9,0.0,546,15.0,10,1,0,0,1,0,1,1,1,0
+1931,Fruit Smoothie (V28),snack,185,4.1,37.2,2.1,3.1,427,19.7,10,1,1,0,0,0,1,1,1,0
+1932,Whole Grain Toast with Honey (V28),snack,152,3.8,28.6,2.9,1.9,122,11.2,20,0,1,1,1,0,1,1,0,0
+1933,Edamame (V28),snack,122,10.2,8.1,5.1,4.1,321,14.7,20,1,1,1,1,0,1,1,0,0
+1934,Vegetable Soup Cup (V28),snack,105,4.2,14.7,2.1,3.2,553,18.5,30,1,0,0,1,0,1,1,0,1
+1935,Apple Slices with Peanut Butter (V29),snack,184,5.5,20.3,9.2,2.8,462,3.3,30,1,1,0,1,0,1,1,1,0
+1936,Mixed Nuts (V29),snack,153,4.3,6.8,13.7,1.7,588,14.3,45,1,0,0,1,0,0,1,1,1
+1937,Yogurt Cup (V29),snack,147,7.9,17.7,3.9,0.0,140,2.7,25,1,0,1,1,0,1,1,0,0
+1938,Carrot Sticks with Hummus (V29),snack,136,4.2,16.9,6.3,4.2,770,12.0,15,1,0,0,1,0,1,1,1,0
+1939,Cheese and Crackers (V29),snack,222,8.9,20.0,11.1,1.1,689,18.1,15,0,0,0,1,0,0,1,0,0
+1940,Banana (V29),snack,101,1.0,26.1,0.0,2.9,629,5.2,30,1,0,0,1,0,1,1,1,1
+1941,Trail Mix (V29),snack,239,6.5,26.1,13.1,3.3,568,6.6,40,0,0,0,1,0,0,1,1,0
+1942,Rice Cakes with Avocado (V29),snack,176,3.3,22.0,8.8,3.3,565,10.5,60,1,0,0,1,0,1,1,0,1
+1943,Hard Boiled Egg (V29),snack,82,6.3,1.1,5.3,0.0,178,8.2,60,1,1,1,1,0,1,1,0,0
+1944,Dark Chocolate Square (V29),snack,102,1.7,12.0,6.9,1.7,556,10.6,40,1,0,0,1,0,1,1,1,1
+1945,Cottage Cheese Cup (V29),snack,118,12.9,4.3,4.3,0.0,477,10.4,40,1,0,0,1,0,1,1,0,0
+1946,Fruit Smoothie (V29),snack,178,4.0,35.7,2.0,3.0,463,6.5,40,1,1,0,0,0,1,1,0,0
+1947,Whole Grain Toast with Honey (V29),snack,176,4.4,33.1,3.3,2.2,135,2.2,10,0,1,1,0,0,1,1,1,0
+1948,Edamame (V29),snack,112,9.4,7.5,4.7,3.8,327,14.2,25,1,1,1,1,0,1,1,1,0
+1949,Vegetable Soup Cup (V29),snack,106,4.3,14.9,2.1,3.2,696,14.0,45,1,0,0,1,0,1,1,1,0
+1950,Apple Slices with Peanut Butter (V30),snack,180,5.4,19.8,9.0,2.7,471,17.3,60,1,1,0,1,0,1,1,1,1
+1951,Mixed Nuts (V30),snack,195,5.4,8.7,17.4,2.2,330,15.1,30,1,0,1,1,0,0,1,0,0
+1952,Yogurt Cup (V30),snack,142,7.6,17.1,3.8,0.0,171,18.2,40,1,0,1,1,0,1,1,0,0
+1953,Carrot Sticks with Hummus (V30),snack,134,4.1,16.6,6.2,4.1,260,14.7,45,1,1,1,1,0,1,1,0,0
+1954,Cheese and Crackers (V30),snack,227,9.1,20.5,11.4,1.1,784,17.6,30,0,0,0,1,0,0,1,0,0
+1955,Banana (V30),snack,114,1.1,29.4,0.0,3.3,207,8.8,30,1,1,1,1,0,1,1,0,0
+1956,Trail Mix (V30),snack,218,6.0,23.8,11.9,3.0,543,12.5,20,0,0,0,1,0,0,1,0,0
+1957,Rice Cakes with Avocado (V30),snack,136,2.6,17.1,6.8,2.6,490,11.8,30,1,1,0,1,0,1,1,0,0
+1958,Hard Boiled Egg (V30),snack,83,6.4,1.1,5.3,0.0,258,4.3,15,1,1,1,1,0,1,1,0,0
+1959,Dark Chocolate Square (V30),snack,102,1.7,12.0,6.8,1.7,597,7.8,60,1,0,0,1,0,1,1,1,0
+1960,Cottage Cheese Cup (V30),snack,124,13.6,4.5,4.5,0.0,485,6.2,40,1,0,0,1,0,1,1,0,0
+1961,Fruit Smoothie (V30),snack,157,3.5,31.5,1.8,2.6,455,7.5,60,1,1,0,0,0,1,1,0,0
+1962,Whole Grain Toast with Honey (V30),snack,175,4.4,32.9,3.3,2.2,454,19.2,30,0,1,0,0,0,1,1,0,0
+1963,Edamame (V30),snack,118,9.9,7.9,4.9,3.9,319,13.0,20,1,1,1,1,0,1,1,0,1
+1964,Vegetable Soup Cup (V30),snack,112,4.5,15.8,2.3,3.4,574,13.2,15,1,0,0,1,0,1,1,0,0
+1965,Apple Slices with Peanut Butter (V31),snack,205,6.2,22.6,10.3,3.1,669,8.7,10,1,0,0,1,0,0,1,0,0
+1966,Mixed Nuts (V31),snack,206,5.7,9.2,18.4,2.3,427,9.7,45,1,0,0,1,0,0,1,0,0
+1967,Yogurt Cup (V31),snack,130,6.9,15.6,3.5,0.0,514,2.1,30,1,0,0,1,0,1,1,0,0
+1968,Carrot Sticks with Hummus (V31),snack,142,4.4,17.5,6.6,4.4,346,17.7,25,1,1,1,1,0,1,1,1,0
+1969,Cheese and Crackers (V31),snack,214,8.6,19.3,10.7,1.1,750,16.8,20,0,0,0,1,0,0,1,0,1
+1970,Banana (V31),snack,111,1.1,28.7,0.0,3.2,396,18.3,25,1,1,1,1,0,1,1,1,0
+1971,Trail Mix (V31),snack,214,5.9,23.4,11.7,2.9,693,7.1,30,0,0,0,1,0,0,1,1,0
+1972,Rice Cakes with Avocado (V31),snack,181,3.4,22.6,9.1,3.4,207,3.4,10,1,1,1,1,0,1,1,1,0
+1973,Hard Boiled Egg (V31),snack,72,5.6,0.9,4.6,0.0,689,9.6,40,1,0,0,1,0,1,1,1,1
+1974,Dark Chocolate Square (V31),snack,116,1.9,13.6,7.8,1.9,515,7.4,25,1,0,0,1,0,1,1,0,0
+1975,Cottage Cheese Cup (V31),snack,112,12.3,4.1,4.1,0.0,507,8.0,20,1,0,0,1,0,1,1,1,0
+1976,Fruit Smoothie (V31),snack,166,3.7,33.3,1.9,2.8,233,16.0,45,1,1,1,0,0,1,1,0,1
+1977,Whole Grain Toast with Honey (V31),snack,163,4.1,30.6,3.1,2.0,705,10.2,25,0,0,0,0,0,1,1,0,0
+1978,Edamame (V31),snack,119,10.0,8.0,5.0,4.0,445,2.1,45,1,1,0,1,0,1,1,0,0
+1979,Vegetable Soup Cup (V31),snack,105,4.2,14.8,2.1,3.2,478,15.8,10,1,1,0,1,0,1,1,0,1
+1980,Apple Slices with Peanut Butter (V32),snack,217,6.5,23.9,10.9,3.3,521,13.4,40,1,0,0,1,0,0,1,0,1
+1981,Mixed Nuts (V32),snack,194,5.4,8.7,17.3,2.2,260,2.0,40,1,0,1,1,0,0,1,0,0
+1982,Yogurt Cup (V32),snack,142,7.6,17.1,3.8,0.0,499,12.9,25,1,0,0,1,0,1,1,0,0
+1983,Carrot Sticks with Hummus (V32),snack,117,3.6,14.5,5.4,3.6,719,20.0,45,1,0,0,1,0,1,1,0,1
+1984,Cheese and Crackers (V32),snack,184,7.4,16.6,9.2,0.9,214,16.0,10,0,0,1,1,0,1,1,0,0
+1985,Banana (V32),snack,102,1.0,26.5,0.0,2.9,782,18.1,20,1,0,0,1,0,1,1,0,1
+1986,Trail Mix (V32),snack,207,5.7,22.6,11.3,2.8,783,18.1,30,0,0,0,1,0,0,1,0,0
+1987,Rice Cakes with Avocado (V32),snack,158,3.0,19.8,7.9,3.0,591,2.9,15,1,0,0,1,0,1,1,0,0
+1988,Hard Boiled Egg (V32),snack,76,5.9,1.0,4.9,0.0,323,7.2,40,1,1,1,1,0,1,1,1,1
+1989,Dark Chocolate Square (V32),snack,109,1.8,12.7,7.3,1.8,450,16.7,25,1,1,0,1,0,1,1,0,0
+1990,Cottage Cheese Cup (V32),snack,98,10.8,3.6,3.6,0.0,274,12.1,30,1,0,1,1,0,1,1,1,0
+1991,Fruit Smoothie (V32),snack,203,4.5,40.7,2.3,3.4,135,12.0,25,0,1,1,0,0,1,1,1,0
+1992,Whole Grain Toast with Honey (V32),snack,162,4.1,30.5,3.1,2.0,458,10.1,25,0,1,0,0,0,1,1,0,1
+1993,Edamame (V32),snack,112,9.4,7.5,4.7,3.8,599,15.4,45,1,0,0,1,0,1,1,1,0
+1994,Vegetable Soup Cup (V32),snack,89,3.6,12.5,1.8,2.7,784,20.0,40,1,0,0,1,0,1,1,0,0
+1995,Apple Slices with Peanut Butter (V33),snack,191,5.8,21.1,9.6,2.9,542,11.0,20,1,0,0,1,0,1,1,1,0
+1996,Mixed Nuts (V33),snack,203,5.6,9.0,18.1,2.3,158,17.4,15,1,0,1,1,0,0,1,1,0
+1997,Yogurt Cup (V33),snack,138,7.4,16.7,3.7,0.0,572,14.2,10,1,0,0,1,0,1,1,1,1
+1998,Carrot Sticks with Hummus (V33),snack,133,4.1,16.5,6.2,4.1,208,17.8,15,1,1,1,1,0,1,1,0,0
+1999,Cheese and Crackers (V33),snack,185,7.4,16.7,9.3,0.9,512,12.5,30,0,0,0,1,0,1,1,0,0

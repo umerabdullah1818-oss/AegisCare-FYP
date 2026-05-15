@@ -1,0 +1,91 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "best_params": {
+    "min_samples_leaf": "10",
+    "max_leaf_nodes": "63",
+    "max_iter": "400",
+    "max_depth": "4",
+    "learning_rate": "0.05",
+    "l2_regularization": "0.5"
+  },
+  "dataset_size": 50000,
+  "test_size": 7500,
+  "features": [
+    "age",
+    "gender",
+    "bmi",
+    "has_diabetes",
+    "has_hypertension",
+    "has_heart_disease",
+    "has_copd",
+    "has_arthritis",
+    "num_conditions",
+    "avg_hr_7d",
+    "avg_sbp_7d",
+    "avg_dbp_7d",
+    "avg_glucose_7d",
+    "avg_spo2_7d",
+    "avg_temp_7d",
+    "hr_variability",
+    "bp_variability",
+    "glucose_variability",
+    "anomaly_count_30d",
+    "num_medications",
+    "adherence_rate_30d",
+    "missed_doses_7d",
+    "avg_calories",
+    "avg_protein",
+    "avg_carbs",
+    "avg_fats",
+    "meals_per_day",
+    "consultations_90d",
+    "missed_appointments_90d",
+    "er_visits_180d",
+    "cognitive_score",
+    "days_since_checkup"
+  ],
+  "basic_metrics": {
+    "accuracy": 0.884,
+    "f1_weighted": 0.8873,
+    "f1_macro": 0.8213,
+    "log_loss": 0.272,
+    "roc_auc_ovr": 0.9686
+  },
+  "kfold_f1_weighted": 0.8838,
+  "kfold_f1_std": 0.0034,
+  "overfit_gap": 0.0239,
+  "confidence_intervals": {
+    "accuracy": {
+      "mean": 0.8841,
+      "ci_lower": 0.8768,
+      "ci_upper": 0.8913
+    },
+    "f1_weighted": {
+      "mean": 0.8874,
+      "ci_lower": 0.8803,
+      "ci_upper": 0.8945
+    },
+    "f1_macro": {
+      "mean": 0.8212,
+      "ci_lower": 0.8068,
+      "ci_upper": 0.8355
+    },
+    "recall_high": {
+      "mean": 0.8282,
+      "ci_lower": 0.7857,
+      "ci_upper": 0.87
+    }
+  },
+  "model_comparison": {
+    "HistGradientBoosting": {
+      "accuracy": 0.8865,
+      "f1_weighted": 0.8892,
+      "auc_ovr": 0.9679
+    },
+    "RandomForest": {
+      "accuracy": 0.8429,
+      "f1_weighted": 0.8481,
+      "auc_ovr": 0.9467
+    }
+  }
+}

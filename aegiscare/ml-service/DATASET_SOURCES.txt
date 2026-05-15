@@ -1,0 +1,64 @@
+=====================================================================
+ AegisCare ML Service — Dataset Sources & References
+=====================================================================
+
+MODEL 1: Vital Signs Anomaly Detection
+---------------------------------------
+Dataset: Synthetically generated (45,000 rows)
+- Normal vitals sampled from clinically validated distributions
+- Anomalies injected using medical literature thresholds
+- Age-adjusted ranges for elderly (65+)
+Medical references used for ranges:
+  - AHA Blood Pressure Guidelines: https://www.heart.org/en/health-topics/high-blood-pressure
+  - WHO Vital Signs Reference: https://www.who.int/data/gho
+  - PubMed elderly vital norms: https://pubmed.ncbi.nlm.nih.gov/
+
+MODEL 3: Health Risk Prediction
+---------------------------------
+Primary datasets:
+  1. CDC Diabetes Health Indicators (BRFSS 2015)
+     - URL: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+     - Size: 253,680 rows, 22 features
+     - License: CC0 Public Domain
+
+  2. Stroke Prediction Dataset
+     - URL: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
+     - Size: 5,110 rows, 12 features
+     - License: Data files © Original Authors
+
+  3. Heart Disease Dataset (UCI / Cleveland)
+     - URL: https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data
+     - Size: 920 rows, 16 features
+     - License: CC BY 4.0
+
+  4. Synthetic augmentation to reach 50,000+ rows using SMOTE + clinical distributions
+
+MODEL 4: Nutritional Recommendation
+--------------------------------------
+Primary datasets:
+  1. Food.com Recipes and Interactions
+     - URL: https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions
+     - Size: 230K+ recipes, 1.1M+ interactions
+     - License: CC0 Public Domain
+
+  2. USDA FoodData Central
+     - URL: https://fdc.nal.usda.gov/download-datasets
+     - Reference for nutritional validation
+
+  3. Synthetic elderly user profiles and interactions (50,000+ interactions)
+
+MODEL 5: Cognitive Decline Detection
+---------------------------------------
+Primary datasets:
+  1. Alzheimer's Disease Dataset
+     - URL: https://www.kaggle.com/datasets/rabieelkharoua/alzheimers-disease-dataset
+     - Size: 2,149 patients, 35 features
+     - License: CC BY 4.0
+
+  2. Synthetic cognitive game session data (45,000+ sessions)
+     - Generated using decline trajectories from clinical literature
+     - References:
+       - Cognitive decline rates in MCI: https://pubmed.ncbi.nlm.nih.gov/
+       - MMSE score progression: https://www.alz.org/
+
+=====================================================================

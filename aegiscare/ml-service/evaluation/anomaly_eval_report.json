@@ -1,0 +1,54 @@
+{
+  "model": "IsolationForest",
+  "dataset_size": 45000,
+  "test_size": 9000,
+  "features": [
+    "heart_rate",
+    "systolic_bp",
+    "diastolic_bp",
+    "glucose",
+    "spo2",
+    "temperature",
+    "age",
+    "hour_of_day",
+    "pulse_pressure",
+    "map",
+    "hr_bp_ratio"
+  ],
+  "basic_metrics": {
+    "accuracy": 0.9277777777777778,
+    "precision": 0.5255474452554745,
+    "recall": 1.0,
+    "f1": 0.6889952153110048,
+    "roc_auc": 0.9998307501341921
+  },
+  "kfold_mean_f1": 0.6782254667132405,
+  "kfold_std_f1": 0.012930283869692439,
+  "confidence_intervals": {
+    "accuracy": {
+      "mean": 0.9279,
+      "ci_lower": 0.9224,
+      "ci_upper": 0.9333
+    },
+    "precision": {
+      "mean": 0.5261,
+      "ci_lower": 0.4978,
+      "ci_upper": 0.5528
+    },
+    "recall": {
+      "mean": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0
+    },
+    "f1": {
+      "mean": 0.6894,
+      "ci_lower": 0.6647,
+      "ci_upper": 0.712
+    },
+    "auc": {
+      "mean": 0.9998,
+      "ci_lower": 0.9997,
+      "ci_upper": 0.9999
+    }
+  }
+}

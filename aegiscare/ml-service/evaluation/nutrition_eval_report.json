@@ -1,0 +1,23 @@
+{
+  "model": "Hybrid (Content-Based + SVD Collaborative)",
+  "dataset": {
+    "meals": 2000,
+    "users": 1000,
+    "interactions": 50000
+  },
+  "precision_at_k": {
+    "5": 0.0551,
+    "10": 0.0427,
+    "20": 0.0289
+  },
+  "recall_at_k": {
+    "5": 0.0302,
+    "10": 0.0476,
+    "20": 0.0638
+  },
+  "ndcg_at_10": 0.0596,
+  "collab_rmse_mean": 0.9871,
+  "collab_mae_mean": 0.8015,
+  "diversity_avg_types": 1.88,
+  "diversity_avg_unique": 10.0
+}
