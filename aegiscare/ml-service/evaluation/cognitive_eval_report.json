@@ -1,0 +1,102 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "dataset_sessions": 44520,
+  "dataset_users": 600,
+  "test_sessions": 8657,
+  "test_users": 120,
+  "features": [
+    "age",
+    "gender",
+    "education_years",
+    "session_number",
+    "memory_game_score",
+    "pattern_puzzle_score",
+    "reaction_test_avg_ms",
+    "word_recall_correct",
+    "memory_avg_7",
+    "pattern_avg_7",
+    "reaction_avg_7",
+    "word_recall_avg_7",
+    "memory_trend_10",
+    "pattern_trend_10",
+    "reaction_trend_10",
+    "word_recall_trend_10",
+    "memory_std_14",
+    "reaction_std_14",
+    "composite_cognitive",
+    "reaction_ratio"
+  ],
+  "basic_metrics": {
+    "accuracy": 0.8465,
+    "f1_weighted": 0.8463,
+    "f1_macro": 0.8044,
+    "log_loss": 0.4723,
+    "roc_auc_ovr": 0.9441
+  },
+  "group_kfold_f1_weighted": 0.8354,
+  "group_kfold_f1_std": 0.0073,
+  "stratified_kfold_f1_weighted": 0.9864,
+  "overfit_gap": 0.0131,
+  "confidence_intervals": {
+    "accuracy": {
+      "mean": 0.8465,
+      "ci_lower": 0.8389,
+      "ci_upper": 0.8542
+    },
+    "f1_weighted": {
+      "mean": 0.8463,
+      "ci_lower": 0.8388,
+      "ci_upper": 0.8542
+    },
+    "f1_macro": {
+      "mean": 0.8044,
+      "ci_lower": 0.795,
+      "ci_upper": 0.814
+    },
+    "recall_sig": {
+      "mean": 0.839,
+      "ci_lower": 0.8182,
+      "ci_upper": 0.8586
+    }
+  },
+  "user_level_accuracy": 0.9,
+  "early_detection": [
+    {
+      "sessions": 5,
+      "detection_rate": 0.45652173913043476,
+      "tested": 46
+    },
+    {
+      "sessions": 10,
+      "detection_rate": 0.6304347826086957,
+      "tested": 46
+    },
+    {
+      "sessions": 15,
+      "detection_rate": 0.7391304347826086,
+      "tested": 46
+    },
+    {
+      "sessions": 20,
+      "detection_rate": 0.7608695652173914,
+      "tested": 46
+    },
+    {
+      "sessions": 30,
+      "detection_rate": 0.8478260869565217,
+      "tested": 46
+    }
+  ],
+  "model_comparison": {
+    "HistGradientBoosting": {
+      "accuracy": 0.8465,
+      "f1_weighted": 0.8463,
+      "auc_ovr": 0.9441
+    },
+    "RandomForest": {
+      "accuracy": 0.8317,
+      "f1_weighted": 0.835,
+      "auc_ovr": 0.9416
+    }
+  }
+}

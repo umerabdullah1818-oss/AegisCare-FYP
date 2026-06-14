@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "email": "client@test.com",
+    "password": "client123",
+    "firstName": "John",
+    "lastName": "Client",
+    "role": "client",
+    "organization": "Tech Solutions Inc."
+  },
+  {
+    "id": 2,
+    "email": "lead@test.com",
+    "password": "lead123",
+    "firstName": "Sarah",
+    "lastName": "Lead",
+    "role": "projectlead",
+    "organization": "Tech Solutions Inc."
+  },
+  {
+    "id": 3,
+    "email": "dev@test.com",
+    "password": "dev123",
+    "firstName": "Mike",
+    "lastName": "Developer",
+    "role": "developer",
+    "organization": "Tech Solutions Inc."
+  },
+  {
+    "id": 4,
+    "email": "scrum@test.com",
+    "password": "scrum123",
+    "firstName": "Emma",
+    "lastName": "Master",
+    "role": "scrummaster",
+    "organization": "Tech Solutions Inc."
+  }
+]
