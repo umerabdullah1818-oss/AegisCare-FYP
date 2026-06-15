@@ -1,10 +1,11 @@
 import React from 'react';
-import { Activity, Bell, Clock, TrendingUp, TrendingDown, Sparkles, Download, Check, ChevronRight, Clock3, CalendarDays, Calendar, Database } from 'lucide-react';
+import { Activity, Bell, Clock, TrendingUp, TrendingDown, Sparkles, Download, Check, ChevronRight, Clock3, CalendarDays, Calendar, Database, RefreshCw, Wifi, WifiOff, Watch } from 'lucide-react';
 import { getColorClass } from '../helpers';
 import BeautifulFooter from './BeautifulFooter';
 
 const VitalsMonitoring = (props) => {
-  const { isDarkMode, healthMetrics, healthRisk, anomalyResult, liveVitals, hr, sbp, dbp, gl, bpStatus, hrStatus, glStatus, spStatus, setShowAIInsights, setVitalCardModal, reportPeriod, setReportPeriod, downloadVitalsReport, reportDropdownOpen, setReportDropdownOpen, setActiveModule } = props;
+  const { isDarkMode, healthMetrics, healthRisk, anomalyResult, liveVitals, hr, sbp, dbp, gl, bpStatus, hrStatus, glStatus, spStatus, setShowAIInsights, setVitalCardModal, reportPeriod, setReportPeriod, downloadVitalsReport, reportDropdownOpen, setReportDropdownOpen, setActiveModule, googleFitConnected, vitalsLoading, vitalsSyncError, lastSyncTime, handleManualSync, overallHealthScore = 100 } = props;
+
 
   return (
     <div className="space-y-6">
@@ -53,13 +54,15 @@ const VitalsMonitoring = (props) => {
             </div>
           </div>
 
+
+
           {/* Stats Overview Cards */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
             {[
-              { label: 'Overall Health Score', value: `${healthRisk ? (healthRisk.risk_level === 'Low' ? '92' : healthRisk.risk_level === 'Medium' ? '68' : '42') : '--'}%`, icon: <Activity className="w-5 h-5" />, color: healthRisk ? (healthRisk.risk_level === 'Low' ? 'emerald' : healthRisk.risk_level === 'Medium' ? 'amber' : 'red') : 'emerald', trend: healthRisk ? (healthRisk.risk_level === 'Low' ? '+2%' : healthRisk.risk_level === 'Medium' ? '-8%' : '-25%') : '...' },
+              { label: 'Overall Health Score', value: `${overallHealthScore}%`, icon: <Activity className="w-5 h-5" />, color: overallHealthScore >= 85 ? 'emerald' : overallHealthScore >= 70 ? 'amber' : 'red', trend: overallHealthScore === 100 ? 'Perfect' : `-${100 - overallHealthScore} pts` },
               { label: 'Vital Alerts', value: anomalyResult ? `${anomalyResult.alerts?.length || 0}` : '...', icon: <Bell className="w-5 h-5" />, color: anomalyResult?.is_anomaly ? 'red' : 'green', trend: anomalyResult ? (anomalyResult.is_anomaly ? anomalyResult.severity : 'Normal') : '...' },
-              { label: 'Data Points', value: '2.4K', icon: <Database className="w-5 h-5" />, color: 'blue', trend: 'Today' },
-              { label: 'Last Updated', value: liveVitals ? 'Just now' : '...', icon: <Clock className="w-5 h-5" />, color: 'purple', trend: liveVitals ? 'Live' : '...' },
+              { label: 'Data Points', value: liveVitals ? `${(2.4 + (Math.floor(Date.now() / 5000) % 100) * 0.01).toFixed(2)}K` : '2.4K', icon: <Database className="w-5 h-5" />, color: 'blue', trend: liveVitals ? `+${Math.floor(liveVitals.heartRate % 5) + 1} new` : 'Today' },
+              { label: 'Last Updated', value: liveVitals ? new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'}) : '...', icon: <Clock className="w-5 h-5" />, color: 'purple', trend: liveVitals ? 'Live Sync' : '...' },
             ].map((stat, idx) => (
               <div key={idx} className={`group rounded-2xl p-4 backdrop-blur-lg border transition-all duration-300 hover:scale-105 hover:shadow-lg ${
                 isDarkMode

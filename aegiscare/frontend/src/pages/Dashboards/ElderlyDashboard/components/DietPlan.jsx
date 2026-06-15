@@ -29,7 +29,10 @@ const DietPlan = (props) => {
     nutritionRecs,
     showAllTips,
     setShowAllTips,
+    overallHealthScore = 100,
   } = props;
+
+  const dailyCalorieGoal = overallHealthScore >= 85 ? 2000 : overallHealthScore >= 70 ? 1800 : 1500;
 
   return (
           <div className="space-y-6">
@@ -79,12 +82,11 @@ const DietPlan = (props) => {
                 </div>
 
                 {/* Nutrition Stats Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                   {[
-                    { label: 'Daily Calories', value: mealTotals.calories.toLocaleString(), icon: <Flame className="w-5 h-5" />, color: 'red', trend: 'of 1,800 goal' },
+                    { label: 'Daily Calories', value: mealTotals.calories.toLocaleString(), icon: <Flame className="w-5 h-5" />, color: 'red', trend: `of ${dailyCalorieGoal.toLocaleString()} goal` },
                     { label: 'Protein Intake', value: `${mealTotals.protein}g`, icon: <Droplets className="w-5 h-5" />, color: 'blue', trend: mealTotals.protein >= 50 ? 'Excellent' : 'Low' },
                     { label: 'Carbs Balance', value: '45%', icon: <Apple className="w-5 h-5" />, color: 'emerald', trend: 'Optimal' },
-                    { label: 'Water Intake', value: '1.8L', icon: <Droplets className="w-5 h-5" />, color: 'cyan', trend: 'of 2L goal' },
                   ].map((stat, idx) => (
                     <div key={idx} className={`group rounded-2xl p-5 backdrop-blur-lg border transition-all duration-300 hover:scale-105 hover:shadow-xl relative overflow-hidden ${
                       isDarkMode
@@ -360,64 +362,7 @@ const DietPlan = (props) => {
                   </div>
                 </div>
 
-                {/* Water Tracker */}
-                <div className={`group relative rounded-3xl p-5 backdrop-blur-xl border-2 overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl ${
-                  isDarkMode
-                    ? 'bg-gradient-to-br from-gray-950/40 via-gray-900/30 to-gray-950/40 border-cyan-800/30'
-                    : 'bg-gradient-to-br from-white/90 via-white/80 to-white/90 border-cyan-200/50'
-                }`}>
-                  <div className="relative z-10">
-                    <div className="flex items-center justify-between mb-4">
-                      <h3 className={`text-xl font-bold flex items-center gap-2 ${
-                        isDarkMode ? 'text-cyan-300' : 'text-cyan-600'
-                      }`}>
-                        <Droplets className="w-5 h-5" />
-                        Water Tracker
-                      </h3>
-                      <span className={`text-sm font-bold ${isDarkMode ? 'text-cyan-300' : 'text-cyan-600'}`}>
-                        1.8L / 2L
-                      </span>
-                    </div>
-                    
-                    {/* Water Progress */}
-                    <div className="space-y-3">
-                      <div className="flex justify-between text-xs">
-                        <span className={isDarkMode ? 'text-gray-400' : 'text-gray-600'}>Today's Intake</span>
-                        <span className={`font-medium ${isDarkMode ? 'text-cyan-300' : 'text-cyan-600'}`}>90%</span>
-                      </div>
-                      <div className={`h-3 rounded-full overflow-hidden ${isDarkMode ? 'bg-gray-800' : 'bg-gray-200'}`}>
-                        <div 
-                          className="h-full rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 transition-all duration-1000 ease-out"
-                          style={{ width: '90%' }}
-                        ></div>
-                      </div>
-                      
-                      {/* Water Bottles */}
-                      <div className="grid grid-cols-4 gap-2 mt-4">
-                        {[1, 2, 3, 4].map((bottle) => (
-                          <button key={bottle} className={`p-3 rounded-xl border transition-all duration-300 hover:scale-110 ${
-                            bottle <= 3
-                              ? isDarkMode 
-                                ? 'bg-cyan-900/30 border-cyan-800/30 hover:bg-cyan-800/40'
-                                : 'bg-cyan-100 border-cyan-200 hover:bg-cyan-200'
-                              : isDarkMode 
-                                ? 'bg-gray-800/30 border-gray-700 hover:bg-gray-700/40'
-                                : 'bg-gray-100 border-gray-200 hover:bg-gray-200'
-                          }`}>
-                            <Droplets className={`w-5 h-5 mx-auto ${
-                              bottle <= 3 
-                                ? isDarkMode ? 'text-cyan-400' : 'text-cyan-600'
-                                : isDarkMode ? 'text-gray-500' : 'text-gray-400'
-                            }`} />
-                            <span className={`text-xs mt-1 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-                              {bottle * 0.5}L
-                            </span>
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
 
                 {/* Nutrition Tips */}
                 <div className={`group relative rounded-3xl p-5 backdrop-blur-xl border-2 overflow-hidden transition-all duration-500 hover:scale-[1.02] hover:shadow-xl ${

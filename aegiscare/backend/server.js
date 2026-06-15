@@ -21,6 +21,7 @@ const consultationRoutes = require('./routes/consultationRoutes');
 const mlRoutes = require('./routes/mlRoutes');
 const elderlyRoutes = require('./routes/elderlyRoutes');
 const contactRoutes = require('./routes/contactRoutes');
+const vitalsRoutes = require('./routes/vitalsRoutes');
 const { protect } = require('./middleware/authMiddleware');
 const { getDoctors } = require('./controllers/doctorController');
 
@@ -28,7 +29,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173', 'http://localhost:5174'], // React app URLs
+  origin: true, // Allow all origins for deployment
   credentials: true
 }));
 app.use(express.json());
@@ -53,6 +54,7 @@ app.use('/api/consultations', consultationRoutes);
 app.use('/api/ml', mlRoutes);
 app.use('/api/elderly', elderlyRoutes);
 app.use('/api/contact', contactRoutes);
+app.use('/api/vitals', vitalsRoutes);
 app.get('/api/doctors', protect, getDoctors);
 
 // Health check

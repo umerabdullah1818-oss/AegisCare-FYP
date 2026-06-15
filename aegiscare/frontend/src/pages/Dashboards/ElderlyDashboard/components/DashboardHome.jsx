@@ -6,7 +6,7 @@ import AnimatedChart from './AnimatedChart';
 import BeautifulFooter from './BeautifulFooter';
 
 const DashboardHome = (props) => {
-  const { isDarkMode, userName, healthMetrics, hr, sbp, dbp, gl, sp, bpStatus, hrStatus, glStatus, spStatus, healthRisk, medications, medHistory, setActiveModule } = props;
+  const { isDarkMode, userName, healthMetrics, hr, sbp, dbp, gl, sp, bpStatus, hrStatus, glStatus, spStatus, healthRisk, medications, medHistory, setActiveModule, anomalyResult, liveVitals } = props;
 
   return (
           <>
@@ -41,11 +41,17 @@ const DashboardHome = (props) => {
                     
                     <div className="flex flex-wrap gap-3">
                       <div className={`flex items-center gap-2 px-4 py-2 rounded-full transition-all duration-300 hover:scale-105 ${
-                        isDarkMode ? 'bg-emerald-950/40 border border-emerald-900/30' : 'bg-gradient-to-r from-emerald-100 to-teal-100 border border-emerald-200'
+                        anomalyResult?.is_anomaly 
+                          ? (isDarkMode ? 'bg-red-950/40 border border-red-900/30' : 'bg-gradient-to-r from-red-100 to-rose-100 border border-red-200')
+                          : (isDarkMode ? 'bg-emerald-950/40 border border-emerald-900/30' : 'bg-gradient-to-r from-emerald-100 to-teal-100 border border-emerald-200')
                       }`}>
-                        <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
-                        <span className={`text-sm font-medium ${isDarkMode ? 'text-emerald-300' : 'text-emerald-700'}`}>
-                          System: Normal
+                        <div className={`w-2 h-2 rounded-full animate-pulse ${anomalyResult?.is_anomaly ? 'bg-red-500' : 'bg-emerald-500'}`}></div>
+                        <span className={`text-sm font-medium ${
+                          anomalyResult?.is_anomaly 
+                            ? (isDarkMode ? 'text-red-300' : 'text-red-700')
+                            : (isDarkMode ? 'text-emerald-300' : 'text-emerald-700')
+                        }`}>
+                          System: {anomalyResult?.is_anomaly ? 'Anomaly Detected' : 'Normal'}
                         </span>
                       </div>
                       <div className={`flex items-center gap-2 px-4 py-2 rounded-full transition-all duration-300 hover:scale-105 ${
@@ -158,9 +164,9 @@ const DashboardHome = (props) => {
                   {/* Mini Stats */}
                   <div className="grid grid-cols-3 gap-3 mt-6">
                     {[
-                      { label: 'Avg Heart Rate', value: `${hr || '--'} BPM`, change: hrStatus === 'Normal' ? '-2' : `+${hr - 80}`, color: 'rose', isGood: hrStatus === 'Normal' },
-                      { label: 'Avg BP', value: `${sbp || '--'}/${dbp || '--'}`, change: bpStatus === 'Normal' ? '0' : `+${sbp - 120}`, color: 'blue', isGood: bpStatus === 'Normal' },
-                      { label: 'Avg Glucose', value: `${gl || '--'}`, change: glStatus === 'Normal' ? '-5' : `+${gl - 110}`, color: 'emerald', isGood: glStatus === 'Normal' }
+                      { label: 'Avg Heart Rate', value: `${hr || '--'} BPM`, change: hrStatus === 'Normal' ? `${hr % 2 === 0 ? '+' : '-'}${hr % 4 || 1}` : `+${hr - 80}`, color: 'rose', isGood: hrStatus === 'Normal' },
+                      { label: 'Avg BP', value: `${sbp || '--'}/${dbp || '--'}`, change: bpStatus === 'Normal' ? `${sbp % 2 === 0 ? '+' : '-'}${sbp % 3 || 1}` : `+${sbp - 120}`, color: 'blue', isGood: bpStatus === 'Normal' },
+                      { label: 'Avg Glucose', value: `${gl || '--'}`, change: glStatus === 'Normal' ? `${gl % 2 === 0 ? '+' : '-'}${gl % 5 || 2}` : `+${gl - 110}`, color: 'emerald', isGood: glStatus === 'Normal' }
                     ].map((item, idx) => (
                       <div key={idx} className={`p-3 rounded-xl border transition-all duration-300 hover:scale-105 ${
                         isDarkMode ? 'bg-gray-900/40 border-gray-800' : 'bg-white/50 border-gray-200'
@@ -231,7 +237,7 @@ const DashboardHome = (props) => {
                       // Medication activity
                       activities.push({ time: '15 min ago', activity: `Medication reminder: ${medName}`, status: 'info', icon: <Pill className="w-4 h-4" /> });
                       // Steps activity
-                      activities.push({ time: '1 hour ago', activity: stepsBase >= 5000 ? `Daily walk goal met: ${stepsBase.toLocaleString()} steps` : `Daily walk: ${stepsBase.toLocaleString()} steps (below goal)`, status: stepsBase >= 5000 ? 'success' : 'warning', icon: <Activity className="w-4 h-4" /> });
+                      activities.push({ time: '1 hour ago', activity: healthMetrics?.steps?.currentValue >= 5000 ? `Daily walk goal met: ${healthMetrics.steps.currentValue.toLocaleString()} steps` : `Daily walk: ${healthMetrics?.steps?.currentValue?.toLocaleString() || 0} steps (below goal)`, status: healthMetrics?.steps?.currentValue >= 5000 ? 'success' : 'warning', icon: <Activity className="w-4 h-4" /> });
                       // Glucose activity
                       if (glStatus === 'Normal') {
                         activities.push({ time: '3 hours ago', activity: `Blood glucose within normal range (${gl} mg/dL)`, status: 'success', icon: <ActivitySquare className="w-4 h-4" /> });
@@ -321,15 +327,15 @@ const DashboardHome = (props) => {
                   
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                     {(() => {
-                      const stepsBase = healthRisk?.risk_level === 'High' ? 1200 : healthRisk?.risk_level === 'Medium' ? 2800 : 3456;
-                      const sleepHrs = healthRisk?.risk_level === 'High' ? 5.2 : healthRisk?.risk_level === 'Medium' ? 6.3 : 7.5;
+                      const stepsBase = healthMetrics?.steps?.currentValue || 0;
+                      const sleepHrs = healthMetrics?.sleep?.currentValue || 0;
                       const waterL = healthRisk?.risk_level === 'High' ? 0.8 : healthRisk?.risk_level === 'Medium' ? 1.2 : 1.5;
                       const medsTaken = medHistory.filter(h => h.status === 'Taken').length;
                       const medsTotal = medications.length || 3;
                       return [
-                        { label: 'Steps Taken', value: stepsBase.toLocaleString(), goal: '5,000', progress: Math.round((stepsBase / 5000) * 100), color: 'amber', icon: <Activity className="w-4 h-4" /> },
-                        { label: 'Sleep Hours', value: sleepHrs.toString(), goal: '8', progress: Math.round((sleepHrs / 8) * 100), color: 'indigo', icon: <BedDouble className="w-4 h-4" /> },
-                        { label: 'Water Intake', value: `${waterL}L`, goal: '2L', progress: Math.round((waterL / 2) * 100), color: 'blue', icon: <Droplets className="w-4 h-4" /> },
+                        { label: 'Steps Taken', value: stepsBase.toLocaleString(), goal: '5,000', progress: Math.min(100, Math.round((stepsBase / 5000) * 100)), color: 'amber', icon: <Activity className="w-4 h-4" /> },
+                        { label: 'Sleep Hours', value: sleepHrs.toString(), goal: '8', progress: Math.min(100, Math.round((sleepHrs / 8) * 100)), color: 'indigo', icon: <BedDouble className="w-4 h-4" /> },
+                        { label: 'Water Intake', value: `${waterL}L`, goal: '2L', progress: Math.min(100, Math.round((waterL / 2) * 100)), color: 'blue', icon: <Droplets className="w-4 h-4" /> },
                         { label: 'Medications', value: `${medsTaken}/${medsTotal}`, goal: medsTotal.toString(), progress: medsTotal > 0 ? Math.round((medsTaken / medsTotal) * 100) : 0, color: 'emerald', icon: <Pill className="w-4 h-4" /> }
                       ];
                     })().map((stat, idx) => (

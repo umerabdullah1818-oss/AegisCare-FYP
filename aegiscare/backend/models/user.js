@@ -70,6 +70,18 @@ const UserSchema = new mongoose.Schema({
     type: Date,
     default: null
   },
+  // Google Fit integration fields
+  googleFitAccessToken: String,
+  googleFitRefreshToken: String,
+  googleFitTokenExpiry: Date,
+  googleFitConnected: {
+    type: Boolean,
+    default: false
+  },
+  lastVitalsSync: {
+    type: Date,
+    default: null
+  },
   status: {
     type: String,
     enum: ['active', 'pending', 'verified', 'inactive', 'suspended'],

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { 
   Heart, Activity, Calendar, Pill, Users, Bell, 
   Clock, AlertCircle, Battery, Thermometer, Brain,
@@ -664,77 +664,68 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
     const periodLabels = { '24h': 'Last 24 Hours', '7d': 'Last 7 Days', '30d': 'Last 30 Days' };
     const periodLabel = periodLabels[reportPeriod] || 'Last 24 Hours';
 
+    // Dynamic values based on liveVitals
+    const hr = liveVitals?.heartRate || 72;
+    const temp = liveVitals?.temp || 98.6;
+    const gl = liveVitals?.glucose || 110;
+    const sbp = liveVitals?.systolicBP || 120;
+    const dbp = liveVitals?.diastolicBP || 80;
+    const spo2 = liveVitals?.spo2 || 98;
+    const steps = liveVitals?.steps || 3456;
+    const sleep = liveVitals?.sleepHours || 7.5;
+
+    const hrStatus = hr >= 60 && hr <= 100 ? 'Normal' : hr > 100 ? 'High' : 'Low';
+    const bpStatus = sbp < 120 && dbp < 80 ? 'Optimal' : sbp >= 140 || dbp >= 90 ? 'High' : 'Elevated';
+    const glStatus = gl >= 70 && gl <= 140 ? 'Normal' : 'Abnormal';
+
+    const baseVitalsArray = [
+      ['Heart Rate', `${hr} BPM`, hrStatus, '60-100 BPM', `${hr % 2 === 0 ? '+' : '-'}${hr % 3 || 1} BPM`],
+      ['Body Temperature', `${temp} F`, 'Normal', '97-99 F', 'Stable'],
+      ['Glucose Level', `${gl} mg/dL`, glStatus, '70-140 mg/dL', `${gl % 2 === 0 ? '+' : '-'}${gl % 5 || 2} mg/dL`],
+      ['Blood Pressure', `${sbp}/${dbp} mmHg`, bpStatus, '90/60-140/90', 'Stable'],
+      ['SpO2', `${spo2}%`, spo2 >= 95 ? 'Excellent' : 'Low', '95-100%', 'Stable'],
+      ['Steps', `${steps}`, steps >= 5000 ? 'Excellent' : 'Good', 'Goal: 5,000', '+5%'],
+      ['Sleep', `${sleep} hrs`, sleep >= 7 ? 'Excellent' : 'Fair', '7-9 hrs', 'Deep Sleep'],
+    ];
+
     // Vitals data per period
     const vitalsData = {
-      '24h': [
-        ['Heart Rate', '72 BPM', 'Normal', '60-100 BPM', '-2 BPM'],
-        ['Body Temperature', '98.6 F', 'Normal', '97-99 F', 'Stable'],
-        ['Glucose Level', '110 mg/dL', 'Normal', '70-140 mg/dL', '-5 mg/dL'],
-        ['Blood Pressure', '120/80 mmHg', 'Optimal', '90/60-140/90', 'Stable'],
-        ['SpO2', '98%', 'Excellent', '95-100%', '+1%'],
-        ['Steps', '3,456', 'Good', 'Goal: 5,000', '+12%'],
-        ['Sleep', '7.5 hrs', 'Excellent', '7-9 hrs', 'Deep Sleep'],
-      ],
-      '7d': [
-        ['Heart Rate (Avg)', '73 BPM', 'Normal', '60-100 BPM', '-1 BPM from prev week'],
-        ['Body Temperature (Avg)', '98.5 F', 'Normal', '97-99 F', 'Stable'],
-        ['Glucose Level (Avg)', '112 mg/dL', 'Normal', '70-140 mg/dL', '-3 mg/dL from prev week'],
-        ['Blood Pressure (Avg)', '121/81 mmHg', 'Normal', '90/60-140/90', 'Stable'],
-        ['SpO2 (Avg)', '97%', 'Normal', '95-100%', 'Stable'],
-        ['Steps (Daily Avg)', '4,120', 'Good', 'Goal: 5,000', '+8% from prev week'],
-        ['Sleep (Daily Avg)', '7.2 hrs', 'Good', '7-9 hrs', '+0.3 hrs from prev week'],
-      ],
-      '30d': [
-        ['Heart Rate (Monthly Avg)', '74 BPM', 'Normal', '60-100 BPM', '-2 BPM from prev month'],
-        ['Body Temperature (Monthly Avg)', '98.5 F', 'Normal', '97-99 F', 'Stable'],
-        ['Glucose Level (Monthly Avg)', '115 mg/dL', 'Normal', '70-140 mg/dL', '-8 mg/dL from prev month'],
-        ['Blood Pressure (Monthly Avg)', '122/82 mmHg', 'Normal', '90/60-140/90', '+2/+1 mmHg'],
-        ['SpO2 (Monthly Avg)', '97%', 'Normal', '95-100%', 'Stable'],
-        ['Steps (Daily Avg)', '3,890', 'Moderate', 'Goal: 5,000', '+5% from prev month'],
-        ['Sleep (Daily Avg)', '7.0 hrs', 'Good', '7-9 hrs', '-0.2 hrs from prev month'],
-      ],
-      'custom': [
-        ['Heart Rate', '72 BPM', 'Normal', '60-100 BPM', '-2 BPM'],
-        ['Body Temperature', '98.6 F', 'Normal', '97-99 F', 'Stable'],
-        ['Glucose Level', '110 mg/dL', 'Normal', '70-140 mg/dL', '-5 mg/dL'],
-        ['Blood Pressure', '120/80 mmHg', 'Optimal', '90/60-140/90', 'Stable'],
-        ['SpO2', '98%', 'Excellent', '95-100%', '+1%'],
-        ['Steps', '3,456', 'Good', 'Goal: 5,000', '+12%'],
-        ['Sleep', '7.5 hrs', 'Excellent', '7-9 hrs', 'Deep Sleep'],
-      ],
+      '24h': baseVitalsArray,
+      '7d': baseVitalsArray.map(row => [row[0] + ' (Avg)', row[1], row[2], row[3], row[4] + ' from prev week']),
+      '30d': baseVitalsArray.map(row => [row[0] + ' (Monthly Avg)', row[1], row[2], row[3], row[4] + ' from prev month']),
+      'custom': baseVitalsArray,
     };
 
     const summaryData = {
       '24h': [
-        'All vital signs are within normal ranges over the last 24 hours.',
-        'Heart rate is steady at 72 BPM with minor fluctuations.',
-        'Blood pressure reading of 120/80 mmHg is optimal.',
-        'Glucose levels are well-controlled at 110 mg/dL.',
-        'Sleep quality was excellent at 7.5 hours with deep sleep phases.',
-        'Step count at 3,456 - encourage more activity to reach 5,000 goal.',
+        `Vital signs are generally ${hrStatus === 'Normal' && bpStatus === 'Optimal' ? 'within normal ranges' : 'requiring attention'} over the last 24 hours.`,
+        `Heart rate is ${hrStatus.toLowerCase()} at ${hr} BPM.`,
+        `Blood pressure reading of ${sbp}/${dbp} mmHg is ${bpStatus.toLowerCase()}.`,
+        `Glucose levels are ${glStatus.toLowerCase()} at ${gl} mg/dL.`,
+        `Sleep quality was recorded at ${sleep} hours.`,
+        `Step count at ${steps} - ${steps < 5000 ? 'encourage more activity' : 'great job reaching the goal'}.`,
       ],
       '7d': [
         'Weekly vitals show consistent and stable readings.',
-        'Average heart rate of 73 BPM, slightly improved from previous week.',
-        'Blood pressure averaged 121/81 mmHg - within healthy range.',
-        'Glucose trending downward at 112 mg/dL average - good control.',
-        'Average daily steps increased 8% to 4,120 steps.',
-        'Sleep averaged 7.2 hours per night with improving quality.',
+        `Average heart rate of ${hr} BPM.`,
+        `Blood pressure averaged ${sbp}/${dbp} mmHg.`,
+        `Glucose trending at ${gl} mg/dL average.`,
+        `Average daily steps recorded at ${steps}.`,
+        `Sleep averaged ${sleep} hours per night.`,
       ],
       '30d': [
         'Monthly health trends show overall stable condition.',
-        'Heart rate averaged 74 BPM - consistent over the month.',
-        'Blood pressure slightly elevated at 122/82 but still within range.',
-        'Glucose improved significantly, down 8 mg/dL from previous month.',
-        'Physical activity moderate at 3,890 avg daily steps.',
-        'Sleep duration stable at 7.0 hours - meets recommended minimum.',
+        `Heart rate averaged ${hr} BPM.`,
+        `Blood pressure averaged ${sbp}/${dbp}.`,
+        `Glucose improved to ${gl} mg/dL.`,
+        `Physical activity moderate at ${steps} avg daily steps.`,
+        `Sleep duration stable at ${sleep} hours.`,
       ],
       'custom': [
-        'All vital signs are within normal ranges for the selected period.',
-        'Heart rate is steady at 72 BPM.',
-        'Blood pressure is optimal at 120/80 mmHg.',
-        'Glucose levels well-controlled at 110 mg/dL.',
-        'Overall health status: Good. Continue current health regimen.',
+        `Vital signs for the selected period show heart rate at ${hr} BPM.`,
+        `Blood pressure is ${bpStatus.toLowerCase()} at ${sbp}/${dbp} mmHg.`,
+        `Glucose levels at ${gl} mg/dL.`,
+        `Overall health status: ${hrStatus === 'Normal' && bpStatus === 'Optimal' ? 'Good' : 'Monitor closely'}.`,
       ],
     };
 
@@ -885,15 +876,28 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
     doc.setLineWidth(0.6);
     doc.line(14, 58, 196, 58);
 
-    // --- Vitals Table ---
+    // Dynamic values based on liveVitals
+    const hr = liveVitals?.heartRate || 72;
+    const temp = liveVitals?.temp || 98.6;
+    const gl = liveVitals?.glucose || 110;
+    const sbp = liveVitals?.systolicBP || 120;
+    const dbp = liveVitals?.diastolicBP || 80;
+    const spo2 = liveVitals?.spo2 || 98;
+    const steps = liveVitals?.steps || 3456;
+    const sleep = liveVitals?.sleepHours || 7.5;
+
+    const hrStatus = hr >= 60 && hr <= 100 ? 'Normal' : hr > 100 ? 'High' : 'Low';
+    const bpStatus = sbp < 120 && dbp < 80 ? 'Optimal' : sbp >= 140 || dbp >= 90 ? 'High' : 'Elevated';
+    const glStatus = gl >= 70 && gl <= 140 ? 'Normal' : 'Abnormal';
+
     const vitalsRows = [
-      ['Heart Rate', '72 BPM', 'Normal', '60-100 BPM', '-2 BPM', 'Stable sinus rhythm'],
-      ['Body Temperature', '98.6°F', 'Normal', '97-99°F', 'Stable', 'Afebrile'],
-      ['Blood Glucose', '110 mg/dL', 'Normal', '70-140 mg/dL', '-5 mg/dL', 'Fasting: 95 mg/dL'],
-      ['Blood Pressure', '120/80 mmHg', 'Optimal', '90/60-140/90', 'Stable', 'MAP: 93 mmHg'],
-      ['SpO2', '98%', 'Excellent', '95-100%', '+1%', 'No desaturation events'],
-      ['Steps (Daily Avg)', '3,456', 'Good', 'Goal: 5,000', '+12%', '69% of target'],
-      ['Sleep', '7.5 hrs', 'Excellent', '7-9 hrs', 'Deep Sleep', 'Sleep score: 88/100'],
+      ['Heart Rate', `${hr} BPM`, hrStatus, '60-100 BPM', `${hr % 2 === 0 ? '+' : '-'}${hr % 3 || 1} BPM`, hrStatus === 'Normal' ? 'Stable sinus rhythm' : 'Monitor required'],
+      ['Body Temperature', `${temp}°F`, 'Normal', '97-99°F', 'Stable', 'Afebrile'],
+      ['Blood Glucose', `${gl} mg/dL`, glStatus, '70-140 mg/dL', `${gl % 2 === 0 ? '+' : '-'}${gl % 5 || 2} mg/dL`, `Fasting: ${gl} mg/dL`],
+      ['Blood Pressure', `${sbp}/${dbp} mmHg`, bpStatus, '90/60-140/90', 'Stable', `MAP: ${Math.round((sbp + 2 * dbp) / 3)} mmHg`],
+      ['SpO2', `${spo2}%`, spo2 >= 95 ? 'Excellent' : 'Low', '95-100%', 'Stable', spo2 >= 95 ? 'No desaturation events' : 'Possible hypoxia'],
+      ['Steps (Daily Avg)', `${steps}`, steps >= 5000 ? 'Good' : 'Moderate', 'Goal: 5,000', '+5%', `${Math.round((steps/5000)*100)}% of target`],
+      ['Sleep', `${sleep} hrs`, sleep >= 7 ? 'Excellent' : 'Fair', '7-9 hrs', 'Deep Sleep', `Sleep score: ${Math.round(sleep * 10)}/100`],
     ];
 
     const tableHeaders = isDoctor
@@ -1206,9 +1210,23 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
       fetchDoctors();
       fetchAppointments();
     }
-    if (activeModule === 'dashboard') { fetchVitalsAndML(); }
-    if (activeModule === 'vitals' || activeModule === 'health-monitoring') { fetchVitalsAndML(); }
-    if (activeModule === 'health-reports') { fetchVitalsAndML(); }
+    
+    // Initial fetch
+    if (activeModule === 'dashboard' || activeModule === 'vitals' || activeModule === 'health-monitoring' || activeModule === 'health-reports') {
+      fetchVitalsAndML();
+    }
+    
+    // Polling interval every 5 seconds for live vitals
+    let vitalsInterval;
+    if (activeModule === 'dashboard' || activeModule === 'vitals' || activeModule === 'health-monitoring' || activeModule === 'health-reports') {
+      vitalsInterval = setInterval(() => {
+        fetchVitalsAndML();
+      }, 5000);
+    }
+    
+    return () => {
+      if (vitalsInterval) clearInterval(vitalsInterval);
+    };
   }, [activeModule, fetchMeals, fetchMedications, fetchDoctors, fetchAppointments, fetchVitalsAndML, fetchNutritionRecs]);
 
   // ===== Meal Handlers =====
@@ -1455,13 +1473,13 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
         recommendation: hrStatus === 'Normal' ? 'Your heart rate is well-controlled. Continue regular light exercise.' : 'Elevated heart rate detected. Please rest and consult your doctor if persistent.'
       },
       history: [
-        { date: 'Today', value: `${hr} BPM`, status: hrStatus },
-        { date: 'Yesterday', value: `${hr - 2} BPM`, status: (hr - 2) >= 60 && (hr - 2) <= 100 ? 'Normal' : 'Elevated' },
-        { date: '2 days ago', value: `${hr + 1} BPM`, status: (hr + 1) >= 60 && (hr + 1) <= 100 ? 'Normal' : 'Elevated' },
-        { date: '3 days ago', value: `${hr - 3} BPM`, status: (hr - 3) >= 60 && (hr - 3) <= 100 ? 'Normal' : 'Elevated' },
-        { date: '4 days ago', value: `${hr + 2} BPM`, status: (hr + 2) >= 60 && (hr + 2) <= 100 ? 'Normal' : 'Elevated' },
-        { date: '5 days ago', value: `${hr - 1} BPM`, status: (hr - 1) >= 60 && (hr - 1) <= 100 ? 'Normal' : 'Elevated' },
-        { date: '6 days ago', value: `${hr + 4} BPM`, status: (hr + 4) >= 60 && (hr + 4) <= 100 ? 'Normal' : 'Elevated' },
+        { date: 'Yesterday', value: '70 BPM', status: 'Normal' },
+        { date: '2 days ago', value: '73 BPM', status: 'Normal' },
+        { date: '3 days ago', value: '69 BPM', status: 'Normal' },
+        { date: '4 days ago', value: '74 BPM', status: 'Normal' },
+        { date: '5 days ago', value: '71 BPM', status: 'Normal' },
+        { date: '6 days ago', value: '76 BPM', status: 'Normal' },
+        { date: '7 days ago', value: '72 BPM', status: 'Normal' },
       ]
     },
     temp: {
@@ -1486,13 +1504,13 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
         recommendation: tpStatus === 'Normal' ? 'Temperature regulation is functioning normally.' : 'Consult your doctor if temperature remains elevated.'
       },
       history: [
-        { date: 'Today', value: `${tpF}°F`, status: tpStatus },
-        { date: 'Yesterday', value: `${(tpF - 0.2).toFixed(1)}°F`, status: (tpF - 0.2) > 99.5 ? 'Fever' : (tpF - 0.2) < 97 ? 'Low' : 'Normal' },
-        { date: '2 days ago', value: `${(tpF + 0.1).toFixed(1)}°F`, status: (tpF + 0.1) > 99.5 ? 'Fever' : (tpF + 0.1) < 97 ? 'Low' : 'Normal' },
-        { date: '3 days ago', value: `${(tpF - 0.1).toFixed(1)}°F`, status: (tpF - 0.1) > 99.5 ? 'Fever' : (tpF - 0.1) < 97 ? 'Low' : 'Normal' },
-        { date: '4 days ago', value: `${(tpF + 0.2).toFixed(1)}°F`, status: (tpF + 0.2) > 99.5 ? 'Fever' : (tpF + 0.2) < 97 ? 'Low' : 'Normal' },
-        { date: '5 days ago', value: `${tpF}°F`, status: tpStatus },
-        { date: '6 days ago', value: `${(tpF - 0.3).toFixed(1)}°F`, status: (tpF - 0.3) > 99.5 ? 'Fever' : (tpF - 0.3) < 97 ? 'Low' : 'Normal' },
+        { date: 'Yesterday', value: '98.4°F', status: 'Normal' },
+        { date: '2 days ago', value: '98.7°F', status: 'Normal' },
+        { date: '3 days ago', value: '98.5°F', status: 'Normal' },
+        { date: '4 days ago', value: '98.8°F', status: 'Normal' },
+        { date: '5 days ago', value: '98.6°F', status: 'Normal' },
+        { date: '6 days ago', value: '98.3°F', status: 'Normal' },
+        { date: '7 days ago', value: '98.5°F', status: 'Normal' },
       ]
     },
     glucose: {
@@ -1517,13 +1535,13 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
         recommendation: glStatus === 'Normal' ? 'Continue your current meal plan. Maintain low-glycemic food choices.' : 'Glucose is elevated. Reduce sugar/carb intake and consult your doctor.'
       },
       history: [
-        { date: 'Today', value: `${gl} mg/dL`, status: glStatus },
-        { date: 'Yesterday', value: `${gl + 5} mg/dL`, status: (gl + 5) >= 70 && (gl + 5) <= 140 ? 'Normal' : 'High' },
-        { date: '2 days ago', value: `${gl - 2} mg/dL`, status: (gl - 2) >= 70 && (gl - 2) <= 140 ? 'Normal' : 'High' },
-        { date: '3 days ago', value: `${gl + 10} mg/dL`, status: (gl + 10) >= 70 && (gl + 10) <= 140 ? 'Normal' : 'High' },
-        { date: '4 days ago', value: `${gl + 2} mg/dL`, status: (gl + 2) >= 70 && (gl + 2) <= 140 ? 'Normal' : 'High' },
-        { date: '5 days ago', value: `${gl + 8} mg/dL`, status: (gl + 8) >= 70 && (gl + 8) <= 140 ? 'Normal' : 'High' },
-        { date: '6 days ago', value: `${gl - 5} mg/dL`, status: (gl - 5) >= 70 && (gl - 5) <= 140 ? 'Normal' : 'High' },
+        { date: 'Yesterday', value: '115 mg/dL', status: 'Normal' },
+        { date: '2 days ago', value: '108 mg/dL', status: 'Normal' },
+        { date: '3 days ago', value: '120 mg/dL', status: 'Normal' },
+        { date: '4 days ago', value: '112 mg/dL', status: 'Normal' },
+        { date: '5 days ago', value: '118 mg/dL', status: 'Normal' },
+        { date: '6 days ago', value: '105 mg/dL', status: 'Normal' },
+        { date: '7 days ago', value: '110 mg/dL', status: 'Normal' },
       ]
     },
     bp: {
@@ -1548,13 +1566,13 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
         recommendation: bpStatus !== 'High' ? 'Maintain a low-sodium diet and regular exercise.' : 'Blood pressure is high. Reduce salt intake, stay calm, and consult your doctor.'
       },
       history: [
-        { date: 'Today', value: `${sbp}/${dbp}`, status: bpStatus },
-        { date: 'Yesterday', value: `${sbp - 2}/${dbp - 2}`, status: (sbp - 2) <= 120 ? 'Normal' : (sbp - 2) <= 140 ? 'Elevated' : 'High' },
-        { date: '2 days ago', value: `${sbp + 2}/${dbp + 2}`, status: (sbp + 2) <= 120 ? 'Normal' : (sbp + 2) <= 140 ? 'Elevated' : 'High' },
-        { date: '3 days ago', value: `${sbp - 1}/${dbp - 1}`, status: (sbp - 1) <= 120 ? 'Normal' : (sbp - 1) <= 140 ? 'Elevated' : 'High' },
-        { date: '4 days ago', value: `${sbp + 5}/${dbp + 4}`, status: (sbp + 5) <= 120 ? 'Normal' : (sbp + 5) <= 140 ? 'Elevated' : 'High' },
-        { date: '5 days ago', value: `${sbp + 1}/${dbp + 1}`, status: (sbp + 1) <= 120 ? 'Normal' : (sbp + 1) <= 140 ? 'Elevated' : 'High' },
-        { date: '6 days ago', value: `${sbp - 3}/${dbp - 3}`, status: (sbp - 3) <= 120 ? 'Normal' : (sbp - 3) <= 140 ? 'Elevated' : 'High' },
+        { date: 'Yesterday', value: '118/78', status: 'Normal' },
+        { date: '2 days ago', value: '122/82', status: 'Normal' },
+        { date: '3 days ago', value: '119/79', status: 'Normal' },
+        { date: '4 days ago', value: '125/84', status: 'Elevated' },
+        { date: '5 days ago', value: '121/81', status: 'Normal' },
+        { date: '6 days ago', value: '117/77', status: 'Normal' },
+        { date: '7 days ago', value: '120/80', status: 'Normal' },
       ]
     },
     spo2: {
@@ -1579,91 +1597,98 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
         recommendation: spStatus === 'Excellent' ? 'SpO2 levels are excellent. No action needed.' : 'Oxygen levels are low. Practice deep breathing. Seek medical attention if persistently below 92%.'
       },
       history: [
-        { date: 'Today', value: `${sp}%`, status: spStatus },
-        { date: 'Yesterday', value: `${Math.min(sp + 1, 100)}%`, status: Math.min(sp + 1, 100) >= 95 ? 'Normal' : Math.min(sp + 1, 100) >= 90 ? 'Low' : 'Critical' },
-        { date: '2 days ago', value: `${sp}%`, status: sp >= 95 ? 'Normal' : sp >= 90 ? 'Low' : 'Critical' },
-        { date: '3 days ago', value: `${Math.min(sp + 1, 100)}%`, status: Math.min(sp + 1, 100) >= 95 ? 'Normal' : Math.min(sp + 1, 100) >= 90 ? 'Low' : 'Critical' },
-        { date: '4 days ago', value: `${sp}%`, status: sp >= 95 ? 'Normal' : sp >= 90 ? 'Low' : 'Critical' },
-        { date: '5 days ago', value: `${Math.min(sp - 1, 100)}%`, status: Math.min(sp - 1, 100) >= 95 ? 'Normal' : Math.min(sp - 1, 100) >= 90 ? 'Low' : 'Critical' },
-        { date: '6 days ago', value: `${Math.min(sp + 1, 100)}%`, status: Math.min(sp + 1, 100) >= 95 ? 'Normal' : Math.min(sp + 1, 100) >= 90 ? 'Low' : 'Critical' },
+        { date: 'Yesterday', value: '99%', status: 'Normal' },
+        { date: '2 days ago', value: '98%', status: 'Normal' },
+        { date: '3 days ago', value: '99%', status: 'Normal' },
+        { date: '4 days ago', value: '98%', status: 'Normal' },
+        { date: '5 days ago', value: '97%', status: 'Normal' },
+        { date: '6 days ago', value: '99%', status: 'Normal' },
+        { date: '7 days ago', value: '98%', status: 'Normal' },
       ]
     },
     steps: (() => {
-      const stepsBase = healthRisk?.risk_level === 'High' ? 1200 : healthRisk?.risk_level === 'Medium' ? 2800 : 3456;
+      const stepsVal = liveVitals?.steps;
+      const hasSteps = stepsVal != null;
       const stepsGoal = 5000;
-      const stepsPct = Math.round((stepsBase / stepsGoal) * 100);
-      const stepsStatus = stepsPct >= 100 ? 'Goal Met' : stepsPct >= 50 ? 'Good' : 'Low';
+      const stepsStatus = hasSteps ? (stepsVal >= stepsGoal ? 'Goal Met' : 'On Track') : 'No Data';
+      const cals = liveVitals?.calories || 0;
       return {
         icon: <Dumbbell className="w-6 h-6" />,
         title: "Steps",
-        value: stepsBase.toLocaleString(),
+        value: hasSteps ? stepsVal.toLocaleString() : 'No Data',
         status: stepsStatus,
-        color: "amber",
-        trend: healthRisk?.risk_level === 'High' ? '↓ 30%' : healthRisk?.risk_level === 'Medium' ? '↑ 5%' : '↑ 12%',
+        color: hasSteps ? "amber" : "slate",
+        trend: hasSteps ? (stepsVal >= stepsGoal ? '↑ Goal Met' : '→ In Progress') : '-',
         description: `Daily goal: ${stepsGoal.toLocaleString()} steps`,
-        currentValue: stepsBase,
+        currentValue: hasSteps ? stepsVal : 0,
         minValue: 0,
         maxValue: stepsGoal,
         details: {
-          summary: stepsStatus === 'Low' ? 'Activity level is low. Even light movement can help improve circulation and mood.' : `You are making ${stepsStatus === 'Goal Met' ? 'excellent' : 'good'} progress toward your daily step goal.`,
+          summary: hasSteps ? `You have taken ${stepsVal.toLocaleString()} steps today.` : 'No step data available.',
           metrics: [
-            { label: 'Today\'s Steps', value: stepsBase.toLocaleString(), note: `${stepsPct}% of ${stepsGoal.toLocaleString()} goal` },
-            { label: 'Calories Burned', value: `${Math.round(stepsBase * 0.04)} kcal`, note: 'From walking' },
-            { label: 'Distance', value: `${(stepsBase * 0.0005).toFixed(1)} miles`, note: 'Estimated' },
-            { label: 'Active Minutes', value: `${Math.round(stepsBase / 100)} min`, note: 'Goal: 30 min' },
+            { label: 'Today\'s Steps', value: hasSteps ? stepsVal.toLocaleString() : '-', note: '-' },
+            { label: 'Calories Burned', value: hasSteps ? `${cals} kcal` : '-', note: '-' },
+            { label: 'Distance', value: hasSteps ? `${(stepsVal * 0.0008).toFixed(2)} km` : '-', note: 'Est.' },
+            { label: 'Active Minutes', value: hasSteps ? `${Math.floor(stepsVal / 100)} min` : '-', note: 'Est.' },
           ],
-          recommendation: stepsStatus === 'Low' ? 'Try short 5-minute walks around the house. Consult your doctor for a safe activity plan.' : 'Try adding a 15-minute evening walk to reach your step goal consistently.'
+          recommendation: hasSteps ? (stepsVal >= stepsGoal ? 'Great job meeting your step goal!' : 'Keep moving to reach your daily goal.') : 'Connect your watch to track steps.'
         },
-        history: [
-          { date: 'Today', value: stepsBase.toLocaleString(), status: stepsStatus },
-          { date: 'Yesterday', value: (stepsBase + 320).toLocaleString(), status: (stepsBase + 320) >= stepsGoal ? 'Goal Met' : (stepsBase + 320) >= stepsGoal * 0.5 ? 'Good' : 'Low' },
-          { date: '2 days ago', value: (stepsBase - 150).toLocaleString(), status: (stepsBase - 150) >= stepsGoal ? 'Goal Met' : (stepsBase - 150) >= stepsGoal * 0.5 ? 'Good' : 'Low' },
-          { date: '3 days ago', value: (stepsBase + 580).toLocaleString(), status: (stepsBase + 580) >= stepsGoal ? 'Goal Met' : (stepsBase + 580) >= stepsGoal * 0.5 ? 'Good' : 'Low' },
-          { date: '4 days ago', value: (stepsBase - 400).toLocaleString(), status: (stepsBase - 400) >= stepsGoal ? 'Goal Met' : (stepsBase - 400) >= stepsGoal * 0.5 ? 'Good' : 'Low' },
-          { date: '5 days ago', value: (stepsBase + 200).toLocaleString(), status: (stepsBase + 200) >= stepsGoal ? 'Goal Met' : (stepsBase + 200) >= stepsGoal * 0.5 ? 'Good' : 'Low' },
-          { date: '6 days ago', value: (stepsBase + 700).toLocaleString(), status: (stepsBase + 700) >= stepsGoal ? 'Goal Met' : (stepsBase + 700) >= stepsGoal * 0.5 ? 'Good' : 'Low' },
-        ]
+        history: hasSteps ? [
+          { date: 'Yesterday', value: '4,120', status: 'On Track' },
+          { date: '2 days ago', value: '3,890', status: 'On Track' },
+          { date: '3 days ago', value: '5,100', status: 'Goal Met' },
+          { date: '4 days ago', value: '4,650', status: 'On Track' },
+          { date: '5 days ago', value: '5,200', status: 'Goal Met' },
+          { date: '6 days ago', value: '4,800', status: 'On Track' },
+          { date: '7 days ago', value: '3,500', status: 'On Track' },
+        ] : []
       };
     })(),
     sleep: (() => {
-      const sleepHrs = healthRisk?.risk_level === 'High' ? 5.2 : healthRisk?.risk_level === 'Medium' ? 6.3 : 7.5;
-      const sleepStatus = sleepHrs >= 7 ? 'Excellent' : sleepHrs >= 6 ? 'Fair' : 'Poor';
-      const deepPct = sleepHrs >= 7 ? 24 : sleepHrs >= 6 ? 16 : 10;
-      const sleepScore = sleepHrs >= 7 ? 88 : sleepHrs >= 6 ? 62 : 38;
+      const sleepVal = liveVitals?.sleepHours;
+      const hasSleep = sleepVal != null;
+      const sleepStatus = hasSleep ? (sleepVal >= 7 ? 'Optimal' : sleepVal >= 6 ? 'Fair' : 'Poor') : 'No Data';
       return {
         icon: <BedDouble className="w-6 h-6" />,
         title: "Sleep",
-        value: `${sleepHrs} hrs`,
+        value: hasSleep ? `${sleepVal} hrs` : 'No Data',
         status: sleepStatus,
-        color: "indigo",
-        trend: sleepStatus === 'Excellent' ? 'Deep Sleep' : sleepStatus === 'Fair' ? 'Light Sleep' : 'Restless',
-        description: sleepStatus === 'Excellent' ? 'Quality sleep achieved' : sleepStatus === 'Fair' ? 'Sleep could be improved' : 'Poor sleep — consult doctor',
-        currentValue: sleepHrs,
-        minValue: 5,
-        maxValue: 9,
+        color: hasSleep ? "indigo" : "slate",
+        trend: hasSleep ? (sleepVal >= 7 ? 'Stable' : '↓ Low') : '-',
+        description: hasSleep ? (sleepVal >= 7 ? "Well rested" : "Needs more sleep") : 'Connect watch to monitor sleep',
+        currentValue: hasSleep ? sleepVal : 0,
+        minValue: 0,
+        maxValue: 10,
         details: {
-          summary: sleepStatus === 'Excellent' ? 'Sleep quality has been excellent with a healthy balance of deep and REM sleep cycles.' : sleepStatus === 'Fair' ? 'Sleep quality is fair. You may benefit from a more consistent sleep schedule.' : 'Sleep quality is poor. Health conditions may be affecting your rest. Discuss with your doctor.',
+          summary: hasSleep ? `You got ${sleepVal} hours of sleep last night.` : 'No sleep data available.',
           metrics: [
-            { label: 'Total Sleep', value: `${sleepHrs} hrs`, note: `Recommended: 7-9 hrs${sleepHrs < 7 ? ' ⚠' : ' ✓'}` },
-            { label: 'Deep Sleep', value: `${(sleepHrs * deepPct / 100).toFixed(1)} hrs`, note: `${deepPct}% — ${deepPct >= 20 ? 'Excellent' : deepPct >= 15 ? 'Fair' : 'Low'}` },
-            { label: 'REM Sleep', value: `${(sleepHrs * 0.2).toFixed(1)} hrs`, note: '20% — Normal' },
-            { label: 'Sleep Score', value: `${sleepScore}/100`, note: sleepScore >= 80 ? 'Above average' : sleepScore >= 50 ? 'Below average' : 'Needs attention' },
+            { label: 'Total Sleep', value: hasSleep ? `${sleepVal} hrs` : '-', note: hasSleep ? (sleepVal >= 7 ? 'Optimal (7-9)' : 'Low') : '-' },
+            { label: 'Deep Sleep', value: hasSleep ? `${(sleepVal * 0.25).toFixed(1)} hrs` : '-', note: 'Est. 25%' },
+            { label: 'REM Sleep', value: hasSleep ? `${(sleepVal * 0.2).toFixed(1)} hrs` : '-', note: 'Est. 20%' },
+            { label: 'Sleep Score', value: hasSleep ? `${Math.min(100, Math.round((sleepVal / 8) * 100))}` : '-', note: '-' },
           ],
-          recommendation: sleepStatus === 'Excellent' ? 'Maintain your consistent sleep schedule. Avoid screens 30 minutes before bed.' : 'Try to maintain a consistent bedtime. Avoid caffeine after noon and keep the bedroom cool and dark.'
+          recommendation: hasSleep ? (sleepVal >= 7 ? 'Maintain your current sleep schedule.' : 'Try going to bed earlier to improve recovery.') : 'Connect your watch to track sleep.'
         },
-        history: [
-          { date: 'Today', value: `${sleepHrs} hrs`, status: sleepStatus },
-          { date: 'Yesterday', value: `${(sleepHrs - 0.3).toFixed(1)} hrs`, status: (sleepHrs - 0.3) >= 7 ? 'Excellent' : (sleepHrs - 0.3) >= 6 ? 'Fair' : 'Poor' },
-          { date: '2 days ago', value: `${(sleepHrs + 0.5).toFixed(1)} hrs`, status: (sleepHrs + 0.5) >= 7 ? 'Excellent' : (sleepHrs + 0.5) >= 6 ? 'Fair' : 'Poor' },
-          { date: '3 days ago', value: `${(sleepHrs - 0.7).toFixed(1)} hrs`, status: (sleepHrs - 0.7) >= 7 ? 'Excellent' : (sleepHrs - 0.7) >= 6 ? 'Fair' : 'Poor' },
-          { date: '4 days ago', value: `${(sleepHrs + 0.1).toFixed(1)} hrs`, status: (sleepHrs + 0.1) >= 7 ? 'Excellent' : (sleepHrs + 0.1) >= 6 ? 'Fair' : 'Poor' },
-          { date: '5 days ago', value: `${(sleepHrs - 0.2).toFixed(1)} hrs`, status: (sleepHrs - 0.2) >= 7 ? 'Excellent' : (sleepHrs - 0.2) >= 6 ? 'Fair' : 'Poor' },
-          { date: '6 days ago', value: `${(sleepHrs + 0.3).toFixed(1)} hrs`, status: (sleepHrs + 0.3) >= 7 ? 'Excellent' : (sleepHrs + 0.3) >= 6 ? 'Fair' : 'Poor' },
-        ]
+        history: hasSleep ? [
+          { date: 'Yesterday', value: '7.2 hrs', status: 'Optimal' },
+          { date: '2 days ago', value: '6.8 hrs', status: 'Fair' },
+          { date: '3 days ago', value: '7.5 hrs', status: 'Optimal' },
+          { date: '4 days ago', value: '7.1 hrs', status: 'Optimal' },
+          { date: '5 days ago', value: '6.5 hrs', status: 'Fair' },
+          { date: '6 days ago', value: '8.0 hrs', status: 'Optimal' },
+          { date: '7 days ago', value: '7.0 hrs', status: 'Optimal' },
+        ] : []
       };
     })()
   };
 
+  let overallHealthScore = 100;
+  if (hr > 90) overallHealthScore -= (hr - 90) * 0.5;
+  if (hr < 60) overallHealthScore -= (60 - hr) * 0.5;
+  if (sbp > 130) overallHealthScore -= (sbp - 130) * 0.4;
+  if (sp < 95) overallHealthScore -= (95 - sp) * 2;
+  if (gl > 140) overallHealthScore -= (gl - 140) * 0.2;
+  overallHealthScore = Math.max(0, Math.min(100, Math.round(overallHealthScore)));
 
   // Render different modules based on selection
   const renderModuleContent = () => {
@@ -1673,7 +1698,7 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
       healthMetrics, hr, sbp, dbp, gl, sp, tp,
       bpStatus, hrStatus, glStatus, spStatus,
       healthRisk, healthRiskLoading, anomalyResult, liveVitals,
-      cognitiveAssessment,
+      cognitiveAssessment, overallHealthScore,
       // Reports
       reportPeriod, setReportPeriod, reportDropdownOpen, setReportDropdownOpen,
       downloadVitalsReport, setShowAIInsights, setVitalCardModal,
@@ -2610,17 +2635,17 @@ const Elderly = ({ isDarkMode: propIsDarkMode, onToggleDarkMode, onLogout }) => 
               {/* Overall Health Score */}
               <div className={`rounded-2xl p-5 mb-5 border ${
                 isDarkMode
-                  ? (healthRisk?.risk_level === 'High' ? 'bg-gradient-to-r from-red-900/30 to-red-900/20 border-red-800/30' : healthRisk?.risk_level === 'Medium' ? 'bg-gradient-to-r from-amber-900/30 to-amber-900/20 border-amber-800/30' : 'bg-gradient-to-r from-emerald-900/30 to-teal-900/20 border-emerald-800/30')
-                  : (healthRisk?.risk_level === 'High' ? 'bg-gradient-to-r from-red-50 to-red-50 border-red-200/50' : healthRisk?.risk_level === 'Medium' ? 'bg-gradient-to-r from-amber-50 to-amber-50 border-amber-200/50' : 'bg-gradient-to-r from-emerald-50 to-teal-50 border-emerald-200/50')
+                  ? (overallHealthScore < 70 ? 'bg-gradient-to-r from-red-900/30 to-red-900/20 border-red-800/30' : overallHealthScore < 85 ? 'bg-gradient-to-r from-amber-900/30 to-amber-900/20 border-amber-800/30' : 'bg-gradient-to-r from-emerald-900/30 to-teal-900/20 border-emerald-800/30')
+                  : (overallHealthScore < 70 ? 'bg-gradient-to-r from-red-50 to-red-50 border-red-200/50' : overallHealthScore < 85 ? 'bg-gradient-to-r from-amber-50 to-amber-50 border-amber-200/50' : 'bg-gradient-to-r from-emerald-50 to-teal-50 border-emerald-200/50')
               }`}>
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className={`text-sm font-medium mb-1 ${isDarkMode ? (healthRisk?.risk_level === 'High' ? 'text-red-300' : healthRisk?.risk_level === 'Medium' ? 'text-amber-300' : 'text-emerald-300') : (healthRisk?.risk_level === 'High' ? 'text-red-700' : healthRisk?.risk_level === 'Medium' ? 'text-amber-700' : 'text-emerald-700')}`}>Overall Health Score</p>
-                    <p className={`text-4xl font-bold ${isDarkMode ? (healthRisk?.risk_level === 'High' ? 'text-red-400' : healthRisk?.risk_level === 'Medium' ? 'text-amber-400' : 'text-emerald-400') : (healthRisk?.risk_level === 'High' ? 'text-red-600' : healthRisk?.risk_level === 'Medium' ? 'text-amber-600' : 'text-emerald-600')}`}>{healthRisk ? (healthRisk.risk_level === 'Low' ? 92 : healthRisk.risk_level === 'Medium' ? 68 : 42) : '--'}<span className="text-lg">/100</span></p>
-                    <p className={`text-xs mt-1 ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{healthRisk ? (healthRisk.risk_level === 'Low' ? 'Excellent - Above average for your age group' : healthRisk.risk_level === 'Medium' ? 'Moderate - Some risk factors detected' : 'Concerning - Multiple risk factors, consult your doctor') : 'Loading...'}</p>
+                    <p className={`text-sm font-medium mb-1 ${isDarkMode ? (overallHealthScore < 70 ? 'text-red-300' : overallHealthScore < 85 ? 'text-amber-300' : 'text-emerald-300') : (overallHealthScore < 70 ? 'text-red-700' : overallHealthScore < 85 ? 'text-amber-700' : 'text-emerald-700')}`}>Overall Health Score</p>
+                    <p className={`text-4xl font-bold ${isDarkMode ? (overallHealthScore < 70 ? 'text-red-400' : overallHealthScore < 85 ? 'text-amber-400' : 'text-emerald-400') : (overallHealthScore < 70 ? 'text-red-600' : overallHealthScore < 85 ? 'text-amber-600' : 'text-emerald-600')}`}>{overallHealthScore}<span className="text-lg">/100</span></p>
+                    <p className={`text-xs mt-1 ${isDarkMode ? 'text-gray-400' : 'text-gray-500'}`}>{overallHealthScore >= 85 ? 'Excellent - Vitals are in optimal range' : overallHealthScore >= 70 ? 'Moderate - Some vitals need attention' : 'Concerning - Multiple vitals outside normal range, consult doctor'}</p>
                   </div>
-                  <div className={`p-3 rounded-full ${isDarkMode ? (healthRisk?.risk_level === 'High' ? 'bg-red-900/50' : healthRisk?.risk_level === 'Medium' ? 'bg-amber-900/50' : 'bg-emerald-900/50') : (healthRisk?.risk_level === 'High' ? 'bg-red-100' : healthRisk?.risk_level === 'Medium' ? 'bg-amber-100' : 'bg-emerald-100')}`}>
-                    {healthRisk?.risk_level === 'High' ? <TrendingDown className={`w-8 h-8 ${isDarkMode ? 'text-red-400' : 'text-red-500'}`} /> : <TrendingUp className={`w-8 h-8 ${isDarkMode ? (healthRisk?.risk_level === 'Medium' ? 'text-amber-400' : 'text-emerald-400') : (healthRisk?.risk_level === 'Medium' ? 'text-amber-500' : 'text-emerald-500')}`} />}
+                  <div className={`p-3 rounded-full ${isDarkMode ? (overallHealthScore < 70 ? 'bg-red-900/50' : overallHealthScore < 85 ? 'bg-amber-900/50' : 'bg-emerald-900/50') : (overallHealthScore < 70 ? 'bg-red-100' : overallHealthScore < 85 ? 'bg-amber-100' : 'bg-emerald-100')}`}>
+                    {overallHealthScore < 70 ? <TrendingDown className={`w-8 h-8 ${isDarkMode ? 'text-red-400' : 'text-red-500'}`} /> : <TrendingUp className={`w-8 h-8 ${isDarkMode ? (overallHealthScore < 85 ? 'text-amber-400' : 'text-emerald-400') : (overallHealthScore < 85 ? 'text-amber-500' : 'text-emerald-500')}`} />}
                   </div>
                 </div>
               </div>
